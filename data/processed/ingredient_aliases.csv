@@ -1,0 +1,8 @@
+alias_id,ingredient_id,alias,alias_type,language,match_priority,verified
+tomato_1,tomato,tomato,canonical,en,100,true
+tomato_2,tomato,tomatoes,plural,en,95,true
+tomato_3,tomato,fresh tomatoes,prepared_form,en,90,true
+olive_oil_1,olive_oil,olive oil,canonical,en,100,true
+olive_oil_2,olive_oil,extra virgin olive oil,prepared_form,en,90,true
+mozzarella_1,mozzarella,mozzarella,canonical,en,100,true
+basil_1,basil,basil,canonical,en,100,true
