@@ -159,3 +159,74 @@ def _validate_span(start_char: int, end_char: int) -> None:
         raise ValueError("start_char must not be negative")
     if end_char <= start_char:
         raise ValueError("end_char must be greater than start_char")
+
+
+@dataclass(frozen=True)
+class Cuisine:
+    """Represents a canonical cuisine used for cultural classification."""
+
+    cuisine_id: str
+    name: str
+    ontology_id: str
+    cuisine_group: str
+    origin_place_id: str | None = None
+    description: str | None = None
+
+    def __post_init__(self) -> None:
+        _validate_non_empty("cuisine_id", self.cuisine_id)
+        _validate_non_empty("name", self.name)
+        _validate_non_empty("ontology_id", self.ontology_id)
+        _validate_non_empty("cuisine_group", self.cuisine_group)
+
+
+@dataclass(frozen=True)
+class IngredientEvidence:
+    """Describes how one linked ingredient contributes to a cuisine score."""
+
+    ingredient_id: str
+    ingredient_ontology_id: str
+    weight: float
+    explanation: str
+
+    def __post_init__(self) -> None:
+        _validate_non_empty("ingredient_id", self.ingredient_id)
+        _validate_non_empty("ingredient_ontology_id", self.ingredient_ontology_id)
+        _validate_score(self.weight)
+        _validate_non_empty("explanation", self.explanation)
+
+
+@dataclass(frozen=True)
+class CuisinePrediction:
+    """Represents one ranked cuisine candidate with supporting evidence."""
+
+    cuisine: Cuisine
+    score: float
+    rank: int
+    evidence: tuple[IngredientEvidence, ...] = field(default_factory=tuple)
+
+    def __post_init__(self) -> None:
+        _validate_score(self.score)
+        if self.rank < 1:
+            raise ValueError("rank must be at least 1")
+
+
+@dataclass(frozen=True)
+class ClassificationResult:
+    """Contains ranked cuisine predictions and ingredients excluded from scoring."""
+
+    predictions: tuple[CuisinePrediction, ...] = field(default_factory=tuple)
+    unmatched_ingredients: tuple[str, ...] = field(default_factory=tuple)
+
+    def __post_init__(self) -> None:
+        ranks = tuple(prediction.rank for prediction in self.predictions)
+        expected_ranks = tuple(range(1, len(self.predictions) + 1))
+        if ranks != expected_ranks:
+            raise ValueError("prediction ranks must be consecutive and start at 1")
+        scores = tuple(prediction.score for prediction in self.predictions)
+        if scores != tuple(sorted(scores, reverse=True)):
+            raise ValueError("predictions must be ordered by descending score")
+
+    @property
+    def best_prediction(self) -> CuisinePrediction | None:
+        """Returns the highest-ranked cuisine prediction when available."""
+        return self.predictions[0] if self.predictions else None

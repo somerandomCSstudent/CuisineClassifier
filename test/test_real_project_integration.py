@@ -26,8 +26,9 @@ def test_real_project_links_known_ingredients() -> None:
 
     container = build_application_container(
         ApplicationSettings(
-            project_root=PROJECT_ROOT,
-            ontology_base_iri=ontology_base_iri,
+        project_root=PROJECT_ROOT,
+        ontology_base_iri=ontology_base_iri,
+        ontology_relative_path=Path("ontology/cuisine.rdf"),
         )
     )
     result = container.link_ingredients.execute(

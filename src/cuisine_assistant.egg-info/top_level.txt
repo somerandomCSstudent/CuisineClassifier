@@ -1,0 +1,6 @@
+classification
+cli
+cuisine_assistant
+knowledge_graph
+recommendation
+search

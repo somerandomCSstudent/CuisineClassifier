@@ -1,0 +1,5 @@
+spacy<4,>=3.8
+rdflib<8,>=7
+
+[dev]
+pytest>=8

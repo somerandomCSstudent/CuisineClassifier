@@ -557,6 +557,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#SourCream">
         <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyProduct"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Tomato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Tomato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Vegetable"/>
+        <rdfs:comment xml:lang="en">Tomato</rdfs:comment>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

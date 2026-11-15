@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: cuisine-assistant
+Version: 0.1.0
+Requires-Python: >=3.10
+Requires-Dist: spacy<4,>=3.8
+Requires-Dist: rdflib<8,>=7
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

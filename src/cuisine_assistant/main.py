@@ -22,9 +22,10 @@ def main() -> None:
     )
     container = build_application_container(
         ApplicationSettings(
-            project_root=project_root,
-            ontology_base_iri=ontology_base_iri,
-        )
+        project_root=project_root,
+        ontology_base_iri=ontology_base_iri,
+        ontology_relative_path=Path("ontology/cuisine.rdf"),
+    )
     )
     ConsoleApplication(
         link_ingredients=container.link_ingredients,
