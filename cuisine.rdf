@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25"/>
     
 
@@ -21,12 +22,87 @@
     
 
 
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#belongsToCuisine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#belongsToCuisine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasIngredient -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasIngredient">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasTypicalIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasTypicalIngredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#isIngredientOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#isIngredientOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#originatesFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#originatesFrom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasConfidence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasConfidence">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -38,6 +114,30 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AfricanCuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AfricanCuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AmericanCuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AmericanCuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Appetizer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Appetizer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
     
 
 
@@ -67,16 +167,83 @@
     
 
 
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyContainingDish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyContainingDish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dessert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dessert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
     
 
 
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#EggProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#EggProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#EuropeanCuisine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#EuropeanCuisine">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyProduct"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Grain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Grain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Herb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Herb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
     </owl:Class>
     
 
@@ -95,10 +262,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Legume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Legume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#MainCourse -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#MainCourse">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#MiddleEasternCuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#MiddleEasternCuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Oil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Oil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
     </owl:Class>
     
 
@@ -117,11 +316,247 @@
     
 
 
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Salad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Salad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Seafood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Seafood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#SideDish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#SideDish">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Soup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Soup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Spice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Spice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#StreetFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#StreetFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Dish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Basil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Basil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Herb"/>
+        <rdfs:label xml:lang="en">Basil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Beef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Beef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat"/>
+        <rdfs:label xml:lang="en">Beef</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Chicken -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Chicken">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat"/>
+        <rdfs:label xml:lang="en">Chicken</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#ChickenPaprikash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#ChickenPaprikash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#MainCourse"/>
+        <untitled-ontology-25:belongsToCuisine rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#HungarianCuisine"/>
+        <untitled-ontology-25:hasIngredient rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Chicken"/>
+        <untitled-ontology-25:hasIngredient rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Onion"/>
+        <untitled-ontology-25:hasIngredient rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Paprika"/>
+        <untitled-ontology-25:hasIngredient rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#SourCream"/>
+        <rdfs:label xml:lang="en">ChickenPaprikash</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Duck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Duck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat"/>
+        <rdfs:label xml:lang="en">Duck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Garlic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Garlic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Spice"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Vegetable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Goose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Goose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat"/>
+        <rdfs:label xml:lang="en">Goose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#HortobagyPancake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#HortobagyPancake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#MainCourse"/>
+        <rdfs:label xml:lang="en">HortobagyPancake</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#HungarianCuisine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#HungarianCuisine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AsianCuisine"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#EuropeanCuisine"/>
+        <rdfs:label xml:lang="en">HungarianCuisine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#ItalianCuisine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#ItalianCuisine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AsianCuisine"/>
+        <rdfs:label xml:lang="en">ItalianCuisine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#JapaneseCuisine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#JapaneseCuisine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#AsianCuisine"/>
+        <rdfs:label xml:lang="en">JapaneseCuisine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Lamb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Lamb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat"/>
+        <rdfs:label xml:lang="en">Lamb</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Mozzarella -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Mozzarella">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyProduct"/>
+        <rdfs:label xml:lang="en"></rdfs:label>
+        <rdfs:label>Mozzarella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#OliveOil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#OliveOil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Oil"/>
+        <rdfs:label xml:lang="en">OliveOil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Onion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Onion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Vegetable"/>
+        <rdfs:label xml:lang="en">Onion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Paprika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Paprika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Spice"/>
+        <rdfs:label xml:lang="en">paprika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Pork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Pork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Meat"/>
+        <rdfs:label xml:lang="en">Pork</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Rice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Rice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#Grain"/>
+        <rdfs:label xml:lang="en">grain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#SourCream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#SourCream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/peter/ontologies/2026/10/untitled-ontology-25#DairyProduct"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

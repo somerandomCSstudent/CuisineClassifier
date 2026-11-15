@@ -1,0 +1,4 @@
+﻿extraction_id,recipe_id,surface_form,normalized_text,start_char,end_char,matched_ingredient_id,match_method,match_score,candidate_ids
+e001,r001,onions,onion,18,24,onion,lemma,1.0,onion
+e002,r001,paprika,paprika,26,33,paprika,exact,1.0,paprika
+e003,r001,sour cream,sour cream,38,48,sour_cream,exact,1.0,sour_cream

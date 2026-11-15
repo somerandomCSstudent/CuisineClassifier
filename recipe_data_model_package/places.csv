@@ -1,0 +1,9 @@
+﻿place_id,name,place_type,parent_place_id,ontology_id,source,source_url
+europe,Europe,region,,Europe,manual,
+asia,Asia,region,,Asia,manual,
+north_america,North America,region,,NorthAmerica,manual,
+hungary,Hungary,country,europe,Hungary,manual,
+italy,Italy,country,europe,Italy,manual,
+india,India,country,asia,India,manual,
+thailand,Thailand,country,asia,Thailand,manual,
+mexico,Mexico,country,north_america,Mexico,manual,

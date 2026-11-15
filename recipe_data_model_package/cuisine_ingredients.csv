@@ -1,0 +1,7 @@
+﻿cuisine_id,ingredient_id,typicality_score,evidence_count,source
+hungarian,paprika,0.95,18,manual
+hungarian,sour_cream,0.78,12,manual
+italian,olive_oil,0.9,26,manual
+italian,basil,0.76,14,manual
+thai,lemongrass,0.93,20,manual
+thai,coconut_milk,0.88,17,manual
