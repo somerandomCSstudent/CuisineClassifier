@@ -1,13 +1,21 @@
 from __future__ import annotations
 
-from cuisine_assistant.domain.models import ExtractedIngredient
-from cuisine_assistant.domain.ports import EntitySearch, IngredientExtractor, IngredientMentionParser
+from cuisine_assistant.domain.models import ExtractedIngredient, MatchMethod
+from cuisine_assistant.domain.ports import (
+    EntitySearch,
+    IngredientExtractor,
+    IngredientMentionParser,
+)
 
 
 class StructuredIngredientExtractor(IngredientExtractor):
-    """Extracts ingredients from one-item-per-line or semicolon-separated lists."""
+    """Extracts and links ingredients from structured ingredient-list lines."""
 
-    def __init__(self, parser: IngredientMentionParser, search: EntitySearch) -> None:
+    def __init__(
+        self,
+        parser: IngredientMentionParser,
+        search: EntitySearch,
+    ) -> None:
         self._parser = parser
         self._search = search
 
@@ -22,10 +30,14 @@ class StructuredIngredientExtractor(IngredientExtractor):
                     normalized_text=mention.normalized_text,
                     start_char=mention.start_char,
                     end_char=mention.end_char,
-                    matched_ingredient_id=best.entity_id if best else None,
-                    match_method=best.method if best else "unmatched",
+                    matched_ingredient_id=(best.entity_id if best else None),
+                    match_method=(
+                        best.method if best else MatchMethod.UNMATCHED
+                    ),
                     match_score=best.score if best else 0.0,
-                    candidate_ids=[candidate.entity_id for candidate in candidates],
+                    candidate_ids=tuple(
+                        candidate.entity_id for candidate in candidates
+                    ),
                 )
             )
         return results

@@ -1,22 +1,31 @@
 from __future__ import annotations
 
-import json
-from dataclasses import asdict
-
-from cuisine_assistant.application.extract_ingredients import ExtractIngredientsUseCase
+from cuisine_assistant.application import LinkIngredientsUseCase
+from cuisine_assistant.cli.link_result_formatter import (
+    LinkIngredientsResultFormatter,
+)
 
 
 class ConsoleApplication:
-    def __init__(self, use_case: ExtractIngredientsUseCase) -> None:
-        self._use_case = use_case
+    """Runs the English interactive command-line ingredient-linking workflow."""
+
+    def __init__(
+        self,
+        link_ingredients: LinkIngredientsUseCase,
+        formatter: LinkIngredientsResultFormatter,
+    ) -> None:
+        self._link_ingredients = link_ingredients
+        self._formatter = formatter
 
     def run(self) -> None:
-        print("Cuisine Assistant - ingredient extraction baseline")
-        print("Enter an English recipe or ingredient list. Type 'exit' to quit.\n")
+        print("Cuisine Assistant - ingredient knowledge graph linking")
+        print("Enter an English recipe or ingredient list.")
+        print("Type 'exit' to quit.\n")
+
         while True:
-            text = input("> ").strip()
-            if text.lower() in {"exit", "quit"}:
+            recipe_text = input("> ").strip()
+            if recipe_text.lower() in {"exit", "quit"}:
                 return
-            result = self._use_case.execute(text)
-            print(json.dumps([asdict(item) for item in result], indent=2))
+            result = self._link_ingredients.execute(recipe_text)
+            print(self._formatter.format(result))
             print()

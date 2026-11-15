@@ -49,7 +49,7 @@ class SpacyPhraseIngredientExtractor(IngredientExtractor):
                     matched_ingredient_id=best.entity_id,
                     match_method=best.method,
                     match_score=best.score,
-                    candidate_ids=[candidate.entity_id for candidate in candidates],
+                    candidate_ids=tuple(candidate.entity_id for candidate in candidates),
                 )
             )
         return sorted(results, key=lambda item: item.start_char)
