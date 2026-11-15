@@ -4,9 +4,12 @@ from abc import ABC, abstractmethod
 from collections.abc import Iterable
 
 from .models import (
+    ClassificationResult,
+    Cuisine,
     ExtractedIngredient,
     Ingredient,
     IngredientMention,
+    LinkedIngredient,
     OntologyEntityReference,
     SearchCandidate,
 )
@@ -91,4 +94,49 @@ class KnowledgeGraphRepository(ABC):
     @abstractmethod
     def get_dish_cuisine_id(self, dish_ontology_id: str) -> str | None:
         """Returns the cuisine ontology identifier linked to a dish."""
+        raise NotImplementedError
+
+
+class CuisineCatalog(ABC):
+    """Provides technology-independent access to canonical cuisines."""
+
+    @abstractmethod
+    def get_by_id(self, cuisine_id: str) -> Cuisine | None:
+        """Returns a cuisine by its stable application identifier."""
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_by_ontology_id(self, ontology_id: str) -> Cuisine | None:
+        """Returns a cuisine by its local OWL entity identifier."""
+        raise NotImplementedError
+
+    @abstractmethod
+    def list_all(self) -> tuple[Cuisine, ...]:
+        """Returns all known cuisines as an immutable collection."""
+        raise NotImplementedError
+
+
+class CuisineTypicalityRepository(ABC):
+    """Provides ingredient typicality weights for cuisine classification."""
+
+    @abstractmethod
+    def get_weight(self, cuisine_id: str, ingredient_id: str) -> float:
+        """Returns a zero-to-one typicality weight for one cuisine and ingredient."""
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_typical_ingredient_ids(self, cuisine_id: str) -> tuple[str, ...]:
+        """Returns ingredient identifiers with positive typicality for a cuisine."""
+        raise NotImplementedError
+
+
+class CuisineClassifier(ABC):
+    """Classifies linked ingredients into ranked cultural cuisine categories."""
+
+    @abstractmethod
+    def classify(
+        self,
+        linked_ingredients: Iterable[LinkedIngredient],
+    ) -> ClassificationResult:
+        """Returns ranked cuisine predictions for linked ingredients."""
         raise NotImplementedError
