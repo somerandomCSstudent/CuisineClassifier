@@ -1,0 +1,19 @@
+﻿alias_id,ingredient_id,alias,alias_type,language,match_priority,verified
+tomato_1,tomato,tomato,canonical,en,100,True
+tomato_2,tomato,tomatoes,plural,en,95,True
+tomato_3,tomato,fresh tomatoes,prepared_form,en,80,True
+olive_oil_1,olive_oil,olive oil,canonical,en,100,True
+olive_oil_2,olive_oil,extra virgin olive oil,prepared_form,en,90,True
+sour_cream_1,sour_cream,sour cream,canonical,en,100,True
+chickpea_1,chickpea,chickpeas,plural,en,95,True
+chickpea_2,chickpea,garbanzo beans,regional_name,en,90,True
+chicken_canonical,chicken,chicken,canonical,en,100,true
+paprika_canonical,paprika,paprika,canonical,en,100,true
+onion_canonical,onion,onion,canonical,en,100,true
+mozzarella_canonical,mozzarella,mozzarella,canonical,en,100,true
+basil_canonical,basil,basil,canonical,en,100,true
+rice_canonical,rice,rice,canonical,en,100,true
+garlic_canonical,garlic,garlic,canonical,en,100,true
+coconut_milk_canonical,coconut_milk,coconut milk,canonical,en,100,true
+lemongrass_canonical,lemongrass,lemongrass,canonical,en,100,true
+chickpea_canonical,chickpea,chickpea,canonical,en,100,true

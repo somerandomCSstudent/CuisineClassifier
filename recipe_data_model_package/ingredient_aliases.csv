@@ -1,9 +1,0 @@
-﻿alias_id,ingredient_id,alias,alias_type,language,match_priority,verified
-tomato_1,tomato,tomato,canonical,en,100,True
-tomato_2,tomato,tomatoes,plural,en,95,True
-tomato_3,tomato,fresh tomatoes,prepared_form,en,80,True
-olive_oil_1,olive_oil,olive oil,canonical,en,100,True
-olive_oil_2,olive_oil,extra virgin olive oil,prepared_form,en,90,True
-sour_cream_1,sour_cream,sour cream,canonical,en,100,True
-chickpea_1,chickpea,chickpeas,plural,en,95,True
-chickpea_2,chickpea,garbanzo beans,regional_name,en,90,True
