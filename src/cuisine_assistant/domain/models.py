@@ -12,6 +12,14 @@ class SearchCandidate:
 
 
 @dataclass(frozen=True)
+class IngredientMention:
+    surface_form: str
+    normalized_text: str
+    start_char: int
+    end_char: int
+
+
+@dataclass(frozen=True)
 class ExtractedIngredient:
     surface_form: str
     normalized_text: str

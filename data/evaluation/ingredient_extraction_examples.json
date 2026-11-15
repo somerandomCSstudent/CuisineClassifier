@@ -1,0 +1,22 @@
+[
+  {"text": "tomatoes; mozzarella; basil; olive oil", "expected_ingredient_ids": ["tomato", "mozzarella", "basil", "olive_oil"]},
+  {"text": "2 cups fresh tomatoes\n1 tbsp extra virgin olive oil", "expected_ingredient_ids": ["tomato", "olive_oil"]},
+  {"text": "400 g chickpeas; 2 cloves garlic", "expected_ingredient_ids": ["chickpea", "garlic"]},
+  {"text": "Chicken with paprika, onion and sour cream.", "expected_ingredient_ids": ["chicken", "paprika", "onion", "sour_cream"]},
+  {"text": "Coconut milk, lemongrass and chicken", "expected_ingredient_ids": ["coconut_milk", "lemongrass", "chicken"]},
+  {"text": "1/2 cup diced tomatoes", "expected_ingredient_ids": ["tomato"]},
+  {"text": "3 tbsp olive oil", "expected_ingredient_ids": ["olive_oil"]},
+  {"text": "Fresh basil and mozzarella", "expected_ingredient_ids": ["basil", "mozzarella"]},
+  {"text": "Rice with garlic and onion", "expected_ingredient_ids": ["rice", "garlic", "onion"]},
+  {"text": "garbanzo beans; tomato", "expected_ingredient_ids": ["chickpea", "tomato"]},
+  {"text": "1 kg chicken", "expected_ingredient_ids": ["chicken"]},
+  {"text": "Finely chopped onion", "expected_ingredient_ids": ["onion"]},
+  {"text": "Ground paprika", "expected_ingredient_ids": ["paprika"]},
+  {"text": "Tomatoes and basil", "expected_ingredient_ids": ["tomato", "basil"]},
+  {"text": "Mozzarella with olive oil", "expected_ingredient_ids": ["mozzarella", "olive_oil"]},
+  {"text": "Gochujang", "expected_ingredient_ids": []},
+  {"text": "2 cans chickpeas, drained", "expected_ingredient_ids": ["chickpea"]},
+  {"text": "Sour cream and paprika", "expected_ingredient_ids": ["sour_cream", "paprika"]},
+  {"text": "Chicken, rice, and garlic", "expected_ingredient_ids": ["chicken", "rice", "garlic"]},
+  {"text": "Extra virgin olive oil and fresh tomatoes", "expected_ingredient_ids": ["olive_oil", "tomato"]}
+]

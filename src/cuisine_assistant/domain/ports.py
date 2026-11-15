@@ -3,12 +3,18 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
 
-from .models import ExtractedIngredient, SearchCandidate
+from .models import ExtractedIngredient, IngredientMention, SearchCandidate
 
 
 class TextNormalizer(ABC):
     @abstractmethod
     def normalize(self, text: str) -> str:
+        raise NotImplementedError
+
+
+class IngredientMentionParser(ABC):
+    @abstractmethod
+    def parse(self, text: str) -> list[IngredientMention]:
         raise NotImplementedError
 
 
