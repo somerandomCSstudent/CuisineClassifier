@@ -1,17 +1,15 @@
-from .cuisine_classification import (
-    ClassificationEvaluation,
-    CuisineClassificationEvaluator,
-    CuisineClassMetrics,
-    LabeledRecipe,
+from .dish_recommendation import (
+    DishRecommendationEvaluator,
+    LabeledRecommendationExample,
+    RecommendationEvaluation,
 )
-from .dataset import JsonClassificationDatasetLoader
-from .report import ClassificationEvaluationFormatter
+from .recommendation_dataset import JsonRecommendationDatasetLoader
+from .recommendation_report import RecommendationEvaluationFormatter
 
 __all__ = [
-    "ClassificationEvaluation",
-    "ClassificationEvaluationFormatter",
-    "CuisineClassificationEvaluator",
-    "CuisineClassMetrics",
-    "JsonClassificationDatasetLoader",
-    "LabeledRecipe",
+    "DishRecommendationEvaluator",
+    "JsonRecommendationDatasetLoader",
+    "LabeledRecommendationExample",
+    "RecommendationEvaluation",
+    "RecommendationEvaluationFormatter",
 ]

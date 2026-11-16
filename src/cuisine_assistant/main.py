@@ -11,6 +11,7 @@ from cuisine_assistant.cli import (
     ClassificationResultFormatter,
     ConsoleApplication,
     LinkIngredientsResultFormatter,
+    RecommendationResultFormatter,
 )
 
 
@@ -30,8 +31,10 @@ def main() -> None:
     ConsoleApplication(
         link_ingredients=container.link_ingredients,
         classify_recipe=container.classify_recipe,
+        recommend_dishes=container.recommend_dishes,
         link_formatter=LinkIngredientsResultFormatter(),
         classification_formatter=ClassificationResultFormatter(),
+        recommendation_formatter=RecommendationResultFormatter(),
     ).run()
 
 

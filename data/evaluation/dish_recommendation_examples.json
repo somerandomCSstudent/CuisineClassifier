@@ -1,0 +1,8 @@
+[
+  {"example_id":"rec01","text":"I have chicken, paprika, onion and sour cream and I would like Hungarian food.","relevant_dish_ids":["chicken_paprikash"]},
+  {"example_id":"rec02","text":"Recommend a Hungarian dish with chicken and paprika.","relevant_dish_ids":["chicken_paprikash"]},
+  {"example_id":"rec03","text":"I have tomato, mozzarella, basil and olive oil and I want Italian food.","relevant_dish_ids":["margherita_pizza","caprese_salad"]},
+  {"example_id":"rec04","text":"Recommend an Italian dish with tomato and mozzarella.","relevant_dish_ids":["margherita_pizza","caprese_salad"]},
+  {"example_id":"rec05","text":"I have chicken, coconut milk and lemongrass and I would like Thai food.","relevant_dish_ids":["thai_chicken_curry"]},
+  {"example_id":"rec06","text":"Only recommend Thai dishes with chicken and coconut milk.","relevant_dish_ids":["thai_chicken_curry"]}
+]

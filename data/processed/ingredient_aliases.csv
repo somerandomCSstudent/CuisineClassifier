@@ -6,3 +6,9 @@ olive_oil_1,olive_oil,olive oil,canonical,en,100,true
 olive_oil_2,olive_oil,extra virgin olive oil,prepared_form,en,90,true
 mozzarella_1,mozzarella,mozzarella,canonical,en,100,true
 basil_1,basil,basil,canonical,en,100,true
+chicken_canonical,chicken,chicken,canonical,en,100,true
+chicken_plural,chicken,chickens,plural,en,90,true
+paprika_canonical,paprika,paprika,canonical,en,100,true
+onion_canonical,onion,onion,canonical,en,100,true
+onion_plural,onion,onions,plural,en,90,true
+sour_cream_canonical,sour_cream,sour cream,canonical,en,100,true
