@@ -1,0 +1,39 @@
+{
+    "knowledge_base_id":  "world_cuisines",
+    "name":  "World Cuisines Knowledge Base",
+    "version":  "1.0",
+    "source":  "worldcuisines/food-kb",
+    "language":  "en",
+    "ontology_base_iri":  "http://example.org/world-cuisines#",
+    "created_at":  "2026-11-16T21:34:42.149888+00:00",
+    "import":  {
+                   "source_id":  "worldcuisines/food-kb",
+                   "dataset_name":  "default",
+                   "split":  "main",
+                   "revision":  null,
+                   "maximum_records":  500,
+                   "imported_records":  500,
+                   "skipped_records":  0,
+                   "duplicate_records":  0,
+                   "images_included":  false
+               },
+    "counts":  {
+                   "dish_count":  500,
+                   "ingredient_count":  8,
+                   "cuisine_count":  207,
+                   "triple_count":  2819
+               },
+    "files":  {
+                  "ontology":  "cuisine.rdf",
+                  "ingredients":  "ingredients.csv",
+                  "ingredient_aliases":  "ingredient_aliases.csv",
+                  "cuisines":  "cuisines.csv",
+                  "cuisine_aliases":  "cuisine_aliases.csv",
+                  "cuisine_ingredients":  "cuisine_ingredients.csv",
+                  "dishes":  "dishes.csv",
+                  "dish_ingredients":  "dish_ingredients.csv",
+                  "recipes":  "recipes.csv",
+                  "search_index":  "search_index.csv",
+                  "manifest":  "knowledge_base.json"
+              }
+}

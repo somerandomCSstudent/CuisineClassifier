@@ -1,0 +1,3602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:cuisine="urn:cuisine:hybrid#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RedBeansAndRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Red beans and rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthKoreanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South Korean cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KalGuksuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kal-guksu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShiratakiNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Shirataki noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KabsaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kabsa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SaudiArabianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OhnNoKhaoSwDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ohn no khao swè</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MongolianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mongolian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HotAndSourNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hot and sour noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DorayakiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dorayaki</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TibokTibokDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tibok-tibok</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChelowDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chelow</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IsraeliCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Israeli cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DalBhatDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dal bhat</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PolishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Polish cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MysuruCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mysuru cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AlooTikkiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Aloo tikki</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GanmodokiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ganmodoki</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SotoBandungDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Soto Bandung</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YemeniCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Yemeni cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MaqlubaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Maqluba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LevantineCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ManchuCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Manchu cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TokwaTBaboyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tokwa't baboy</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JajangmyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jajangmyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TacoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Taco</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MexicanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JavaRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Java rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PidanDoufuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pidan doufu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BhelPuriDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bhel puri</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BihariCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bihari cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MontenegrinCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Montenegrin cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChickenPaprikash">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chicken Paprikash</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#HungarianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Paprika"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#SourCream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KozhukkattaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kozhukkatta</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SeekhKebabDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Seekh kebab</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BihunGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bihun Goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HainaneseChickenRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hainanese chicken rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SingaporeanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BuburKetanHitamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bubur ketan hitam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HokkienFriedRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hokkien fried rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TaiwaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PoffertjesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Poffertjes</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#DutchCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GaifanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gaifan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KaiserschmarrnDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kaiserschmarrn</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AustrianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BannuPulaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bannu pulao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PakistaniCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CapreseSalad">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Caprese Salad</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MasiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Masi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhChNgDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh chưng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ParsiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Parsi cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YakitoriDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yakitori</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DonburiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Donburi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DirtyRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dirty rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LouisianaCreoleCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MandiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mandi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#YemeniCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShrimpCreoleDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Shrimp creole</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AremAremDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arem-arem</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PannenkoekDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pannenkoek</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#DutchCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CentralAsianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Central Asian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BisiBeleBathDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bisi Bele Bath</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CurdRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Curd rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#InjeraDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Injera</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#EthiopianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RijstevlaaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rijstevlaai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#DutchCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ZardaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Zarda</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PakistaniCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SMenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sōmen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TahoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Taho</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ClaypotRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Claypot rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoKanChinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao kan chin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MeeSiamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mee siam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CrossingTheBridgeNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Crossing-the-bridge noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BistekDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bistek</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GalloPintoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gallo pinto</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#NicaraguanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ZhajiangmianDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Zhajiangmian</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChowMeinSandwichDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chow mein sandwich</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MunTahuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mun tahu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#VenetianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Venetian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NigerianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Nigerian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PuttuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Puttu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MeghliDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Meghli</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LevantineCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LaghmanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Laghman</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FrenchCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>French cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CurryMeeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Curry mee</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CotolettaAllaMilaneseDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cotoletta alla milanese</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KalamayDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kalamay</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CartNoodleDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cart noodle</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#HongKongCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NoodlesWithTomatoEggSauceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Noodles with tomato egg sauce</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JjimDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jjim</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozCaldosoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz caldoso</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SpanishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PusDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pusô</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PadSeeEwDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pad see ew</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Tomato">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>tomato</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AzerbaijaniCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Azerbaijani cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AranciniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arancini</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Mozzarella"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AkkiRottiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Akki rotti</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#CanareseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SingaporeanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Singaporean cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CotolettaAllaBologneseDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cotoletta alla bolognese</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AligueFriedRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Aligue fried rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TsukemenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tsukemen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DanZaiNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dan zai noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TaiwaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LepetDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lepet</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RiceAndPeasDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rice and peas</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#CaribbeanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiKerabuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi kerabu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KababBargDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kabab barg</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#OliveOil"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YinYangFriedRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yin yang fried rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KupatTahuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kupat tahu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JordanianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Jordanian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JollofRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jollof Rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SenegaleseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CifantuanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cifantuan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KutsintaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kutsinta</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LoMeinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lo mein</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PancitDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pancit</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MoffleDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Moffle</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiJinggoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi jinggo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PisangMolenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pisang Molen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JambalayaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jambalaya</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KheerDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kheer</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoPhatDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao Phat</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ThaiChickenCurry">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Thai Chicken Curry</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#CoconutMilk"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Garlic"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Lemongrass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BuburAyamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bubur ayam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ZosuiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Zosui</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhinkaliDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khinkali</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GeorgianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SopaDeFideoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sopa de fideo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SpanishCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BingDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bing</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TupigDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tupig</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RiceAndGravyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rice and gravy</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AustralianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Australian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YorubaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Yoruba cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OnigiriDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Onigiri</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LibyanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Libyan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AgedashiDFuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Agedashi dōfu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Dish">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AfghanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Afghan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KarnatakaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Karnataka cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MieGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mie Goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IraqiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Iraqi cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhDaLNDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh da lợn</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IndianSubcontinentCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Indian Subcontinent cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JiaoziDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jiaozi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CentralAmericanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Central American cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KeralaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Kerala cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhTDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh tổ</rdfs:label>
+    <rdfs:label>Bánh tẻ</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ThaiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Thai cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TangyuanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tangyuan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JohnnycakeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Johnnycake</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiAmbengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi ambeng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PalakPaneerDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Palak paneer</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JharkandhiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Jharkandhi cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChineseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Chinese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PutoBumbongDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Puto bumbong</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MeeshayDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Meeshay</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChickenTikkaMasalaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chicken tikka masala</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NgoHiangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ngo hiang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SorbetDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sorbet</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChamporadoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Champorado</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MajaBlancaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Maja blanca</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TallarNSaltadoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tallarín saltado</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PeruvianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LaksaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Laksa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MeeGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mee goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BruneianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MargheritaPizza">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Margherita Pizza</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Mozzarella"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Basil"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#OliveOil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RawonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rawon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YakaMeinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yaka mein</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TahuCampurDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tahu campur</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CharKwayTeowDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Char Kway Teow</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SingaporeanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AndongJjimdakDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Andong jjimdak</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DrunkenNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Drunken noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Basil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JujehKababDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jujeh kabab</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ZongziDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Zongzi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PhirniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Phirni</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PakistaniCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TofuSkinRollDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tofu skin roll</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YakiUdonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yaki udon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi Goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KedgereeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kedgeree</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MochiIceCreamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mochi ice cream</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GeorgianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Georgian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PaellaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Paella</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SpanishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoPiakSenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao piak sen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LaoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TinapayanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tinapayan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RussianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Russian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KenyanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Kenyan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TeurgouleDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Teurgoule</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FrenchCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SingaporeHokkienMeeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Singapore hokkien mee</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SingaporeanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SerbianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Serbian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PabellNCriolloDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pabellón criollo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VenezuelanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DutchCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Dutch cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChiayiTurkeyRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chiayi turkey rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TaiwaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HokkienCharMeeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hokkien char mee</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MQuNgDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mì Quảng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PuertoRicanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Puerto Rican cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HtaminJinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Htamin jin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BalaoBalaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Balao-balao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NeerDosaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Neer dosa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SerabiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Serabi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MiKropDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mi krop</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TerangBulanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Terang Bulan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CrumpetDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Crumpet</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BritishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShumaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Shumai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YakisobaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yakisoba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TrinidadianAndTobagonianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Trinidadian and Tobagonian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MansafDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mansaf</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JordanianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiGurihDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi gurih</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LanzhouBeefNoodleSoupDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lanzhou beef noodle soup</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiKucingDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi kucing</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BannockDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bannock</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ScottishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PhoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pho</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CroatianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Croatian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SongpyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Songpyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KSespTzleDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Käsespätzle</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GermanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiTimbelDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi timbel</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SotoBanjarDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Soto Banjar</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HainaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Hainanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChickenTikkaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chicken tikka</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BurongIsdaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Burong isda</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthAmericanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South American cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GuineanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Guinean cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KazakhstanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Kazakhstan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EspasolDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Espasol</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AburaSobaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Abura Soba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YangzhouFriedRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yangzhou Fried Rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GinataangMunggoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ginataang munggo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TonkatsuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tonkatsu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PongalDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pongal</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JordanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Jordan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AkaraDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Akara</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#NigerianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SapinSapinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sapin-sapin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DouhuaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Douhua</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HtamanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Htamanè</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LumpiaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lumpia</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhichdiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khichdi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PashtunCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Pashtun cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PeHtawBhutHtaminDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pe htaw bhut htamin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChamponDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Champon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoKhlukKapiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao khluk kapi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhChuIDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh chuối</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#WontonNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Wonton noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#CantoneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KiribathDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kiribath</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SriLankanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KesmeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kesme</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TurkishCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CagayanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Cagayan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SpanishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Spanish cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LontongDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lontong</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShawarmaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Shawarma</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LevantineCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JhalmuriDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jhalmuri</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BangladeshiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SaiminDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Saimin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#HawaiianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KatsudonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Katsudon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FaGaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Fa gao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OmuriceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Omurice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HoppinJohnDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hoppin' John</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CantoneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Cantonese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PastilDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pastil</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PuffedRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Puffed rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SouthEastAsianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KorokkeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Korokke</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MieKeringDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mie kering</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KongGuksuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kong-guksu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MaruyaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Maruya</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NewZealandCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>New Zealand cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GulaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gulai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SiopaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Siopao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BiangbiangNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Biangbiang noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ThenthukDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Thenthuk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TibetanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RacuchyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Racuchy</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PolishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BhutaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bhutanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BurasaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Burasa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DoenjangJjigaeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Doenjang jjigae</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BikoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Biko</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SundubuJjigaeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sundubu-jjigae</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#UdonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Udon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HwajeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hwajeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArabianPeninsulaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Arabian Peninsula cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TinutuanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tinutuan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MacaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Macanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JapchaeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Japchae</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PulihoraDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pulihora</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MontDiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mont di</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiTimDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi tim</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TensobaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tensoba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozConMaizDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz con maiz</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LatinAmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IranCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Iran cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BibimGuksuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bibim guksu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JianDuiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jian dui</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MoronDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Moron</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LombardianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Lombardian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RomanianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Romanian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Basil">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>basil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoSoiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao soi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RijsttafelDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rijsttafel</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GyrosDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gyros</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GreekCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhXODish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh xèo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BibimbapDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bibimbap</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JeeraBhaatDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jeera bhaat</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiBoganaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi bogana</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiLiwetDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi liwet</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SelRotiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sel roti</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#NepaleseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GinataangMaisDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ginataang mais</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiLemakDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi Lemak</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SinangagDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sinangag</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TteokgukDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tteokguk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GermanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>German cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IdliDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Idli</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BurritoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Burrito</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MexicanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AppamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Appam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SalukaraDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Salukara</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JiuniangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jiuniang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozConHuevoFritoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz con huevo frito</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#CentralAmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhTTDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh tét</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PisangGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pisang Goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TajikCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Tajik cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HiyayakkoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hiyayakko</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MesoamericanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mesoamerican cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SenbeiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Senbei</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouvlakiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Souvlaki</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GreekCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ThingyanRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Thingyan rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SateDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sate</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MieAyamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mie ayam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KababKoobidehDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kabab koobideh</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AssameseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Assamese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OladyiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Oladyi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#RussianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KabuliPulaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kabuli pulao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AfghanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#VisayasCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Visayas cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#QingtuanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Qingtuan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BuuzDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Buuz</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MongolianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AcadianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Acadian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TurkmenistanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Turkmenistan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BibingkaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bibingka</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KyaZanHingaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kya zan hinga</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#VenezuelanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Venezuelan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChowMeinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chow mein</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TacoRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Taco rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GotoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Goto</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GyozaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gyoza</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LardNaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lard na</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LaoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PancitMalabonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pancit Malabon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KosovarCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Kosovar cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PanyalamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Panyalam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YorkshirePuddingDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yorkshire pudding</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#EnglishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChahanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chahan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChazukeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chazuke</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SzczecinPaprikashDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Szczecin paprikash</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PolishCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KatKyiKaikDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kat kyi kaik</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KraftDinnerDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kraft Dinner</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MaggiGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Maggi goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhCDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh đúc</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MilmyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Milmyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OtaruAnkakeYakisobaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Otaru Ankake Yakisoba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RizCasimirDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Riz Casimir</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SwissCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KharchoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kharcho</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GeorgianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#hasIngredient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SotoBetawiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Soto Betawi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KluaiKhaekDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kluai khaek</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChweeKuehDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chwee kueh</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TeochewCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BurkinabeCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Burkinabe cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#WaakyeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Waakye</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GhanaianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrSNegreDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arròs negre</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SpanishCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#OliveOil"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Paprika"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthEastAsianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South East Asian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JatGuksuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jat-guksu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KashmiriCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Kashmiri cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BupyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bupyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChongqingNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chongqing noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BuchimgaeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Buchimgae</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JanchiGuksuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Janchi guksu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChitrannaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chitranna</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LuxembourgishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Luxembourgish cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SoutheastAsianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Southeast Asian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MalaysianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Malaysian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EthiopianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Ethiopian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LemperDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lemper</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DhansakDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dhansak</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoTomDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao tom</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiTumpangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi tumpang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SaudiArabianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Saudi Arabian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SholezardDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sholezard</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozConPolloDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz con pollo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LatinAmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AlgerianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Algerian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LupisDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lupis</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MujaddaraDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mujaddara</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IraqiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TempuraDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tempura</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LouisianaCreoleCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Louisiana Creole cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TahdigDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tahdig</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TsuivanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tsuivan</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MongolianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CoconutMilk">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>coconut milk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KongbapDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kongbap</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiCampurDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi Campur</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NurungjiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nurungji</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LaksoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lakso</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KrapfenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Krapfen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GermanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ToshikoshiSobaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Toshikoshi soba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MomoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Momo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TibetanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BindaeTteokDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bindae-tteok</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SaffronRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Saffron rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#WhiteSugarSpongeCakeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>White sugar sponge cake</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhCanhDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh canh</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LoMaiGaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lo mai gai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SandigeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sandige</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KetupatDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ketupat</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TonkotsuRamenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tonkotsu ramen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AmericanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>American cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LatinAmericanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Latin American cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CrPeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Crêpe</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FrenchCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PenangHokkienMeeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Penang hokkien mee</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IdiyappamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Idiyappam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhCuNDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh cuốn</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LapingDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Laping</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TibetanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiTutugOncomDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi tutug oncom</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TubeRicePuddingDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tube rice pudding</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TaiwaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OkinawaSobaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Okinawa soba</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShirinPoloDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Shirin polo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NanGyiThohkDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nan gyi thohk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CajunCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Cajun cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OkinawanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Okinawan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiUlamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi ulam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Basil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MeeBandungMuarDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mee Bandung Muar</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OfadaRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ofada rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#YorubaCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TurkishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Turkish cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthAsianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South Asian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AustrianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Austrian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChelowKababDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chelow kabab</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Basil"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#XiaoLongBaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Xiao Long Bao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ManduDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mandu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiBakarDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi bakar</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SingaporeHaeMeeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Singapore hae mee</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SingaporeanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BenineseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Beninese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LocrioDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Locrio</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#DominicanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MurtabakDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Murtabak</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#YemeniCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#VisayanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Visayan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LaoCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Lao cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KuningDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kuning</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EasternVisayasCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Eastern Visayas cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HTDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hōtō</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BaghaliPoloDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Baghali polo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HsiHtaminDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hsi htamin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KiampongDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kiampong</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShanghaiFriedNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Shanghai fried noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LevantineCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Levantine cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JjolmyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jjolmyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SyrianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Syrian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FuningBigCakeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Funing big cake</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MontLinMayaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mont lin maya</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NaengmyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Naengmyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BakmiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bakmi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiDagangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi dagang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BlintzDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Blintz</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JewishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JaynagarerMoaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jaynagarer Moa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PinipigDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pinipig</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Cuisine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DolmaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dolma</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#OttomanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OyakiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Oyaki</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RiceKrispiesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rice Krispies</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GlobalCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ThalasseryBiryaniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Thalassery biryani</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShaanxiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Shaanxi cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BulgarianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bulgarian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KwetiauGorengDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kwetiau Goreng</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PampangaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Pampanga cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GlobalCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Global cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RizGrasDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Riz gras</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#WestAfricanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BangladeshiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bangladeshi cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PotatoPancakeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Potato pancake</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#EasternEuropeanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#SourCream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AdaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ada</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SaagDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Saag</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianSubcontinentCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SourCream">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>sour cream</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthernVietnameseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Southern Vietnamese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HotDryNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hot dry noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SichuanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Sichuan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DalMakhaniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dal Makhani</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IfumiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ifumi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MuhallebiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Muhallebi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SpanishRiceDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Spanish rice</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MexicanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BayeBayeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Baye baye</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PilafDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pilaf</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GlobalCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LocoMocoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Loco moco</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#HawaiianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ItalianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Italian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BeninCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Benin cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiKuningDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi kuning</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CMTMDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cơm tấm</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SongGaoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Song gao</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FilipinoCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Filipino cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MughalEmpireCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mughal Empire cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PierogiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pierogi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PolishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KebabDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kebab</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IranianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiUdukDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi Uduk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaukSwThokeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khauk swè thoke</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EastAsianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>East Asian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PancitBihonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pancit bihon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CachapaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cachapa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VenezuelanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Mozzarella"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#UkrainianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Ukrainian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PakhalaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pakhala</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SapoTahuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sapo tahu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CibaCakeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ciba cake</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MochiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mochi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DandanNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dandan noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SuStyleNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Su-style noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JjamppongDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Jjamppong</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CabidelaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Cabidela</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PortugueseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BengaliCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bengali cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DangoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dango</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiKapauDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi kapau</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LemangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lemang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PutChaiKoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Put chai ko</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#HongKongCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RisottoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Risotto</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#StinkyTofuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Stinky tofu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KuePutuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kue putu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#VarenykyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Varenyky</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#UkrainianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BoudinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Boudin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FrenchCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KueLapisDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kue lapis</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RiceNoodleRollDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rice noodle roll</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YongTauFooDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yong tau foo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OsmanthusCakeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Osmanthus cake</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChuIChiNDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>chuối chiên</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SlavicCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Slavic cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PantaBhatDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Panta bhat</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BangladeshiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TahuGejrotDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tahu gejrot</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AmpawDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ampaw</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KareKareDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kare-kare</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KripikDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kripik</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BahONDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bah-oân</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TaiwaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RiceBreadDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rice bread</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GlobalCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PalestinianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Palestinian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MocheDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Moche</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#XIDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Xôi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TamilCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Tamil cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CanareseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Canarese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BelgianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Belgian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PersianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Persian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SenegaleseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Senegalese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GumboDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gumbo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LiloanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Liloan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MeePokDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mee pok</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OkoyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Okoy</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PortugueseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Portuguese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HokkienChineseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Hokkien Chinese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthAfricanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South African cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ApamBalikDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Apam balik</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CroquetteDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Croquette</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FrenchCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EritreanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Eritrean cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JukDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Juk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HotteokDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hotteok</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OrezShuItDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Orez Shu'it</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IsraeliCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MexicanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mexican cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PalitawDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Palitaw</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LDagunDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lüdagun</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TanzanianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Tanzanian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNCDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bún ốc</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TeochewCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Teochew cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BrazilianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Brazilian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ShanghaiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Shanghai cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhBODish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh bèo</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TofuSkinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tofu skin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NepaleseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Nepalese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HorchataDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Horchata</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SpanishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#YakimochiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Yakimochi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BalineseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Balinese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PalatschinkeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Palatschinke</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#GreekCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#InarizushiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Inarizushi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CostaRicanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Costa Rican cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HungarianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Hungarian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DubuKimchiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dubu-kimchi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SingaporeStyleNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Singapore-style noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#CantoneseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OdiaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Odia cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ColombianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Colombian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CrempogDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Crempog</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#WelshCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ThukpaBhatukDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Thukpa bhatuk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TibetanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EasternEuropeanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Eastern European cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CambodianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Cambodian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Lemongrass">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>lemongrass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CaribbeanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Caribbean cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PutoSecoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Puto seco</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhMDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh mì</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MauritanianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mauritanian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BanmianDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Banmian</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BruneianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bruneian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiPadangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi padang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BeefChowFunDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Beef chow fun</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KipingDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kiping</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LiangpiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Liangpi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CouscousDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Couscous</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TunisianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChickenRiggiesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chicken riggies</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AfricanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>African cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JewishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Jewish cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NanGyiThokeDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nan gyi thoke</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TahuSumedangDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tahu sumedang</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#WelshCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Welsh cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JapaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Japanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SumanDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Suman</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SushiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sushi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GhanaianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Ghanaian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JamaicanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Jamaican cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DodolDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dodol</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CorundaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Corunda</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MexicanCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#SourCream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PlovDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Plov</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#CentralAsianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#UzbekCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Uzbek cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhBTLCDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh bột lọc</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PakistaniCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Pakistani cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TaiwaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Taiwanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PiedmonteseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Piedmontese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DominicanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Dominican cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CebuCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Cebu cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OliveOil">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>olive oil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TogoleseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Togolese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MinahasanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Minahasan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BiryaniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Biryani</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SouthAsianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SevaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sevai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SomalianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Somalian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MiddleEasternCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Middle Eastern cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SarmaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Sarma</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#OttomanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TunisianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Tunisian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ValencianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Valencian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#UttapamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Uttapam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TteokDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tteok</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BuldakRamenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Buldak Ramen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SouthKoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ScottishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Scottish cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MapoTofuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mapo tofu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SichuanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MindanaoCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mindanao cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhowSueyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khow suey</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BavarianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bavarian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MadumongsoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Madumongso</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JavaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#WestAfricanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>West African cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozChaufaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz chaufa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChinesePeruvianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Paprika">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>paprika</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChinesePeruvianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Chinese Peruvian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OkowaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Okowa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KyayOhDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Kyay oh</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BurmeseCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MesopotamianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mesopotamian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Chicken">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>chicken</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NativeAmericanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Native American cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BokkeumBapDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bokkeum-bap</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DhoklaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dhokla</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BurmeseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Burmese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AlbanianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Albanian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GimbapDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gimbap</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TapaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tapai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SouthEastAsianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoLamDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao lam</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MauritiusCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mauritius cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SiruTteokDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Siru-tteok</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PithaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pitha</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BangladeshiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LugawDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lugaw</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KleponDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Klepon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArmenianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Armenian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PadThaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pad thai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MakGuksuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Mak-guksu</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SurinameseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Surinamese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BliniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Blini</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SlavicCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KosharyDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Koshary</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#EgyptianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Onion"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Tomato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MauritianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Mauritian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#InjeolmiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Injeolmi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HongKongCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Hong Kong cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EgyptianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Egyptian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PutoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Puto</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MaharashtrianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Maharashtrian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#DosaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Dosa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ManguindanaonCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Manguindanaon cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChanpurDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chanpurū</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiKebuliDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi kebuli</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KrupukDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Krupuk</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AostanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Aostan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozConGandulesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz con gandules</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#PuertoRicanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TouffEDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Étouffée</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Garlic">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>garlic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SchnitzelDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Schnitzel</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AustrianCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GujaratiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Gujarati cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FarinataDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Farinata</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#EnglishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>English cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OkonomiyakiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Okonomiyaki</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TrinidadianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Trinidadian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BhojpuriCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bhojpuri cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NagasariDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nagasari</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chè</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PindangPatinDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Pindang patin</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhaoPoonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khao poon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#LaoCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BhakriDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bhakri</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BosnianAndHerzegovinianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Bosnian and Herzegovinian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RatNaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rat na</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+    <cuisine:hasIngredient rdf:resource="urn:cuisine:hybrid#Chicken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthIndianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South Indian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KoreanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Korean cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NorthernAfghanistanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Northern Afghanistan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#QuebecCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Québec cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GelatoDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Gelato</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ItalianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#VietnameseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Vietnamese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CanadianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Canadian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HashBrownsDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Hash browns</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#AmericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BinignitDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Binignit</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#FilipinoCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LebaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Lebanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IvorianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Ivorian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IndianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Indian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArrozDeLisaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Arroz de lisa</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ColombianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KaraageDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Karaage</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#JapaneseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TibetanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Tibetan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#TortillaDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Tortilla</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MesoamericanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HubeiCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Hubei cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NorthMacedonianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>North Macedonian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ChataamariDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Chataamari</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#NepaleseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Mozzarella">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>mozzarella</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IranianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Iranian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BoatNoodlesDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Boat noodles</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#PeruvianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Peruvian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NicaraguanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Nicaraguan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KhanomSotSaiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Khanom sot sai</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ThaiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#HawaiianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Hawaiian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#KyrgyzstanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Kyrgyzstan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SouthCarolinaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>South Carolina cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Chickpea">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>chickpea</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LagunaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Laguna cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CzechCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Czech cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#UlmyeonDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Ulmyeon</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GreekCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Greek cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MoroccanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Moroccan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RajasthanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Rajasthan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#belongsToCuisine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BritishCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>British cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#GuyaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Guyanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BNhKhoaiMDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Bánh khoai mì</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#VietnameseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Rice">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>rice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LoMaiChiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Lo mai chi</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LuosifenDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Luosifen</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#ChineseCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#MantiDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Manti</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#TurkishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AgwiJjimDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Agwi-jjim</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#KoreanCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#JavaneseCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Javanese cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SlovenianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Slovenian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#OttomanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Ottoman cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SriLankanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Sri Lankan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Ingredient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#CatalanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Catalan cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AkhniDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Akhni</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#BangladeshiCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NasiKandarDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Nasi kandar</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#MalaysianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SiomayDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Siomay</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndonesianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#SwissCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Swiss cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#IndonesianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Indonesian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#RiceAndCurryDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Rice and curry</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#IndianCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FideuDish">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Dish"/>
+    <rdfs:label>Fideuà</rdfs:label>
+    <cuisine:belongsToCuisine rdf:resource="urn:cuisine:hybrid#SpanishCuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LouisianaCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Louisiana cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#NorthernEuropeanCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Northern European cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#BuryatianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Buryatian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#ArabIndonesianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Arab Indonesian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#LuzonCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Luzon cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#FijianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Fijian cuisine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#Onion">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Ingredient"/>
+    <rdfs:label>onion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:cuisine:hybrid#AustronesianCuisine">
+    <rdf:type rdf:resource="urn:cuisine:hybrid#Cuisine"/>
+    <rdfs:label>Austronesian cuisine</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

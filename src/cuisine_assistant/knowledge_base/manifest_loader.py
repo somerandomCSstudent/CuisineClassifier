@@ -48,7 +48,7 @@ class JsonKnowledgeBaseManifestLoader:
             )
 
         try:
-            document = json.loads(path.read_text(encoding="utf-8"))
+            document = json.loads(path.read_text(encoding="utf-8-sig"))
         except json.JSONDecodeError as error:
             raise ValueError(
                 f"Invalid knowledge base JSON manifest: {path}"
@@ -202,3 +202,5 @@ class JsonKnowledgeBaseManifestLoader:
         if value < 0:
             raise ValueError(f"{field_name} must not be negative")
         return value
+
+    

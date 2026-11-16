@@ -137,3 +137,15 @@ def test_rejects_invalid_json(tmp_path: Path) -> None:
 
     with pytest.raises(ValueError, match="Invalid knowledge base JSON"):
         JsonKnowledgeBaseManifestLoader().load(path)
+
+def test_supports_utf8_bom(tmp_path: Path) -> None:
+    """Verifies Windows PowerShell generated UTF-8 manifests are supported."""
+    path = tmp_path / "knowledge_base.json"
+    path.write_text(
+        json.dumps(valid_document()),
+        encoding="utf-8-sig",
+    )
+
+    bundle = JsonKnowledgeBaseManifestLoader().load(path)
+
+    assert bundle.metadata.knowledge_base_id == "curated"

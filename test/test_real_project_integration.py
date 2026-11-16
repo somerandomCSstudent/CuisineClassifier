@@ -9,6 +9,9 @@ from cuisine_assistant.bootstrap import (
     ApplicationSettings,
     build_application_container,
 )
+from cuisine_assistant.knowledge_base import (
+    JsonKnowledgeBaseManifestLoader,
+)
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -16,21 +19,23 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 @pytest.mark.integration
 def test_real_project_links_known_ingredients() -> None:
-    """Verifies the real CSV and OWL files when integration testing is enabled."""
+    """Verifies the real curated bundle links known ingredients."""
     if os.environ.get("RUN_REAL_INTEGRATION") != "1":
-        pytest.skip("Set RUN_REAL_INTEGRATION=1 to run real file integration")
-
-    ontology_base_iri = os.environ.get("CUISINE_ONTOLOGY_BASE_IRI")
-    if not ontology_base_iri:
-        pytest.fail("CUISINE_ONTOLOGY_BASE_IRI must be set")
-
-    container = build_application_container(
-        ApplicationSettings(
-        project_root=PROJECT_ROOT,
-        ontology_base_iri=ontology_base_iri,
-        ontology_relative_path=Path("ontology/cuisine.rdf"),
+        pytest.skip(
+            "Set RUN_REAL_INTEGRATION=1 to run real file integration"
         )
+
+    bundle = JsonKnowledgeBaseManifestLoader().load(
+        PROJECT_ROOT
+        / "knowledge_bases"
+        / "curated"
+        / "knowledge_base.json"
     )
+    container = build_application_container(
+        bundle=bundle,
+        settings=ApplicationSettings(),
+    )
+
     result = container.link_ingredients.execute(
         "Tomatoes, mozzarella and basil"
     )
@@ -39,3 +44,4 @@ def test_real_project_links_known_ingredients() -> None:
     assert result.unmatched_count == 0
     assert result.catalog_only_count == 0
     assert result.linked_count == len(result.linked_ingredients)
+    assert container.knowledge_base.metadata.knowledge_base_id == "curated"

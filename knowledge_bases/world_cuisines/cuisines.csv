@@ -1,0 +1,208 @@
+cuisine_id,name,cuisine_group,origin_place_id,description,ontology_id
+indonesian,Indonesian cuisine,Cuisine,indonesia,,IndonesianCuisine
+singaporean,Singaporean cuisine,Cuisine,indonesia,,SingaporeanCuisine
+malaysian,Malaysian cuisine,Cuisine,indonesia,,MalaysianCuisine
+bruneian,Bruneian cuisine,Cuisine,indonesia,,BruneianCuisine
+dutch,Dutch cuisine,Cuisine,indonesia,,DutchCuisine
+surinamese,Surinamese cuisine,Cuisine,indonesia,,SurinameseCuisine
+thai,Thai cuisine,Cuisine,indonesia,,ThaiCuisine
+filipino,Filipino cuisine,Cuisine,philippines,,FilipinoCuisine
+indian_subcontinent,Indian Subcontinent cuisine,Cuisine,united_kingdom,,IndianSubcontinentCuisine
+british,British cuisine,Cuisine,united_kingdom,,BritishCuisine
+indian,Indian cuisine,Cuisine,india,,IndianCuisine
+bangladeshi,Bangladeshi cuisine,Cuisine,india,,BangladeshiCuisine
+pakistani,Pakistani cuisine,Cuisine,india,,PakistaniCuisine
+parsi,Parsi cuisine,Cuisine,india,,ParsiCuisine
+spanish,Spanish cuisine,Cuisine,spain,,SpanishCuisine
+valencian,Valencian cuisine,Cuisine,spain,,ValencianCuisine
+catalan,Catalan cuisine,Cuisine,spain,,CatalanCuisine
+senegalese,Senegalese cuisine,Cuisine,nigeria,,SenegaleseCuisine
+nigerian,Nigerian cuisine,Cuisine,nigeria,,NigerianCuisine
+ghanaian,Ghanaian cuisine,Cuisine,nigeria,,GhanaianCuisine
+south_asian,South Asian cuisine,Cuisine,iran,,SouthAsianCuisine
+iranian,Iranian cuisine,Cuisine,iran,,IranianCuisine
+iraqi,Iraqi cuisine,Cuisine,iran,,IraqiCuisine
+burmese,Burmese cuisine,Cuisine,iran,,BurmeseCuisine
+taiwanese,Taiwanese cuisine,Cuisine,china,,TaiwaneseCuisine
+chinese,Chinese cuisine,Cuisine,china,,ChineseCuisine
+cantonese,Cantonese cuisine,Cuisine,china,,CantoneseCuisine
+japanese,Japanese cuisine,Cuisine,japan,,JapaneseCuisine
+canarese,Canarese cuisine,Cuisine,india,,CanareseCuisine
+sri_lankan,Sri Lankan cuisine,Cuisine,india,,SriLankanCuisine
+southeast_asian,Southeast Asian cuisine,Cuisine,india,,SoutheastAsianCuisine
+italian,Italian cuisine,Cuisine,italy,,ItalianCuisine
+chinese_peruvian,Chinese Peruvian cuisine,Cuisine,peru,,ChinesePeruvianCuisine
+puerto_rican,Puerto Rican cuisine,Cuisine,puerto_rico,,PuertoRicanCuisine
+central_american,Central American cuisine,Cuisine,united_states,,CentralAmericanCuisine
+south_american,South American cuisine,Cuisine,united_states,,SouthAmericanCuisine
+latin_american,Latin American cuisine,Cuisine,cuba,,LatinAmericanCuisine
+colombian,Colombian cuisine,Cuisine,colombia,,ColombianCuisine
+pashtun,Pashtun cuisine,Cuisine,pakistan,,PashtunCuisine
+vietnamese,Vietnamese cuisine,Cuisine,vietnam,,VietnameseCuisine
+gujarati,Gujarati cuisine,Cuisine,india,,GujaratiCuisine
+maharashtrian,Maharashtrian cuisine,Cuisine,india,,MaharashtrianCuisine
+rajasthan,Rajasthan cuisine,Cuisine,india,,RajasthanCuisine
+karnataka,Karnataka cuisine,Cuisine,india,,KarnatakaCuisine
+korean,Korean cuisine,Cuisine,korea,,KoreanCuisine
+visayan,Visayan cuisine,Cuisine,philippines,,VisayanCuisine
+nepalese,Nepalese cuisine,Cuisine,india,,NepaleseCuisine
+odia,Odia cuisine,Cuisine,india,,OdiaCuisine
+bengali,Bengali cuisine,Cuisine,india,,BengaliCuisine
+mysuru,Mysuru cuisine,Cuisine,india,,MysuruCuisine
+french,French cuisine,Cuisine,france,,FrenchCuisine
+luxembourgish,Luxembourgish cuisine,Cuisine,france,,LuxembourgishCuisine
+belgian,Belgian cuisine,Cuisine,france,,BelgianCuisine
+swiss,Swiss cuisine,Cuisine,france,,SwissCuisine
+quebec,Québec cuisine,Cuisine,france,,QuebecCuisine
+acadian,Acadian cuisine,Cuisine,france,,AcadianCuisine
+aostan,Aostan cuisine,Cuisine,france,,AostanCuisine
+louisiana_creole,Louisiana Creole cuisine,Cuisine,france,,LouisianaCreoleCuisine
+cajun,Cajun cuisine,Cuisine,france,,CajunCuisine
+minahasan,Minahasan cuisine,Cuisine,indonesia,,MinahasanCuisine
+portuguese,Portuguese cuisine,Cuisine,portugal,,PortugueseCuisine
+persian,Persian cuisine,Cuisine,iran,,PersianCuisine
+south_indian,South Indian cuisine,Cuisine,india,,SouthIndianCuisine
+shanghai,Shanghai cuisine,Cuisine,china,,ShanghaiCuisine
+hubei,Hubei cuisine,Cuisine,china,,HubeiCuisine
+hong_kong,Hong Kong cuisine,Cuisine,china,,HongKongCuisine
+southern_vietnamese,Southern Vietnamese cuisine,Cuisine,vietnam,,SouthernVietnameseCuisine
+bhutanese,Bhutanese cuisine,Cuisine,india,,BhutaneseCuisine
+trinidadian,Trinidadian cuisine,Cuisine,india,,TrinidadianCuisine
+guyanese,Guyanese cuisine,Cuisine,india,,GuyaneseCuisine
+jamaican,Jamaican cuisine,Cuisine,india,,JamaicanCuisine
+mauritian,Mauritian cuisine,Cuisine,india,,MauritianCuisine
+fijian,Fijian cuisine,Cuisine,india,,FijianCuisine
+ottoman,Ottoman cuisine,Cuisine,turkey,,OttomanCuisine
+laguna,Laguna cuisine,Cuisine,philippines,,LagunaCuisine
+american,American cuisine,Cuisine,united_states,,AmericanCuisine
+louisiana,Louisiana cuisine,Cuisine,united_states,,LouisianaCuisine
+nicaraguan,Nicaraguan cuisine,Cuisine,nicaragua,,NicaraguanCuisine
+costa_rican,Costa Rican cuisine,Cuisine,nicaragua,,CostaRicanCuisine
+luzon,Luzon cuisine,Cuisine,philippines,,LuzonCuisine
+hainanese,Hainanese cuisine,Cuisine,singapore,,HainaneseCuisine
+south_carolina,South Carolina cuisine,Cuisine,united_states,,SouthCarolinaCuisine
+african,African cuisine,Cuisine,united_states,,AfricanCuisine
+bihari,Bihari cuisine,Cuisine,bangladesh,,BihariCuisine
+afghan,Afghan cuisine,Cuisine,afghanistan,,AfghanCuisine
+northern_afghanistan,Northern Afghanistan cuisine,Cuisine,afghanistan,,NorthernAfghanistanCuisine
+saudi_arabian,Saudi Arabian cuisine,Cuisine,saudi_arabia,,SaudiArabianCuisine
+yemeni,Yemeni cuisine,Cuisine,saudi_arabia,,YemeniCuisine
+arabian_peninsula,Arabian Peninsula cuisine,Cuisine,saudi_arabia,,ArabianPeninsulaCuisine
+visayas,Visayas cuisine,Cuisine,philippines,,VisayasCuisine
+javanese,Javanese cuisine,Cuisine,indonesia,,JavaneseCuisine
+lao,Lao cuisine,Cuisine,thailand,,LaoCuisine
+cambodian,Cambodian cuisine,Cuisine,thailand,,CambodianCuisine
+georgian,Georgian cuisine,Cuisine,georgia,,GeorgianCuisine
+trinidadian_and_tobagonian,Trinidadian and Tobagonian cuisine,Cuisine,india,,TrinidadianAndTobagonianCuisine
+mauritius,Mauritius cuisine,Cuisine,india,,MauritiusCuisine
+mindanao,Mindanao cuisine,Cuisine,philippines,,MindanaoCuisine
+egyptian,Egyptian cuisine,Cuisine,egypt,,EgyptianCuisine
+hawaiian,Hawaiian cuisine,Cuisine,united_states,,HawaiianCuisine
+dominican,Dominican cuisine,Cuisine,dominican_republic,,DominicanCuisine
+south_east_asian,South East Asian cuisine,Cuisine,indonesia,,SouthEastAsianCuisine
+austronesian,Austronesian cuisine,Cuisine,indonesia,,AustronesianCuisine
+east_asian,East Asian cuisine,Cuisine,indonesia,,EastAsianCuisine
+jordanian,Jordanian cuisine,Cuisine,jordan,,JordanianCuisine
+levantine,Levantine cuisine,Cuisine,jordan,,LevantineCuisine
+mesopotamian,Mesopotamian cuisine,Cuisine,jordan,,MesopotamianCuisine
+lebanese,Lebanese cuisine,Cuisine,jordan,,LebaneseCuisine
+palestinian,Palestinian cuisine,Cuisine,jordan,,PalestinianCuisine
+syrian,Syrian cuisine,Cuisine,jordan,,SyrianCuisine
+liloan,Liloan cuisine,Cuisine,philippines,,LiloanCuisine
+cebu,Cebu cuisine,Cuisine,philippines,,CebuCuisine
+pampanga,Pampanga cuisine,Cuisine,philippines,,PampangaCuisine
+eastern_visayas,Eastern Visayas cuisine,Cuisine,philippines,,EasternVisayasCuisine
+balinese,Balinese cuisine,Cuisine,indonesia,,BalineseCuisine
+arab_indonesian,Arab Indonesian cuisine,Cuisine,indonesia,,ArabIndonesianCuisine
+south_african,South African cuisine,Cuisine,indonesia,,SouthAfricanCuisine
+yoruba,Yoruba cuisine,Cuisine,nigeria,,YorubaCuisine
+israeli,Israeli cuisine,Cuisine,israel,,IsraeliCuisine
+venezuelan,Venezuelan cuisine,Cuisine,venezuela,,VenezuelanCuisine
+native_american,Native American cuisine,Cuisine,venezuela,,NativeAmericanCuisine
+assamese,Assamese cuisine,Cuisine,bangladesh,,AssameseCuisine
+manguindanaon,Manguindanaon cuisine,Cuisine,philippines,,ManguindanaonCuisine
+global,Global cuisine,Cuisine,afghanistan,,GlobalCuisine
+uzbek,Uzbek cuisine,Cuisine,afghanistan,,UzbekCuisine
+turkish,Turkish cuisine,Cuisine,afghanistan,,TurkishCuisine
+iran,Iran cuisine,Cuisine,afghanistan,,IranCuisine
+armenian,Armenian cuisine,Cuisine,afghanistan,,ArmenianCuisine
+azerbaijani,Azerbaijani cuisine,Cuisine,afghanistan,,AzerbaijaniCuisine
+russian,Russian cuisine,Cuisine,afghanistan,,RussianCuisine
+kazakhstan,Kazakhstan cuisine,Cuisine,afghanistan,,KazakhstanCuisine
+kyrgyzstan,Kyrgyzstan cuisine,Cuisine,afghanistan,,KyrgyzstanCuisine
+tajik,Tajik cuisine,Cuisine,afghanistan,,TajikCuisine
+turkmenistan,Turkmenistan cuisine,Cuisine,afghanistan,,TurkmenistanCuisine
+greek,Greek cuisine,Cuisine,afghanistan,,GreekCuisine
+bulgarian,Bulgarian cuisine,Cuisine,afghanistan,,BulgarianCuisine
+romanian,Romanian cuisine,Cuisine,afghanistan,,RomanianCuisine
+albanian,Albanian cuisine,Cuisine,afghanistan,,AlbanianCuisine
+bosnian_and_herzegovinian,Bosnian and Herzegovinian cuisine,Cuisine,afghanistan,,BosnianAndHerzegovinianCuisine
+north_macedonian,North Macedonian cuisine,Cuisine,afghanistan,,NorthMacedonianCuisine
+serbian,Serbian cuisine,Cuisine,afghanistan,,SerbianCuisine
+kosovar,Kosovar cuisine,Cuisine,afghanistan,,KosovarCuisine
+montenegrin,Montenegrin cuisine,Cuisine,afghanistan,,MontenegrinCuisine
+ethiopian,Ethiopian cuisine,Cuisine,afghanistan,,EthiopianCuisine
+eritrean,Eritrean cuisine,Cuisine,afghanistan,,EritreanCuisine
+tanzanian,Tanzanian cuisine,Cuisine,afghanistan,,TanzanianCuisine
+kenyan,Kenyan cuisine,Cuisine,afghanistan,,KenyanCuisine
+somalian,Somalian cuisine,Cuisine,afghanistan,,SomalianCuisine
+jordan,Jordan cuisine,Cuisine,afghanistan,,JordanCuisine
+jharkandhi,Jharkandhi cuisine,Cuisine,bangladesh,,JharkandhiCuisine
+bhojpuri,Bhojpuri cuisine,Cuisine,bangladesh,,BhojpuriCuisine
+central_asian,Central Asian cuisine,Cuisine,uzbekistan,,CentralAsianCuisine
+tamil,Tamil cuisine,Cuisine,india,,TamilCuisine
+caribbean,Caribbean cuisine,Cuisine,jamaica,,CaribbeanCuisine
+lombardian,Lombardian cuisine,Cuisine,italy,,LombardianCuisine
+piedmontese,Piedmontese cuisine,Cuisine,italy,,PiedmonteseCuisine
+venetian,Venetian cuisine,Cuisine,italy,,VenetianCuisine
+west_african,West African cuisine,Cuisine,benin,,WestAfricanCuisine
+beninese,Beninese cuisine,Cuisine,benin,,BenineseCuisine
+guinean,Guinean cuisine,Cuisine,benin,,GuineanCuisine
+ivorian,Ivorian cuisine,Cuisine,benin,,IvorianCuisine
+togolese,Togolese cuisine,Cuisine,benin,,TogoleseCuisine
+burkinabe,Burkinabe cuisine,Cuisine,benin,,BurkinabeCuisine
+middle_eastern,Middle Eastern cuisine,Cuisine,turkey,,MiddleEasternCuisine
+hokkien_chinese,Hokkien Chinese cuisine,Cuisine,philippines,,HokkienChineseCuisine
+mexican,Mexican cuisine,Cuisine,mexico,,MexicanCuisine
+polish,Polish cuisine,Cuisine,poland,,PolishCuisine
+okinawan,Okinawan cuisine,Cuisine,japan,,OkinawanCuisine
+mughal_empire,Mughal Empire cuisine,Cuisine,pakistan,,MughalEmpireCuisine
+manchu,Manchu cuisine,Cuisine,china,,ManchuCuisine
+teochew,Teochew cuisine,Cuisine,china,,TeochewCuisine
+german,German cuisine,Cuisine,netherlands,,GermanCuisine
+kashmiri,Kashmiri cuisine,Cuisine,pakistan,,KashmiriCuisine
+cagayan,Cagayan cuisine,Cuisine,philippines,,CagayanCuisine
+south_korean,South Korean cuisine,Cuisine,korea,,SouthKoreanCuisine
+tibetan,Tibetan cuisine,Cuisine,china,,TibetanCuisine
+sichuan,Sichuan cuisine,Cuisine,china,,SichuanCuisine
+shaanxi,Shaanxi cuisine,Cuisine,china,,ShaanxiCuisine
+macanese,Macanese cuisine,Cuisine,hong_kong,,MacaneseCuisine
+australian,Australian cuisine,Cuisine,china,,AustralianCuisine
+mongolian,Mongolian cuisine,Cuisine,mongolia,,MongolianCuisine
+kerala,Kerala cuisine,Cuisine,india,,KeralaCuisine
+peruvian,Peruvian cuisine,Cuisine,peru,,PeruvianCuisine
+canadian,Canadian cuisine,Cuisine,united_states,,CanadianCuisine
+new_zealand,New Zealand cuisine,Cuisine,united_states,,NewZealandCuisine
+mesoamerican,Mesoamerican cuisine,Cuisine,mexico,,MesoamericanCuisine
+austrian,Austrian cuisine,Cuisine,austria,,AustrianCuisine
+jewish,Jewish cuisine,Cuisine,austria,,JewishCuisine
+ukrainian,Ukrainian cuisine,Cuisine,ukraine,,UkrainianCuisine
+buryatian,Buryatian cuisine,Cuisine,mongolia,,BuryatianCuisine
+slavic,Slavic cuisine,Cuisine,russia,,SlavicCuisine
+bavarian,Bavarian cuisine,Cuisine,austria,,BavarianCuisine
+hungarian,Hungarian cuisine,Cuisine,austria,,HungarianCuisine
+slovenian,Slovenian cuisine,Cuisine,austria,,SlovenianCuisine
+czech,Czech cuisine,Cuisine,austria,,CzechCuisine
+croatian,Croatian cuisine,Cuisine,austria,,CroatianCuisine
+english,English cuisine,Cuisine,england,,EnglishCuisine
+welsh,Welsh cuisine,Cuisine,united_kingdom,,WelshCuisine
+eastern_european,Eastern European cuisine,Cuisine,russia,,EasternEuropeanCuisine
+northern_european,Northern European cuisine,Cuisine,russia,,NorthernEuropeanCuisine
+scottish,Scottish cuisine,Cuisine,scotland,,ScottishCuisine
+benin,Benin cuisine,Cuisine,nigeria,,BeninCuisine
+brazilian,Brazilian cuisine,Cuisine,nigeria,,BrazilianCuisine
+tunisian,Tunisian cuisine,Cuisine,algeria,,TunisianCuisine
+libyan,Libyan cuisine,Cuisine,algeria,,LibyanCuisine
+algerian,Algerian cuisine,Cuisine,algeria,,AlgerianCuisine
+mauritanian,Mauritanian cuisine,Cuisine,algeria,,MauritanianCuisine
+moroccan,Moroccan cuisine,Cuisine,algeria,,MoroccanCuisine

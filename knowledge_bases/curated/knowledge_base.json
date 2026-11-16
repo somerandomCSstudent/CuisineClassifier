@@ -9,7 +9,7 @@
     "dish_count": 4,
     "ingredient_count": 13,
     "cuisine_count": 5,
-    "triple_count": 163
+    "triple_count": 216
   },
   "files": {
     "ontology": "cuisine.rdf",

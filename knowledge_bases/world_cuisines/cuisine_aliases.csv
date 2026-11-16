@@ -1,0 +1,622 @@
+alias_id,cuisine_id,alias,alias_type,language,match_priority,verified
+cuisine_alias_1,acadian,Acadian,imported,en,80,false
+cuisine_alias_2,acadian,Acadian cuisine,imported,en,80,false
+cuisine_alias_3,acadian,Acadian food,imported,en,80,false
+cuisine_alias_4,afghan,Afghan,imported,en,80,false
+cuisine_alias_5,afghan,Afghan cuisine,imported,en,80,false
+cuisine_alias_6,afghan,Afghan food,imported,en,80,false
+cuisine_alias_7,african,African,imported,en,80,false
+cuisine_alias_8,african,African cuisine,imported,en,80,false
+cuisine_alias_9,african,African food,imported,en,80,false
+cuisine_alias_10,albanian,Albanian,imported,en,80,false
+cuisine_alias_11,albanian,Albanian cuisine,imported,en,80,false
+cuisine_alias_12,albanian,Albanian food,imported,en,80,false
+cuisine_alias_13,algerian,Algerian,imported,en,80,false
+cuisine_alias_14,algerian,Algerian cuisine,imported,en,80,false
+cuisine_alias_15,algerian,Algerian food,imported,en,80,false
+cuisine_alias_16,american,American,imported,en,80,false
+cuisine_alias_17,american,American cuisine,imported,en,80,false
+cuisine_alias_18,american,American food,imported,en,80,false
+cuisine_alias_19,aostan,Aostan,imported,en,80,false
+cuisine_alias_20,aostan,Aostan cuisine,imported,en,80,false
+cuisine_alias_21,aostan,Aostan food,imported,en,80,false
+cuisine_alias_22,arab_indonesian,Arab Indonesian,imported,en,80,false
+cuisine_alias_23,arab_indonesian,Arab Indonesian cuisine,imported,en,80,false
+cuisine_alias_24,arab_indonesian,Arab Indonesian food,imported,en,80,false
+cuisine_alias_25,arabian_peninsula,Arabian Peninsula,imported,en,80,false
+cuisine_alias_26,arabian_peninsula,Arabian Peninsula cuisine,imported,en,80,false
+cuisine_alias_27,arabian_peninsula,Arabian Peninsula food,imported,en,80,false
+cuisine_alias_28,armenian,Armenian,imported,en,80,false
+cuisine_alias_29,armenian,Armenian cuisine,imported,en,80,false
+cuisine_alias_30,armenian,Armenian food,imported,en,80,false
+cuisine_alias_31,assamese,Assamese,imported,en,80,false
+cuisine_alias_32,assamese,Assamese cuisine,imported,en,80,false
+cuisine_alias_33,assamese,Assamese food,imported,en,80,false
+cuisine_alias_34,australian,Australian,imported,en,80,false
+cuisine_alias_35,australian,Australian cuisine,imported,en,80,false
+cuisine_alias_36,australian,Australian food,imported,en,80,false
+cuisine_alias_37,austrian,Austrian,imported,en,80,false
+cuisine_alias_38,austrian,Austrian cuisine,imported,en,80,false
+cuisine_alias_39,austrian,Austrian food,imported,en,80,false
+cuisine_alias_40,austronesian,Austronesian,imported,en,80,false
+cuisine_alias_41,austronesian,Austronesian cuisine,imported,en,80,false
+cuisine_alias_42,austronesian,Austronesian food,imported,en,80,false
+cuisine_alias_43,azerbaijani,Azerbaijani,imported,en,80,false
+cuisine_alias_44,azerbaijani,Azerbaijani cuisine,imported,en,80,false
+cuisine_alias_45,azerbaijani,Azerbaijani food,imported,en,80,false
+cuisine_alias_46,balinese,Balinese,imported,en,80,false
+cuisine_alias_47,balinese,Balinese cuisine,imported,en,80,false
+cuisine_alias_48,balinese,Balinese food,imported,en,80,false
+cuisine_alias_49,bangladeshi,Bangladeshi,imported,en,80,false
+cuisine_alias_50,bangladeshi,Bangladeshi cuisine,imported,en,80,false
+cuisine_alias_51,bangladeshi,Bangladeshi food,imported,en,80,false
+cuisine_alias_52,bavarian,Bavarian,imported,en,80,false
+cuisine_alias_53,bavarian,Bavarian cuisine,imported,en,80,false
+cuisine_alias_54,bavarian,Bavarian food,imported,en,80,false
+cuisine_alias_55,belgian,Belgian,imported,en,80,false
+cuisine_alias_56,belgian,Belgian cuisine,imported,en,80,false
+cuisine_alias_57,belgian,Belgian food,imported,en,80,false
+cuisine_alias_58,bengali,Bengali,imported,en,80,false
+cuisine_alias_59,bengali,Bengali cuisine,imported,en,80,false
+cuisine_alias_60,bengali,Bengali food,imported,en,80,false
+cuisine_alias_61,benin,Benin,imported,en,80,false
+cuisine_alias_62,benin,Benin cuisine,imported,en,80,false
+cuisine_alias_63,benin,Benin food,imported,en,80,false
+cuisine_alias_64,beninese,Beninese,imported,en,80,false
+cuisine_alias_65,beninese,Beninese cuisine,imported,en,80,false
+cuisine_alias_66,beninese,Beninese food,imported,en,80,false
+cuisine_alias_67,bhojpuri,Bhojpuri,imported,en,80,false
+cuisine_alias_68,bhojpuri,Bhojpuri cuisine,imported,en,80,false
+cuisine_alias_69,bhojpuri,Bhojpuri food,imported,en,80,false
+cuisine_alias_70,bhutanese,Bhutanese,imported,en,80,false
+cuisine_alias_71,bhutanese,Bhutanese cuisine,imported,en,80,false
+cuisine_alias_72,bhutanese,Bhutanese food,imported,en,80,false
+cuisine_alias_73,bihari,Bihari,imported,en,80,false
+cuisine_alias_74,bihari,Bihari cuisine,imported,en,80,false
+cuisine_alias_75,bihari,Bihari food,imported,en,80,false
+cuisine_alias_76,bosnian_and_herzegovinian,Bosnian and Herzegovinian,imported,en,80,false
+cuisine_alias_77,bosnian_and_herzegovinian,Bosnian and Herzegovinian cuisine,imported,en,80,false
+cuisine_alias_78,bosnian_and_herzegovinian,Bosnian and Herzegovinian food,imported,en,80,false
+cuisine_alias_79,brazilian,Brazilian,imported,en,80,false
+cuisine_alias_80,brazilian,Brazilian cuisine,imported,en,80,false
+cuisine_alias_81,brazilian,Brazilian food,imported,en,80,false
+cuisine_alias_82,british,British,imported,en,80,false
+cuisine_alias_83,british,British cuisine,imported,en,80,false
+cuisine_alias_84,british,British food,imported,en,80,false
+cuisine_alias_85,bruneian,Bruneian,imported,en,80,false
+cuisine_alias_86,bruneian,Bruneian cuisine,imported,en,80,false
+cuisine_alias_87,bruneian,Bruneian food,imported,en,80,false
+cuisine_alias_88,bulgarian,Bulgarian,imported,en,80,false
+cuisine_alias_89,bulgarian,Bulgarian cuisine,imported,en,80,false
+cuisine_alias_90,bulgarian,Bulgarian food,imported,en,80,false
+cuisine_alias_91,burkinabe,Burkinabe,imported,en,80,false
+cuisine_alias_92,burkinabe,Burkinabe cuisine,imported,en,80,false
+cuisine_alias_93,burkinabe,Burkinabe food,imported,en,80,false
+cuisine_alias_94,burmese,Burmese,imported,en,80,false
+cuisine_alias_95,burmese,Burmese cuisine,imported,en,80,false
+cuisine_alias_96,burmese,Burmese food,imported,en,80,false
+cuisine_alias_97,buryatian,Buryatian,imported,en,80,false
+cuisine_alias_98,buryatian,Buryatian cuisine,imported,en,80,false
+cuisine_alias_99,buryatian,Buryatian food,imported,en,80,false
+cuisine_alias_100,cagayan,Cagayan,imported,en,80,false
+cuisine_alias_101,cagayan,Cagayan cuisine,imported,en,80,false
+cuisine_alias_102,cagayan,Cagayan food,imported,en,80,false
+cuisine_alias_103,cajun,Cajun,imported,en,80,false
+cuisine_alias_104,cajun,Cajun cuisine,imported,en,80,false
+cuisine_alias_105,cajun,Cajun food,imported,en,80,false
+cuisine_alias_106,cambodian,Cambodian,imported,en,80,false
+cuisine_alias_107,cambodian,Cambodian cuisine,imported,en,80,false
+cuisine_alias_108,cambodian,Cambodian food,imported,en,80,false
+cuisine_alias_109,canadian,Canadian,imported,en,80,false
+cuisine_alias_110,canadian,Canadian cuisine,imported,en,80,false
+cuisine_alias_111,canadian,Canadian food,imported,en,80,false
+cuisine_alias_112,canarese,Canarese,imported,en,80,false
+cuisine_alias_113,canarese,Canarese cuisine,imported,en,80,false
+cuisine_alias_114,canarese,Canarese food,imported,en,80,false
+cuisine_alias_115,cantonese,Cantonese,imported,en,80,false
+cuisine_alias_116,cantonese,Cantonese cuisine,imported,en,80,false
+cuisine_alias_117,cantonese,Cantonese food,imported,en,80,false
+cuisine_alias_118,caribbean,Caribbean,imported,en,80,false
+cuisine_alias_119,caribbean,Caribbean cuisine,imported,en,80,false
+cuisine_alias_120,caribbean,Caribbean food,imported,en,80,false
+cuisine_alias_121,catalan,Catalan,imported,en,80,false
+cuisine_alias_122,catalan,Catalan cuisine,imported,en,80,false
+cuisine_alias_123,catalan,Catalan food,imported,en,80,false
+cuisine_alias_124,cebu,Cebu,imported,en,80,false
+cuisine_alias_125,cebu,Cebu cuisine,imported,en,80,false
+cuisine_alias_126,cebu,Cebu food,imported,en,80,false
+cuisine_alias_127,central_american,Central American,imported,en,80,false
+cuisine_alias_128,central_american,Central American cuisine,imported,en,80,false
+cuisine_alias_129,central_american,Central American food,imported,en,80,false
+cuisine_alias_130,central_asian,Central Asian,imported,en,80,false
+cuisine_alias_131,central_asian,Central Asian cuisine,imported,en,80,false
+cuisine_alias_132,central_asian,Central Asian food,imported,en,80,false
+cuisine_alias_133,chinese,Chinese,imported,en,80,false
+cuisine_alias_134,chinese,Chinese cuisine,imported,en,80,false
+cuisine_alias_135,chinese,Chinese food,imported,en,80,false
+cuisine_alias_136,chinese_peruvian,Chinese Peruvian,imported,en,80,false
+cuisine_alias_137,chinese_peruvian,Chinese Peruvian cuisine,imported,en,80,false
+cuisine_alias_138,chinese_peruvian,Chinese Peruvian food,imported,en,80,false
+cuisine_alias_139,colombian,Colombian,imported,en,80,false
+cuisine_alias_140,colombian,Colombian cuisine,imported,en,80,false
+cuisine_alias_141,colombian,Colombian food,imported,en,80,false
+cuisine_alias_142,costa_rican,Costa Rican,imported,en,80,false
+cuisine_alias_143,costa_rican,Costa Rican cuisine,imported,en,80,false
+cuisine_alias_144,costa_rican,Costa Rican food,imported,en,80,false
+cuisine_alias_145,croatian,Croatian,imported,en,80,false
+cuisine_alias_146,croatian,Croatian cuisine,imported,en,80,false
+cuisine_alias_147,croatian,Croatian food,imported,en,80,false
+cuisine_alias_148,czech,Czech,imported,en,80,false
+cuisine_alias_149,czech,Czech cuisine,imported,en,80,false
+cuisine_alias_150,czech,Czech food,imported,en,80,false
+cuisine_alias_151,dominican,Dominican,imported,en,80,false
+cuisine_alias_152,dominican,Dominican cuisine,imported,en,80,false
+cuisine_alias_153,dominican,Dominican food,imported,en,80,false
+cuisine_alias_154,dutch,Dutch,imported,en,80,false
+cuisine_alias_155,dutch,Dutch cuisine,imported,en,80,false
+cuisine_alias_156,dutch,Dutch food,imported,en,80,false
+cuisine_alias_157,east_asian,East Asian,imported,en,80,false
+cuisine_alias_158,east_asian,East Asian cuisine,imported,en,80,false
+cuisine_alias_159,east_asian,East Asian food,imported,en,80,false
+cuisine_alias_160,eastern_european,Eastern European,imported,en,80,false
+cuisine_alias_161,eastern_european,Eastern European cuisine,imported,en,80,false
+cuisine_alias_162,eastern_european,Eastern European food,imported,en,80,false
+cuisine_alias_163,eastern_visayas,Eastern Visayas,imported,en,80,false
+cuisine_alias_164,eastern_visayas,Eastern Visayas cuisine,imported,en,80,false
+cuisine_alias_165,eastern_visayas,Eastern Visayas food,imported,en,80,false
+cuisine_alias_166,egyptian,Egyptian,imported,en,80,false
+cuisine_alias_167,egyptian,Egyptian cuisine,imported,en,80,false
+cuisine_alias_168,egyptian,Egyptian food,imported,en,80,false
+cuisine_alias_169,english,English,imported,en,80,false
+cuisine_alias_170,english,English cuisine,imported,en,80,false
+cuisine_alias_171,english,English food,imported,en,80,false
+cuisine_alias_172,eritrean,Eritrean,imported,en,80,false
+cuisine_alias_173,eritrean,Eritrean cuisine,imported,en,80,false
+cuisine_alias_174,eritrean,Eritrean food,imported,en,80,false
+cuisine_alias_175,ethiopian,Ethiopian,imported,en,80,false
+cuisine_alias_176,ethiopian,Ethiopian cuisine,imported,en,80,false
+cuisine_alias_177,ethiopian,Ethiopian food,imported,en,80,false
+cuisine_alias_178,fijian,Fijian,imported,en,80,false
+cuisine_alias_179,fijian,Fijian cuisine,imported,en,80,false
+cuisine_alias_180,fijian,Fijian food,imported,en,80,false
+cuisine_alias_181,filipino,Filipino,imported,en,80,false
+cuisine_alias_182,filipino,Filipino cuisine,imported,en,80,false
+cuisine_alias_183,filipino,Filipino food,imported,en,80,false
+cuisine_alias_184,french,French,imported,en,80,false
+cuisine_alias_185,french,French cuisine,imported,en,80,false
+cuisine_alias_186,french,French food,imported,en,80,false
+cuisine_alias_187,georgian,Georgian,imported,en,80,false
+cuisine_alias_188,georgian,Georgian cuisine,imported,en,80,false
+cuisine_alias_189,georgian,Georgian food,imported,en,80,false
+cuisine_alias_190,german,German,imported,en,80,false
+cuisine_alias_191,german,German cuisine,imported,en,80,false
+cuisine_alias_192,german,German food,imported,en,80,false
+cuisine_alias_193,ghanaian,Ghanaian,imported,en,80,false
+cuisine_alias_194,ghanaian,Ghanaian cuisine,imported,en,80,false
+cuisine_alias_195,ghanaian,Ghanaian food,imported,en,80,false
+cuisine_alias_196,global,Global,imported,en,80,false
+cuisine_alias_197,global,Global cuisine,imported,en,80,false
+cuisine_alias_198,global,Global food,imported,en,80,false
+cuisine_alias_199,greek,Greek,imported,en,80,false
+cuisine_alias_200,greek,Greek cuisine,imported,en,80,false
+cuisine_alias_201,greek,Greek food,imported,en,80,false
+cuisine_alias_202,guinean,Guinean,imported,en,80,false
+cuisine_alias_203,guinean,Guinean cuisine,imported,en,80,false
+cuisine_alias_204,guinean,Guinean food,imported,en,80,false
+cuisine_alias_205,gujarati,Gujarati,imported,en,80,false
+cuisine_alias_206,gujarati,Gujarati cuisine,imported,en,80,false
+cuisine_alias_207,gujarati,Gujarati food,imported,en,80,false
+cuisine_alias_208,guyanese,Guyanese,imported,en,80,false
+cuisine_alias_209,guyanese,Guyanese cuisine,imported,en,80,false
+cuisine_alias_210,guyanese,Guyanese food,imported,en,80,false
+cuisine_alias_211,hainanese,Hainanese,imported,en,80,false
+cuisine_alias_212,hainanese,Hainanese cuisine,imported,en,80,false
+cuisine_alias_213,hainanese,Hainanese food,imported,en,80,false
+cuisine_alias_214,hawaiian,Hawaiian,imported,en,80,false
+cuisine_alias_215,hawaiian,Hawaiian cuisine,imported,en,80,false
+cuisine_alias_216,hawaiian,Hawaiian food,imported,en,80,false
+cuisine_alias_217,hokkien_chinese,Hokkien Chinese,imported,en,80,false
+cuisine_alias_218,hokkien_chinese,Hokkien Chinese cuisine,imported,en,80,false
+cuisine_alias_219,hokkien_chinese,Hokkien Chinese food,imported,en,80,false
+cuisine_alias_220,hong_kong,Hong Kong,imported,en,80,false
+cuisine_alias_221,hong_kong,Hong Kong cuisine,imported,en,80,false
+cuisine_alias_222,hong_kong,Hong Kong food,imported,en,80,false
+cuisine_alias_223,hubei,Hubei,imported,en,80,false
+cuisine_alias_224,hubei,Hubei cuisine,imported,en,80,false
+cuisine_alias_225,hubei,Hubei food,imported,en,80,false
+cuisine_alias_226,hungarian,Hungarian,imported,en,80,false
+cuisine_alias_227,hungarian,Hungarian cuisine,imported,en,80,false
+cuisine_alias_228,hungarian,Hungarian food,imported,en,80,false
+cuisine_alias_229,indian,Indian,imported,en,80,false
+cuisine_alias_230,indian,Indian cuisine,imported,en,80,false
+cuisine_alias_231,indian,Indian food,imported,en,80,false
+cuisine_alias_232,indian_subcontinent,Indian Subcontinent,imported,en,80,false
+cuisine_alias_233,indian_subcontinent,Indian Subcontinent cuisine,imported,en,80,false
+cuisine_alias_234,indian_subcontinent,Indian Subcontinent food,imported,en,80,false
+cuisine_alias_235,indonesian,Indonesian,imported,en,80,false
+cuisine_alias_236,indonesian,Indonesian cuisine,imported,en,80,false
+cuisine_alias_237,indonesian,Indonesian food,imported,en,80,false
+cuisine_alias_238,iran,Iran,imported,en,80,false
+cuisine_alias_239,iran,Iran cuisine,imported,en,80,false
+cuisine_alias_240,iran,Iran food,imported,en,80,false
+cuisine_alias_241,iranian,Iranian,imported,en,80,false
+cuisine_alias_242,iranian,Iranian cuisine,imported,en,80,false
+cuisine_alias_243,iranian,Iranian food,imported,en,80,false
+cuisine_alias_244,iraqi,Iraqi,imported,en,80,false
+cuisine_alias_245,iraqi,Iraqi cuisine,imported,en,80,false
+cuisine_alias_246,iraqi,Iraqi food,imported,en,80,false
+cuisine_alias_247,israeli,Israeli,imported,en,80,false
+cuisine_alias_248,israeli,Israeli cuisine,imported,en,80,false
+cuisine_alias_249,israeli,Israeli food,imported,en,80,false
+cuisine_alias_250,italian,Italian,imported,en,80,false
+cuisine_alias_251,italian,Italian cuisine,imported,en,80,false
+cuisine_alias_252,italian,Italian food,imported,en,80,false
+cuisine_alias_253,ivorian,Ivorian,imported,en,80,false
+cuisine_alias_254,ivorian,Ivorian cuisine,imported,en,80,false
+cuisine_alias_255,ivorian,Ivorian food,imported,en,80,false
+cuisine_alias_256,jamaican,Jamaican,imported,en,80,false
+cuisine_alias_257,jamaican,Jamaican cuisine,imported,en,80,false
+cuisine_alias_258,jamaican,Jamaican food,imported,en,80,false
+cuisine_alias_259,japanese,Japanese,imported,en,80,false
+cuisine_alias_260,japanese,Japanese cuisine,imported,en,80,false
+cuisine_alias_261,japanese,Japanese food,imported,en,80,false
+cuisine_alias_262,javanese,Javanese,imported,en,80,false
+cuisine_alias_263,javanese,Javanese cuisine,imported,en,80,false
+cuisine_alias_264,javanese,Javanese food,imported,en,80,false
+cuisine_alias_265,jewish,Jewish,imported,en,80,false
+cuisine_alias_266,jewish,Jewish cuisine,imported,en,80,false
+cuisine_alias_267,jewish,Jewish food,imported,en,80,false
+cuisine_alias_268,jharkandhi,Jharkandhi,imported,en,80,false
+cuisine_alias_269,jharkandhi,Jharkandhi cuisine,imported,en,80,false
+cuisine_alias_270,jharkandhi,Jharkandhi food,imported,en,80,false
+cuisine_alias_271,jordan,Jordan,imported,en,80,false
+cuisine_alias_272,jordan,Jordan cuisine,imported,en,80,false
+cuisine_alias_273,jordan,Jordan food,imported,en,80,false
+cuisine_alias_274,jordanian,Jordanian,imported,en,80,false
+cuisine_alias_275,jordanian,Jordanian cuisine,imported,en,80,false
+cuisine_alias_276,jordanian,Jordanian food,imported,en,80,false
+cuisine_alias_277,karnataka,Karnataka,imported,en,80,false
+cuisine_alias_278,karnataka,Karnataka cuisine,imported,en,80,false
+cuisine_alias_279,karnataka,Karnataka food,imported,en,80,false
+cuisine_alias_280,kashmiri,Kashmiri,imported,en,80,false
+cuisine_alias_281,kashmiri,Kashmiri cuisine,imported,en,80,false
+cuisine_alias_282,kashmiri,Kashmiri food,imported,en,80,false
+cuisine_alias_283,kazakhstan,Kazakhstan,imported,en,80,false
+cuisine_alias_284,kazakhstan,Kazakhstan cuisine,imported,en,80,false
+cuisine_alias_285,kazakhstan,Kazakhstan food,imported,en,80,false
+cuisine_alias_286,kenyan,Kenyan,imported,en,80,false
+cuisine_alias_287,kenyan,Kenyan cuisine,imported,en,80,false
+cuisine_alias_288,kenyan,Kenyan food,imported,en,80,false
+cuisine_alias_289,kerala,Kerala,imported,en,80,false
+cuisine_alias_290,kerala,Kerala cuisine,imported,en,80,false
+cuisine_alias_291,kerala,Kerala food,imported,en,80,false
+cuisine_alias_292,korean,Korean,imported,en,80,false
+cuisine_alias_293,korean,Korean cuisine,imported,en,80,false
+cuisine_alias_294,korean,Korean food,imported,en,80,false
+cuisine_alias_295,kosovar,Kosovar,imported,en,80,false
+cuisine_alias_296,kosovar,Kosovar cuisine,imported,en,80,false
+cuisine_alias_297,kosovar,Kosovar food,imported,en,80,false
+cuisine_alias_298,kyrgyzstan,Kyrgyzstan,imported,en,80,false
+cuisine_alias_299,kyrgyzstan,Kyrgyzstan cuisine,imported,en,80,false
+cuisine_alias_300,kyrgyzstan,Kyrgyzstan food,imported,en,80,false
+cuisine_alias_301,laguna,Laguna,imported,en,80,false
+cuisine_alias_302,laguna,Laguna cuisine,imported,en,80,false
+cuisine_alias_303,laguna,Laguna food,imported,en,80,false
+cuisine_alias_304,lao,Lao,imported,en,80,false
+cuisine_alias_305,lao,Lao cuisine,imported,en,80,false
+cuisine_alias_306,lao,Lao food,imported,en,80,false
+cuisine_alias_307,latin_american,Latin American,imported,en,80,false
+cuisine_alias_308,latin_american,Latin American cuisine,imported,en,80,false
+cuisine_alias_309,latin_american,Latin American food,imported,en,80,false
+cuisine_alias_310,lebanese,Lebanese,imported,en,80,false
+cuisine_alias_311,lebanese,Lebanese cuisine,imported,en,80,false
+cuisine_alias_312,lebanese,Lebanese food,imported,en,80,false
+cuisine_alias_313,levantine,Levantine,imported,en,80,false
+cuisine_alias_314,levantine,Levantine cuisine,imported,en,80,false
+cuisine_alias_315,levantine,Levantine food,imported,en,80,false
+cuisine_alias_316,libyan,Libyan,imported,en,80,false
+cuisine_alias_317,libyan,Libyan cuisine,imported,en,80,false
+cuisine_alias_318,libyan,Libyan food,imported,en,80,false
+cuisine_alias_319,liloan,Liloan,imported,en,80,false
+cuisine_alias_320,liloan,Liloan cuisine,imported,en,80,false
+cuisine_alias_321,liloan,Liloan food,imported,en,80,false
+cuisine_alias_322,lombardian,Lombardian,imported,en,80,false
+cuisine_alias_323,lombardian,Lombardian cuisine,imported,en,80,false
+cuisine_alias_324,lombardian,Lombardian food,imported,en,80,false
+cuisine_alias_325,louisiana,Louisiana,imported,en,80,false
+cuisine_alias_326,louisiana,Louisiana cuisine,imported,en,80,false
+cuisine_alias_327,louisiana,Louisiana food,imported,en,80,false
+cuisine_alias_328,louisiana_creole,Louisiana Creole,imported,en,80,false
+cuisine_alias_329,louisiana_creole,Louisiana Creole cuisine,imported,en,80,false
+cuisine_alias_330,louisiana_creole,Louisiana Creole food,imported,en,80,false
+cuisine_alias_331,luxembourgish,Luxembourgish,imported,en,80,false
+cuisine_alias_332,luxembourgish,Luxembourgish cuisine,imported,en,80,false
+cuisine_alias_333,luxembourgish,Luxembourgish food,imported,en,80,false
+cuisine_alias_334,luzon,Luzon,imported,en,80,false
+cuisine_alias_335,luzon,Luzon cuisine,imported,en,80,false
+cuisine_alias_336,luzon,Luzon food,imported,en,80,false
+cuisine_alias_337,macanese,Macanese,imported,en,80,false
+cuisine_alias_338,macanese,Macanese cuisine,imported,en,80,false
+cuisine_alias_339,macanese,Macanese food,imported,en,80,false
+cuisine_alias_340,maharashtrian,Maharashtrian,imported,en,80,false
+cuisine_alias_341,maharashtrian,Maharashtrian cuisine,imported,en,80,false
+cuisine_alias_342,maharashtrian,Maharashtrian food,imported,en,80,false
+cuisine_alias_343,malaysian,Malaysian,imported,en,80,false
+cuisine_alias_344,malaysian,Malaysian cuisine,imported,en,80,false
+cuisine_alias_345,malaysian,Malaysian food,imported,en,80,false
+cuisine_alias_346,manchu,Manchu,imported,en,80,false
+cuisine_alias_347,manchu,Manchu cuisine,imported,en,80,false
+cuisine_alias_348,manchu,Manchu food,imported,en,80,false
+cuisine_alias_349,manguindanaon,Manguindanaon,imported,en,80,false
+cuisine_alias_350,manguindanaon,Manguindanaon cuisine,imported,en,80,false
+cuisine_alias_351,manguindanaon,Manguindanaon food,imported,en,80,false
+cuisine_alias_352,mauritanian,Mauritanian,imported,en,80,false
+cuisine_alias_353,mauritanian,Mauritanian cuisine,imported,en,80,false
+cuisine_alias_354,mauritanian,Mauritanian food,imported,en,80,false
+cuisine_alias_355,mauritian,Mauritian,imported,en,80,false
+cuisine_alias_356,mauritian,Mauritian cuisine,imported,en,80,false
+cuisine_alias_357,mauritian,Mauritian food,imported,en,80,false
+cuisine_alias_358,mauritius,Mauritius,imported,en,80,false
+cuisine_alias_359,mauritius,Mauritius cuisine,imported,en,80,false
+cuisine_alias_360,mauritius,Mauritius food,imported,en,80,false
+cuisine_alias_361,mesoamerican,Mesoamerican,imported,en,80,false
+cuisine_alias_362,mesoamerican,Mesoamerican cuisine,imported,en,80,false
+cuisine_alias_363,mesoamerican,Mesoamerican food,imported,en,80,false
+cuisine_alias_364,mesopotamian,Mesopotamian,imported,en,80,false
+cuisine_alias_365,mesopotamian,Mesopotamian cuisine,imported,en,80,false
+cuisine_alias_366,mesopotamian,Mesopotamian food,imported,en,80,false
+cuisine_alias_367,mexican,Mexican,imported,en,80,false
+cuisine_alias_368,mexican,Mexican cuisine,imported,en,80,false
+cuisine_alias_369,mexican,Mexican food,imported,en,80,false
+cuisine_alias_370,middle_eastern,Middle Eastern,imported,en,80,false
+cuisine_alias_371,middle_eastern,Middle Eastern cuisine,imported,en,80,false
+cuisine_alias_372,middle_eastern,Middle Eastern food,imported,en,80,false
+cuisine_alias_373,minahasan,Minahasan,imported,en,80,false
+cuisine_alias_374,minahasan,Minahasan cuisine,imported,en,80,false
+cuisine_alias_375,minahasan,Minahasan food,imported,en,80,false
+cuisine_alias_376,mindanao,Mindanao,imported,en,80,false
+cuisine_alias_377,mindanao,Mindanao cuisine,imported,en,80,false
+cuisine_alias_378,mindanao,Mindanao food,imported,en,80,false
+cuisine_alias_379,mongolian,Mongolian,imported,en,80,false
+cuisine_alias_380,mongolian,Mongolian cuisine,imported,en,80,false
+cuisine_alias_381,mongolian,Mongolian food,imported,en,80,false
+cuisine_alias_382,montenegrin,Montenegrin,imported,en,80,false
+cuisine_alias_383,montenegrin,Montenegrin cuisine,imported,en,80,false
+cuisine_alias_384,montenegrin,Montenegrin food,imported,en,80,false
+cuisine_alias_385,moroccan,Moroccan,imported,en,80,false
+cuisine_alias_386,moroccan,Moroccan cuisine,imported,en,80,false
+cuisine_alias_387,moroccan,Moroccan food,imported,en,80,false
+cuisine_alias_388,mughal_empire,Mughal Empire,imported,en,80,false
+cuisine_alias_389,mughal_empire,Mughal Empire cuisine,imported,en,80,false
+cuisine_alias_390,mughal_empire,Mughal Empire food,imported,en,80,false
+cuisine_alias_391,mysuru,Mysuru,imported,en,80,false
+cuisine_alias_392,mysuru,Mysuru cuisine,imported,en,80,false
+cuisine_alias_393,mysuru,Mysuru food,imported,en,80,false
+cuisine_alias_394,native_american,Native American,imported,en,80,false
+cuisine_alias_395,native_american,Native American cuisine,imported,en,80,false
+cuisine_alias_396,native_american,Native American food,imported,en,80,false
+cuisine_alias_397,nepalese,Nepalese,imported,en,80,false
+cuisine_alias_398,nepalese,Nepalese cuisine,imported,en,80,false
+cuisine_alias_399,nepalese,Nepalese food,imported,en,80,false
+cuisine_alias_400,new_zealand,New Zealand,imported,en,80,false
+cuisine_alias_401,new_zealand,New Zealand cuisine,imported,en,80,false
+cuisine_alias_402,new_zealand,New Zealand food,imported,en,80,false
+cuisine_alias_403,nicaraguan,Nicaraguan,imported,en,80,false
+cuisine_alias_404,nicaraguan,Nicaraguan cuisine,imported,en,80,false
+cuisine_alias_405,nicaraguan,Nicaraguan food,imported,en,80,false
+cuisine_alias_406,nigerian,Nigerian,imported,en,80,false
+cuisine_alias_407,nigerian,Nigerian cuisine,imported,en,80,false
+cuisine_alias_408,nigerian,Nigerian food,imported,en,80,false
+cuisine_alias_409,north_macedonian,North Macedonian,imported,en,80,false
+cuisine_alias_410,north_macedonian,North Macedonian cuisine,imported,en,80,false
+cuisine_alias_411,north_macedonian,North Macedonian food,imported,en,80,false
+cuisine_alias_412,northern_afghanistan,Northern Afghanistan,imported,en,80,false
+cuisine_alias_413,northern_afghanistan,Northern Afghanistan cuisine,imported,en,80,false
+cuisine_alias_414,northern_afghanistan,Northern Afghanistan food,imported,en,80,false
+cuisine_alias_415,northern_european,Northern European,imported,en,80,false
+cuisine_alias_416,northern_european,Northern European cuisine,imported,en,80,false
+cuisine_alias_417,northern_european,Northern European food,imported,en,80,false
+cuisine_alias_418,odia,Odia,imported,en,80,false
+cuisine_alias_419,odia,Odia cuisine,imported,en,80,false
+cuisine_alias_420,odia,Odia food,imported,en,80,false
+cuisine_alias_421,okinawan,Okinawan,imported,en,80,false
+cuisine_alias_422,okinawan,Okinawan cuisine,imported,en,80,false
+cuisine_alias_423,okinawan,Okinawan food,imported,en,80,false
+cuisine_alias_424,ottoman,Ottoman,imported,en,80,false
+cuisine_alias_425,ottoman,Ottoman cuisine,imported,en,80,false
+cuisine_alias_426,ottoman,Ottoman food,imported,en,80,false
+cuisine_alias_427,pakistani,Pakistani,imported,en,80,false
+cuisine_alias_428,pakistani,Pakistani cuisine,imported,en,80,false
+cuisine_alias_429,pakistani,Pakistani food,imported,en,80,false
+cuisine_alias_430,palestinian,Palestinian,imported,en,80,false
+cuisine_alias_431,palestinian,Palestinian cuisine,imported,en,80,false
+cuisine_alias_432,palestinian,Palestinian food,imported,en,80,false
+cuisine_alias_433,pampanga,Pampanga,imported,en,80,false
+cuisine_alias_434,pampanga,Pampanga cuisine,imported,en,80,false
+cuisine_alias_435,pampanga,Pampanga food,imported,en,80,false
+cuisine_alias_436,parsi,Parsi,imported,en,80,false
+cuisine_alias_437,parsi,Parsi cuisine,imported,en,80,false
+cuisine_alias_438,parsi,Parsi food,imported,en,80,false
+cuisine_alias_439,pashtun,Pashtun,imported,en,80,false
+cuisine_alias_440,pashtun,Pashtun cuisine,imported,en,80,false
+cuisine_alias_441,pashtun,Pashtun food,imported,en,80,false
+cuisine_alias_442,persian,Persian,imported,en,80,false
+cuisine_alias_443,persian,Persian cuisine,imported,en,80,false
+cuisine_alias_444,persian,Persian food,imported,en,80,false
+cuisine_alias_445,peruvian,Peruvian,imported,en,80,false
+cuisine_alias_446,peruvian,Peruvian cuisine,imported,en,80,false
+cuisine_alias_447,peruvian,Peruvian food,imported,en,80,false
+cuisine_alias_448,piedmontese,Piedmontese,imported,en,80,false
+cuisine_alias_449,piedmontese,Piedmontese cuisine,imported,en,80,false
+cuisine_alias_450,piedmontese,Piedmontese food,imported,en,80,false
+cuisine_alias_451,polish,Polish,imported,en,80,false
+cuisine_alias_452,polish,Polish cuisine,imported,en,80,false
+cuisine_alias_453,polish,Polish food,imported,en,80,false
+cuisine_alias_454,portuguese,Portuguese,imported,en,80,false
+cuisine_alias_455,portuguese,Portuguese cuisine,imported,en,80,false
+cuisine_alias_456,portuguese,Portuguese food,imported,en,80,false
+cuisine_alias_457,puerto_rican,Puerto Rican,imported,en,80,false
+cuisine_alias_458,puerto_rican,Puerto Rican cuisine,imported,en,80,false
+cuisine_alias_459,puerto_rican,Puerto Rican food,imported,en,80,false
+cuisine_alias_460,quebec,Québec,imported,en,80,false
+cuisine_alias_461,quebec,Québec cuisine,imported,en,80,false
+cuisine_alias_462,quebec,Québec food,imported,en,80,false
+cuisine_alias_463,rajasthan,Rajasthan,imported,en,80,false
+cuisine_alias_464,rajasthan,Rajasthan cuisine,imported,en,80,false
+cuisine_alias_465,rajasthan,Rajasthan food,imported,en,80,false
+cuisine_alias_466,romanian,Romanian,imported,en,80,false
+cuisine_alias_467,romanian,Romanian cuisine,imported,en,80,false
+cuisine_alias_468,romanian,Romanian food,imported,en,80,false
+cuisine_alias_469,russian,Russian,imported,en,80,false
+cuisine_alias_470,russian,Russian cuisine,imported,en,80,false
+cuisine_alias_471,russian,Russian food,imported,en,80,false
+cuisine_alias_472,saudi_arabian,Saudi Arabian,imported,en,80,false
+cuisine_alias_473,saudi_arabian,Saudi Arabian cuisine,imported,en,80,false
+cuisine_alias_474,saudi_arabian,Saudi Arabian food,imported,en,80,false
+cuisine_alias_475,scottish,Scottish,imported,en,80,false
+cuisine_alias_476,scottish,Scottish cuisine,imported,en,80,false
+cuisine_alias_477,scottish,Scottish food,imported,en,80,false
+cuisine_alias_478,senegalese,Senegalese,imported,en,80,false
+cuisine_alias_479,senegalese,Senegalese cuisine,imported,en,80,false
+cuisine_alias_480,senegalese,Senegalese food,imported,en,80,false
+cuisine_alias_481,serbian,Serbian,imported,en,80,false
+cuisine_alias_482,serbian,Serbian cuisine,imported,en,80,false
+cuisine_alias_483,serbian,Serbian food,imported,en,80,false
+cuisine_alias_484,shaanxi,Shaanxi,imported,en,80,false
+cuisine_alias_485,shaanxi,Shaanxi cuisine,imported,en,80,false
+cuisine_alias_486,shaanxi,Shaanxi food,imported,en,80,false
+cuisine_alias_487,shanghai,Shanghai,imported,en,80,false
+cuisine_alias_488,shanghai,Shanghai cuisine,imported,en,80,false
+cuisine_alias_489,shanghai,Shanghai food,imported,en,80,false
+cuisine_alias_490,sichuan,Sichuan,imported,en,80,false
+cuisine_alias_491,sichuan,Sichuan cuisine,imported,en,80,false
+cuisine_alias_492,sichuan,Sichuan food,imported,en,80,false
+cuisine_alias_493,singaporean,Singaporean,imported,en,80,false
+cuisine_alias_494,singaporean,Singaporean cuisine,imported,en,80,false
+cuisine_alias_495,singaporean,Singaporean food,imported,en,80,false
+cuisine_alias_496,slavic,Slavic,imported,en,80,false
+cuisine_alias_497,slavic,Slavic cuisine,imported,en,80,false
+cuisine_alias_498,slavic,Slavic food,imported,en,80,false
+cuisine_alias_499,slovenian,Slovenian,imported,en,80,false
+cuisine_alias_500,slovenian,Slovenian cuisine,imported,en,80,false
+cuisine_alias_501,slovenian,Slovenian food,imported,en,80,false
+cuisine_alias_502,somalian,Somalian,imported,en,80,false
+cuisine_alias_503,somalian,Somalian cuisine,imported,en,80,false
+cuisine_alias_504,somalian,Somalian food,imported,en,80,false
+cuisine_alias_505,south_african,South African,imported,en,80,false
+cuisine_alias_506,south_african,South African cuisine,imported,en,80,false
+cuisine_alias_507,south_african,South African food,imported,en,80,false
+cuisine_alias_508,south_american,South American,imported,en,80,false
+cuisine_alias_509,south_american,South American cuisine,imported,en,80,false
+cuisine_alias_510,south_american,South American food,imported,en,80,false
+cuisine_alias_511,south_asian,South Asian,imported,en,80,false
+cuisine_alias_512,south_asian,South Asian cuisine,imported,en,80,false
+cuisine_alias_513,south_asian,South Asian food,imported,en,80,false
+cuisine_alias_514,south_carolina,South Carolina,imported,en,80,false
+cuisine_alias_515,south_carolina,South Carolina cuisine,imported,en,80,false
+cuisine_alias_516,south_carolina,South Carolina food,imported,en,80,false
+cuisine_alias_517,south_east_asian,South East Asian,imported,en,80,false
+cuisine_alias_518,south_east_asian,South East Asian cuisine,imported,en,80,false
+cuisine_alias_519,south_east_asian,South East Asian food,imported,en,80,false
+cuisine_alias_520,south_indian,South Indian,imported,en,80,false
+cuisine_alias_521,south_indian,South Indian cuisine,imported,en,80,false
+cuisine_alias_522,south_indian,South Indian food,imported,en,80,false
+cuisine_alias_523,south_korean,South Korean,imported,en,80,false
+cuisine_alias_524,south_korean,South Korean cuisine,imported,en,80,false
+cuisine_alias_525,south_korean,South Korean food,imported,en,80,false
+cuisine_alias_526,southeast_asian,Southeast Asian,imported,en,80,false
+cuisine_alias_527,southeast_asian,Southeast Asian cuisine,imported,en,80,false
+cuisine_alias_528,southeast_asian,Southeast Asian food,imported,en,80,false
+cuisine_alias_529,southern_vietnamese,Southern Vietnamese,imported,en,80,false
+cuisine_alias_530,southern_vietnamese,Southern Vietnamese cuisine,imported,en,80,false
+cuisine_alias_531,southern_vietnamese,Southern Vietnamese food,imported,en,80,false
+cuisine_alias_532,spanish,Spanish,imported,en,80,false
+cuisine_alias_533,spanish,Spanish cuisine,imported,en,80,false
+cuisine_alias_534,spanish,Spanish food,imported,en,80,false
+cuisine_alias_535,sri_lankan,Sri Lankan,imported,en,80,false
+cuisine_alias_536,sri_lankan,Sri Lankan cuisine,imported,en,80,false
+cuisine_alias_537,sri_lankan,Sri Lankan food,imported,en,80,false
+cuisine_alias_538,surinamese,Surinamese,imported,en,80,false
+cuisine_alias_539,surinamese,Surinamese cuisine,imported,en,80,false
+cuisine_alias_540,surinamese,Surinamese food,imported,en,80,false
+cuisine_alias_541,swiss,Swiss,imported,en,80,false
+cuisine_alias_542,swiss,Swiss cuisine,imported,en,80,false
+cuisine_alias_543,swiss,Swiss food,imported,en,80,false
+cuisine_alias_544,syrian,Syrian,imported,en,80,false
+cuisine_alias_545,syrian,Syrian cuisine,imported,en,80,false
+cuisine_alias_546,syrian,Syrian food,imported,en,80,false
+cuisine_alias_547,taiwanese,Taiwanese,imported,en,80,false
+cuisine_alias_548,taiwanese,Taiwanese cuisine,imported,en,80,false
+cuisine_alias_549,taiwanese,Taiwanese food,imported,en,80,false
+cuisine_alias_550,tajik,Tajik,imported,en,80,false
+cuisine_alias_551,tajik,Tajik cuisine,imported,en,80,false
+cuisine_alias_552,tajik,Tajik food,imported,en,80,false
+cuisine_alias_553,tamil,Tamil,imported,en,80,false
+cuisine_alias_554,tamil,Tamil cuisine,imported,en,80,false
+cuisine_alias_555,tamil,Tamil food,imported,en,80,false
+cuisine_alias_556,tanzanian,Tanzanian,imported,en,80,false
+cuisine_alias_557,tanzanian,Tanzanian cuisine,imported,en,80,false
+cuisine_alias_558,tanzanian,Tanzanian food,imported,en,80,false
+cuisine_alias_559,teochew,Teochew,imported,en,80,false
+cuisine_alias_560,teochew,Teochew cuisine,imported,en,80,false
+cuisine_alias_561,teochew,Teochew food,imported,en,80,false
+cuisine_alias_562,thai,Thai,imported,en,80,false
+cuisine_alias_563,thai,Thai cuisine,imported,en,80,false
+cuisine_alias_564,thai,Thai food,imported,en,80,false
+cuisine_alias_565,tibetan,Tibetan,imported,en,80,false
+cuisine_alias_566,tibetan,Tibetan cuisine,imported,en,80,false
+cuisine_alias_567,tibetan,Tibetan food,imported,en,80,false
+cuisine_alias_568,togolese,Togolese,imported,en,80,false
+cuisine_alias_569,togolese,Togolese cuisine,imported,en,80,false
+cuisine_alias_570,togolese,Togolese food,imported,en,80,false
+cuisine_alias_571,trinidadian,Trinidadian,imported,en,80,false
+cuisine_alias_572,trinidadian,Trinidadian cuisine,imported,en,80,false
+cuisine_alias_573,trinidadian,Trinidadian food,imported,en,80,false
+cuisine_alias_574,trinidadian_and_tobagonian,Trinidadian and Tobagonian,imported,en,80,false
+cuisine_alias_575,trinidadian_and_tobagonian,Trinidadian and Tobagonian cuisine,imported,en,80,false
+cuisine_alias_576,trinidadian_and_tobagonian,Trinidadian and Tobagonian food,imported,en,80,false
+cuisine_alias_577,tunisian,Tunisian,imported,en,80,false
+cuisine_alias_578,tunisian,Tunisian cuisine,imported,en,80,false
+cuisine_alias_579,tunisian,Tunisian food,imported,en,80,false
+cuisine_alias_580,turkish,Turkish,imported,en,80,false
+cuisine_alias_581,turkish,Turkish cuisine,imported,en,80,false
+cuisine_alias_582,turkish,Turkish food,imported,en,80,false
+cuisine_alias_583,turkmenistan,Turkmenistan,imported,en,80,false
+cuisine_alias_584,turkmenistan,Turkmenistan cuisine,imported,en,80,false
+cuisine_alias_585,turkmenistan,Turkmenistan food,imported,en,80,false
+cuisine_alias_586,ukrainian,Ukrainian,imported,en,80,false
+cuisine_alias_587,ukrainian,Ukrainian cuisine,imported,en,80,false
+cuisine_alias_588,ukrainian,Ukrainian food,imported,en,80,false
+cuisine_alias_589,uzbek,Uzbek,imported,en,80,false
+cuisine_alias_590,uzbek,Uzbek cuisine,imported,en,80,false
+cuisine_alias_591,uzbek,Uzbek food,imported,en,80,false
+cuisine_alias_592,valencian,Valencian,imported,en,80,false
+cuisine_alias_593,valencian,Valencian cuisine,imported,en,80,false
+cuisine_alias_594,valencian,Valencian food,imported,en,80,false
+cuisine_alias_595,venetian,Venetian,imported,en,80,false
+cuisine_alias_596,venetian,Venetian cuisine,imported,en,80,false
+cuisine_alias_597,venetian,Venetian food,imported,en,80,false
+cuisine_alias_598,venezuelan,Venezuelan,imported,en,80,false
+cuisine_alias_599,venezuelan,Venezuelan cuisine,imported,en,80,false
+cuisine_alias_600,venezuelan,Venezuelan food,imported,en,80,false
+cuisine_alias_601,vietnamese,Vietnamese,imported,en,80,false
+cuisine_alias_602,vietnamese,Vietnamese cuisine,imported,en,80,false
+cuisine_alias_603,vietnamese,Vietnamese food,imported,en,80,false
+cuisine_alias_604,visayan,Visayan,imported,en,80,false
+cuisine_alias_605,visayan,Visayan cuisine,imported,en,80,false
+cuisine_alias_606,visayan,Visayan food,imported,en,80,false
+cuisine_alias_607,visayas,Visayas,imported,en,80,false
+cuisine_alias_608,visayas,Visayas cuisine,imported,en,80,false
+cuisine_alias_609,visayas,Visayas food,imported,en,80,false
+cuisine_alias_610,welsh,Welsh,imported,en,80,false
+cuisine_alias_611,welsh,Welsh cuisine,imported,en,80,false
+cuisine_alias_612,welsh,Welsh food,imported,en,80,false
+cuisine_alias_613,west_african,West African,imported,en,80,false
+cuisine_alias_614,west_african,West African cuisine,imported,en,80,false
+cuisine_alias_615,west_african,West African food,imported,en,80,false
+cuisine_alias_616,yemeni,Yemeni,imported,en,80,false
+cuisine_alias_617,yemeni,Yemeni cuisine,imported,en,80,false
+cuisine_alias_618,yemeni,Yemeni food,imported,en,80,false
+cuisine_alias_619,yoruba,Yoruba,imported,en,80,false
+cuisine_alias_620,yoruba,Yoruba cuisine,imported,en,80,false
+cuisine_alias_621,yoruba,Yoruba food,imported,en,80,false

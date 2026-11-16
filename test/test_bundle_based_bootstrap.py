@@ -237,3 +237,10 @@ def test_settings_validate_scoring_configuration() -> None:
         assert "maximum_recommendations" in str(error)
     else:
         raise AssertionError("Expected invalid settings to raise ValueError")
+
+def test_settings_keep_top_three_results_by_default() -> None:
+    """Verifies the default result limits remain three."""
+    settings = ApplicationSettings()
+
+    assert settings.maximum_predictions == 3
+    assert settings.maximum_recommendations == 3

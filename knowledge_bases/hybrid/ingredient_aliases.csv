@@ -1,0 +1,24 @@
+alias_id,ingredient_id,alias,alias_type,language,match_priority,verified
+tomato_1,tomato,tomato,canonical,en,100,true
+tomato_2,tomato,tomatoes,plural,en,95,true
+tomato_3,tomato,fresh tomatoes,prepared_form,en,90,true
+olive_oil_1,olive_oil,olive oil,canonical,en,100,true
+olive_oil_2,olive_oil,extra virgin olive oil,prepared_form,en,90,true
+mozzarella_1,mozzarella,mozzarella,canonical,en,100,true
+basil_1,basil,basil,canonical,en,100,true
+chicken_canonical,chicken,chicken,canonical,en,100,true
+chicken_plural,chicken,chickens,plural,en,90,true
+paprika_canonical,paprika,paprika,canonical,en,100,true
+onion_canonical,onion,onion,canonical,en,100,true
+onion_plural,onion,onions,plural,en,90,true
+sour_cream_canonical,sour_cream,sour cream,canonical,en,100,true
+ingredient_alias_1,basil,basil,imported,en,80,false
+ingredient_alias_2,chicken,chicken,imported,en,80,false
+ingredient_alias_3,mozzarella,mozzarella,imported,en,80,false
+ingredient_alias_4,olive_oil,olive oil,imported,en,80,false
+ingredient_alias_5,onion,onion,imported,en,80,false
+ingredient_alias_6,onion,onions,imported,en,80,false
+ingredient_alias_7,paprika,paprika,imported,en,80,false
+ingredient_alias_8,sour_cream,sour cream,imported,en,80,false
+ingredient_alias_9,tomato,tomato,imported,en,80,false
+ingredient_alias_10,tomato,tomatoes,imported,en,80,false

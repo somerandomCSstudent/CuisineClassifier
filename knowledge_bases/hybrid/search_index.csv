@@ -1,0 +1,523 @@
+normalized_term,entity_type,entity_id,source_text,priority
+tomato,ingredient,tomato,tomato,100
+tomatoes,ingredient,tomato,tomatoes,95
+garbanzo beans,ingredient,chickpea,garbanzo beans,90
+olive oil,ingredient,olive_oil,olive oil,100
+chicken paprikash,dish,chicken_paprikash,Chicken Paprikash,100
+hungarian cuisine,cuisine,hungarian,Hungarian cuisine,100
+basil,ingredient,basil,basil,100
+chicken,ingredient,chicken,chicken,100
+mozzarella,ingredient,mozzarella,mozzarella,100
+onion,ingredient,onion,onion,100
+paprika,ingredient,paprika,paprika,100
+sour cream,ingredient,sour_cream,sour cream,100
+basil,ingredient,basil,basil,80
+chicken,ingredient,chicken,chicken,80
+mozzarella,ingredient,mozzarella,mozzarella,80
+olive oil,ingredient,olive_oil,olive oil,80
+onion,ingredient,onion,onion,80
+onions,ingredient,onion,onions,80
+paprika,ingredient,paprika,paprika,80
+sour cream,ingredient,sour_cream,sour cream,80
+tomato,ingredient,tomato,tomato,80
+tomatoes,ingredient,tomato,tomatoes,80
+abura soba,dish,abura_soba__japanese,Abura Soba,100
+ada,dish,ada__indian,Ada,100
+agedashi dōfu,dish,agedashi_dofu__japanese,Agedashi dōfu,100
+agwi-jjim,dish,agwi_jjim__korean,Agwi-jjim,100
+akara,dish,akara__nigerian,Akara,100
+akhni,dish,akhni__bangladeshi,Akhni,100
+akki rotti,dish,akki_rotti__canarese,Akki rotti,100
+aligue fried rice,dish,aligue_fried_rice__filipino,Aligue fried rice,100
+aloo tikki,dish,aloo_tikki__indian,Aloo tikki,100
+ampaw,dish,ampaw__filipino,Ampaw,100
+andong jjimdak,dish,andong_jjimdak__korean,Andong jjimdak,100
+apam balik,dish,apam_balik__chinese,Apam balik,100
+appam,dish,appam__indian,Appam,100
+arancini,dish,arancini__italian,Arancini,100
+arem-arem,dish,arem_arem__indonesian,Arem-arem,100
+arròs negre,dish,arros_negre__spanish,Arròs negre,100
+arroz caldoso,dish,arroz_caldoso__spanish,Arroz caldoso,100
+arroz chaufa,dish,arroz_chaufa__chinese_peruvian,Arroz chaufa,100
+arroz con gandules,dish,arroz_con_gandules__puerto_rican,Arroz con gandules,100
+arroz con huevo frito,dish,arroz_con_huevo_frito__central_american,Arroz con huevo frito,100
+arroz con maiz,dish,arroz_con_maiz__latin_american,Arroz con maiz,100
+arroz con pollo,dish,arroz_con_pollo__latin_american,Arroz con pollo,100
+arroz de lisa,dish,arroz_de_lisa__colombian,Arroz de lisa,100
+baghali polo,dish,baghali_polo__iranian,Baghali polo,100
+bah-oân,dish,bah_oan__taiwanese,Bah-oân,100
+bakmi,dish,bakmi__indonesian,Bakmi,100
+balao-balao,dish,balao_balao__filipino,Balao-balao,100
+bánh bèo,dish,banh_beo__vietnamese,Bánh bèo,100
+bánh bột lọc,dish,banh_bot_loc__vietnamese,Bánh bột lọc,100
+bánh canh,dish,banh_canh__vietnamese,Bánh canh,100
+bánh chưng,dish,banh_chung__vietnamese,Bánh chưng,100
+bánh chuối,dish,banh_chuoi__vietnamese,Bánh chuối,100
+bánh cuốn,dish,banh_cuon__vietnamese,Bánh cuốn,100
+bánh da lợn,dish,banh_da_lon__vietnamese,Bánh da lợn,100
+bánh khoai mì,dish,banh_khoai_mi__vietnamese,Bánh khoai mì,100
+bánh mì,dish,banh_mi__vietnamese,Bánh mì,100
+bánh tẻ,dish,banh_te__vietnamese,Bánh tẻ,100
+bánh tét,dish,banh_tet__vietnamese,Bánh tét,100
+bánh tổ,dish,banh_to__chinese,Bánh tổ,100
+bánh đúc,dish,banh_uc__vietnamese,Bánh đúc,100
+bánh xèo,dish,banh_xeo__vietnamese,Bánh xèo,100
+banmian,dish,banmian__chinese,Banmian,100
+bannock,dish,bannock__scottish,Bannock,100
+bannu pulao,dish,bannu_pulao__pakistani,Bannu pulao,100
+baye baye,dish,baye_baye__filipino,Baye baye,100
+beef chow fun,dish,beef_chow_fun__chinese,Beef chow fun,100
+bhakri,dish,bhakri__indian,Bhakri,100
+bhel puri,dish,bhel_puri__indian,Bhel puri,100
+biangbiang noodles,dish,biangbiang_noodles__chinese,Biangbiang noodles,100
+bibim guksu,dish,bibim_guksu__korean,Bibim guksu,100
+bibimbap,dish,bibimbap__korean,Bibimbap,100
+bibingka,dish,bibingka__filipino,Bibingka,100
+bihun goreng,dish,bihun_goreng__indonesian,Bihun Goreng,100
+biko,dish,biko__filipino,Biko,100
+bindae-tteok,dish,bindae_tteok__korean,Bindae-tteok,100
+bing,dish,bing__chinese,Bing,100
+binignit,dish,binignit__filipino,Binignit,100
+biryani,dish,biryani__south_asian,Biryani,100
+bisi bele bath,dish,bisi_bele_bath__indian,Bisi Bele Bath,100
+bistek,dish,bistek__filipino,Bistek,100
+blini,dish,blini__slavic,Blini,100
+blintz,dish,blintz__jewish,Blintz,100
+boat noodles,dish,boat_noodles__thai,Boat noodles,100
+bokkeum-bap,dish,bokkeum_bap__korean,Bokkeum-bap,100
+boudin,dish,boudin__french,Boudin,100
+bubur ayam,dish,bubur_ayam__indonesian,Bubur ayam,100
+bubur ketan hitam,dish,bubur_ketan_hitam__indonesian,Bubur ketan hitam,100
+buchimgae,dish,buchimgae__korean,Buchimgae,100
+buldak ramen,dish,buldak_ramen__south_korean,Buldak Ramen,100
+bún ốc,dish,bun_oc__vietnamese,Bún ốc,100
+bupyeon,dish,bupyeon__korean,Bupyeon,100
+burasa,dish,burasa__indonesian,Burasa,100
+burong isda,dish,burong_isda__filipino,Burong isda,100
+burrito,dish,burrito__mexican,Burrito,100
+buuz,dish,buuz__mongolian,Buuz,100
+cabidela,dish,cabidela__portuguese,Cabidela,100
+cachapa,dish,cachapa__venezuelan,Cachapa,100
+cart noodle,dish,cart_noodle__hong_kong,Cart noodle,100
+chahan,dish,chahan__japanese,Chahan,100
+champon,dish,champon__japanese,Champon,100
+champorado,dish,champorado__filipino,Champorado,100
+chanpurū,dish,chanpuru__japanese,Chanpurū,100
+chao,dish,chao__vietnamese,Chao,100
+char kway teow,dish,char_kway_teow__singaporean,Char Kway Teow,100
+chataamari,dish,chataamari__nepalese,Chataamari,100
+chazuke,dish,chazuke__japanese,Chazuke,100
+chè,dish,che__vietnamese,Chè,100
+chelow,dish,chelow__iranian,Chelow,100
+chelow kabab,dish,chelow_kabab__iranian,Chelow kabab,100
+chiayi turkey rice,dish,chiayi_turkey_rice__taiwanese,Chiayi turkey rice,100
+chicken riggies,dish,chicken_riggies__american,Chicken riggies,100
+chicken tikka,dish,chicken_tikka__indian_subcontinent,Chicken tikka,100
+chicken tikka masala,dish,chicken_tikka_masala__indian_subcontinent,Chicken tikka masala,100
+chitranna,dish,chitranna__indian,Chitranna,100
+chongqing noodles,dish,chongqing_noodles__chinese,Chongqing noodles,100
+chow mein,dish,chow_mein__chinese,Chow mein,100
+chow mein sandwich,dish,chow_mein_sandwich__american,Chow mein sandwich,100
+chuối chiên,dish,chuoi_chien__vietnamese,chuối chiên,100
+chwee kueh,dish,chwee_kueh__teochew,Chwee kueh,100
+ciba cake,dish,ciba_cake__chinese,Ciba cake,100
+cifantuan,dish,cifantuan__chinese,Cifantuan,100
+claypot rice,dish,claypot_rice__chinese,Claypot rice,100
+cơm tấm,dish,com_tam__vietnamese,Cơm tấm,100
+corunda,dish,corunda__mexican,Corunda,100
+cotoletta alla bolognese,dish,cotoletta_alla_bolognese__italian,Cotoletta alla bolognese,100
+cotoletta alla milanese,dish,cotoletta_alla_milanese__italian,Cotoletta alla milanese,100
+couscous,dish,couscous__tunisian,Couscous,100
+crempog,dish,crempog__welsh,Crempog,100
+crêpe,dish,crepe__french,Crêpe,100
+croquette,dish,croquette__french,Croquette,100
+crossing-the-bridge noodles,dish,crossing_the_bridge_noodles__chinese,Crossing-the-bridge noodles,100
+crumpet,dish,crumpet__british,Crumpet,100
+curd rice,dish,curd_rice__indian,Curd rice,100
+curry mee,dish,curry_mee__malaysian,Curry mee,100
+dal bhat,dish,dal_bhat__indian_subcontinent,Dal bhat,100
+dal makhani,dish,dal_makhani__indian,Dal Makhani,100
+dan zai noodles,dish,dan_zai_noodles__taiwanese,Dan zai noodles,100
+dandan noodles,dish,dandan_noodles__chinese,Dandan noodles,100
+dango,dish,dango__japanese,Dango,100
+dhansak,dish,dhansak__indian,Dhansak,100
+dhokla,dish,dhokla__indian,Dhokla,100
+dirty rice,dish,dirty_rice__louisiana_creole,Dirty rice,100
+dodol,dish,dodol__indonesian,Dodol,100
+doenjang jjigae,dish,doenjang_jjigae__korean,Doenjang jjigae,100
+dolma,dish,dolma__ottoman,Dolma,100
+donburi,dish,donburi__japanese,Donburi,100
+dorayaki,dish,dorayaki__japanese,Dorayaki,100
+dosa,dish,dosa__indian,Dosa,100
+douhua,dish,douhua__chinese,Douhua,100
+drunken noodles,dish,drunken_noodles__thai,Drunken noodles,100
+dubu-kimchi,dish,dubu_kimchi__korean,Dubu-kimchi,100
+espasol,dish,espasol__filipino,Espasol,100
+étouffée,dish,etouffee__american,Étouffée,100
+fa gao,dish,fa_gao__chinese,Fa gao,100
+farinata,dish,farinata__italian,Farinata,100
+fideuà,dish,fideua__spanish,Fideuà,100
+funing big cake,dish,funing_big_cake__chinese,Funing big cake,100
+gaifan,dish,gaifan__chinese,Gaifan,100
+gallo pinto,dish,gallo_pinto__nicaraguan,Gallo pinto,100
+ganmodoki,dish,ganmodoki__japanese,Ganmodoki,100
+gelato,dish,gelato__italian,Gelato,100
+gimbap,dish,gimbap__korean,Gimbap,100
+ginataang mais,dish,ginataang_mais__filipino,Ginataang mais,100
+ginataang munggo,dish,ginataang_munggo__filipino,Ginataang munggo,100
+goto,dish,goto__filipino,Goto,100
+gulai,dish,gulai__indonesian,Gulai,100
+gumbo,dish,gumbo__american,Gumbo,100
+gyoza,dish,gyoza__japanese,Gyoza,100
+gyros,dish,gyros__greek,Gyros,100
+hainanese chicken rice,dish,hainanese_chicken_rice__singaporean,Hainanese chicken rice,100
+hash browns,dish,hash_browns__american,Hash browns,100
+hiyayakko,dish,hiyayakko__japanese,Hiyayakko,100
+hokkien char mee,dish,hokkien_char_mee__malaysian,Hokkien char mee,100
+hokkien fried rice,dish,hokkien_fried_rice__taiwanese,Hokkien fried rice,100
+hoppin' john,dish,hoppin_john__american,Hoppin' John,100
+horchata,dish,horchata__spanish,Horchata,100
+hot and sour noodles,dish,hot_and_sour_noodles__chinese,Hot and sour noodles,100
+hot dry noodles,dish,hot_dry_noodles__chinese,Hot dry noodles,100
+hōtō,dish,hoto__japanese,Hōtō,100
+hotteok,dish,hotteok__korean,Hotteok,100
+hsi htamin,dish,hsi_htamin__burmese,Hsi htamin,100
+htamanè,dish,htamane__burmese,Htamanè,100
+htamin jin,dish,htamin_jin__burmese,Htamin jin,100
+hwajeon,dish,hwajeon__korean,Hwajeon,100
+idiyappam,dish,idiyappam__indian,Idiyappam,100
+idli,dish,idli__indian,Idli,100
+ifumi,dish,ifumi__indonesian,Ifumi,100
+inarizushi,dish,inarizushi__japanese,Inarizushi,100
+injeolmi,dish,injeolmi__korean,Injeolmi,100
+injera,dish,injera__ethiopian,Injera,100
+jajangmyeon,dish,jajangmyeon__korean,Jajangmyeon,100
+jambalaya,dish,jambalaya__american,Jambalaya,100
+janchi guksu,dish,janchi_guksu__korean,Janchi guksu,100
+japchae,dish,japchae__korean,Japchae,100
+jat-guksu,dish,jat_guksu__korean,Jat-guksu,100
+java rice,dish,java_rice__filipino,Java rice,100
+jaynagarer moa,dish,jaynagarer_moa__indian,Jaynagarer Moa,100
+jeera bhaat,dish,jeera_bhaat__indian,Jeera bhaat,100
+jeon,dish,jeon__korean,Jeon,100
+jhalmuri,dish,jhalmuri__bangladeshi,Jhalmuri,100
+jian dui,dish,jian_dui__chinese,Jian dui,100
+jiaozi,dish,jiaozi__chinese,Jiaozi,100
+jiuniang,dish,jiuniang__chinese,Jiuniang,100
+jjamppong,dish,jjamppong__korean,Jjamppong,100
+jjim,dish,jjim__korean,Jjim,100
+jjolmyeon,dish,jjolmyeon__korean,Jjolmyeon,100
+johnnycake,dish,johnnycake__american,Johnnycake,100
+jollof rice,dish,jollof_rice__senegalese,Jollof Rice,100
+jujeh kabab,dish,jujeh_kabab__iranian,Jujeh kabab,100
+juk,dish,juk__korean,Juk,100
+kabab barg,dish,kabab_barg__iranian,Kabab barg,100
+kabab koobideh,dish,kabab_koobideh__iranian,Kabab koobideh,100
+kabsa,dish,kabsa__saudi_arabian,Kabsa,100
+kabuli pulao,dish,kabuli_pulao__afghan,Kabuli pulao,100
+kaiserschmarrn,dish,kaiserschmarrn__austrian,Kaiserschmarrn,100
+kal-guksu,dish,kal_guksu__korean,Kal-guksu,100
+kalamay,dish,kalamay__filipino,Kalamay,100
+karaage,dish,karaage__japanese,Karaage,100
+kare-kare,dish,kare_kare__filipino,Kare-kare,100
+käsespätzle,dish,kasespatzle__german,Käsespätzle,100
+kat kyi kaik,dish,kat_kyi_kaik__burmese,Kat kyi kaik,100
+katsudon,dish,katsudon__japanese,Katsudon,100
+kebab,dish,kebab__iranian,Kebab,100
+kedgeree,dish,kedgeree__indian,Kedgeree,100
+kesme,dish,kesme__turkish,Kesme,100
+ketupat,dish,ketupat__indonesian,Ketupat,100
+khanom sot sai,dish,khanom_sot_sai__thai,Khanom sot sai,100
+khao kan chin,dish,khao_kan_chin__thai,Khao kan chin,100
+khao khluk kapi,dish,khao_khluk_kapi__thai,Khao khluk kapi,100
+khao lam,dish,khao_lam__thai,Khao lam,100
+khao phat,dish,khao_phat__thai,Khao Phat,100
+khao piak sen,dish,khao_piak_sen__lao,Khao piak sen,100
+khao poon,dish,khao_poon__lao,Khao poon,100
+khao soi,dish,khao_soi__burmese,Khao soi,100
+khao tom,dish,khao_tom__thai,Khao tom,100
+kharcho,dish,kharcho__georgian,Kharcho,100
+khauk swè thoke,dish,khauk_swe_thoke__burmese,Khauk swè thoke,100
+kheer,dish,kheer__indian_subcontinent,Kheer,100
+khichdi,dish,khichdi__indian_subcontinent,Khichdi,100
+khinkali,dish,khinkali__georgian,Khinkali,100
+khow suey,dish,khow_suey__burmese,Khow suey,100
+kiampong,dish,kiampong__filipino,Kiampong,100
+kiping,dish,kiping__filipino,Kiping,100
+kiribath,dish,kiribath__sri_lankan,Kiribath,100
+klepon,dish,klepon__indonesian,Klepon,100
+kluai khaek,dish,kluai_khaek__thai,Kluai khaek,100
+kong-guksu,dish,kong_guksu__korean,Kong-guksu,100
+kongbap,dish,kongbap__korean,Kongbap,100
+korokke,dish,korokke__japanese,Korokke,100
+koshary,dish,koshary__egyptian,Koshary,100
+kozhukkatta,dish,kozhukkatta__indian,Kozhukkatta,100
+kraft dinner,dish,kraft_dinner__american,Kraft Dinner,100
+krapfen,dish,krapfen__german,Krapfen,100
+kripik,dish,kripik__indonesian,Kripik,100
+krupuk,dish,krupuk__indonesian,Krupuk,100
+kue lapis,dish,kue_lapis__indonesian,Kue lapis,100
+kue putu,dish,kue_putu__indonesian,Kue putu,100
+kuning,dish,kuning__filipino,Kuning,100
+kupat tahu,dish,kupat_tahu__indonesian,Kupat tahu,100
+kutsinta,dish,kutsinta__filipino,Kutsinta,100
+kwetiau goreng,dish,kwetiau_goreng__indonesian,Kwetiau Goreng,100
+kya zan hinga,dish,kya_zan_hinga__burmese,Kya zan hinga,100
+kyay oh,dish,kyay_oh__burmese,Kyay oh,100
+laghman,dish,laghman__chinese,Laghman,100
+laksa,dish,laksa__indonesian,Laksa,100
+lakso,dish,lakso__indonesian,Lakso,100
+lanzhou beef noodle soup,dish,lanzhou_beef_noodle_soup__chinese,Lanzhou beef noodle soup,100
+laping,dish,laping__tibetan,Laping,100
+lard na,dish,lard_na__lao,Lard na,100
+lemang,dish,lemang__indonesian,Lemang,100
+lemper,dish,lemper__indonesian,Lemper,100
+lepet,dish,lepet__indonesian,Lepet,100
+liangpi,dish,liangpi__chinese,Liangpi,100
+lo mai chi,dish,lo_mai_chi__chinese,Lo mai chi,100
+lo mai gai,dish,lo_mai_gai__chinese,Lo mai gai,100
+lo mein,dish,lo_mein__chinese,Lo mein,100
+loco moco,dish,loco_moco__hawaiian,Loco moco,100
+locrio,dish,locrio__dominican,Locrio,100
+lontong,dish,lontong__indonesian,Lontong,100
+lüdagun,dish,ludagun__chinese,Lüdagun,100
+lugaw,dish,lugaw__filipino,Lugaw,100
+lumpia,dish,lumpia__chinese,Lumpia,100
+luosifen,dish,luosifen__chinese,Luosifen,100
+lupis,dish,lupis__indonesian,Lupis,100
+madumongso,dish,madumongso__javanese,Madumongso,100
+maggi goreng,dish,maggi_goreng__malaysian,Maggi goreng,100
+maja blanca,dish,maja_blanca__filipino,Maja blanca,100
+mak-guksu,dish,mak_guksu__korean,Mak-guksu,100
+mandi,dish,mandi__yemeni,Mandi,100
+mandu,dish,mandu__korean,Mandu,100
+mansaf,dish,mansaf__jordanian,Mansaf,100
+manti,dish,manti__turkish,Manti,100
+mapo tofu,dish,mapo_tofu__sichuan,Mapo tofu,100
+maqluba,dish,maqluba__levantine,Maqluba,100
+maruya,dish,maruya__filipino,Maruya,100
+masi,dish,masi__filipino,Masi,100
+mee bandung muar,dish,mee_bandung_muar__malaysian,Mee Bandung Muar,100
+mee goreng,dish,mee_goreng__bruneian,Mee goreng,100
+mee pok,dish,mee_pok__chinese,Mee pok,100
+mee siam,dish,mee_siam__malaysian,Mee siam,100
+meeshay,dish,meeshay__burmese,Meeshay,100
+meghli,dish,meghli__levantine,Meghli,100
+mi krop,dish,mi_krop__thai,Mi krop,100
+mì quảng,dish,mi_quang__vietnamese,Mì Quảng,100
+mie ayam,dish,mie_ayam__indonesian,Mie ayam,100
+mie goreng,dish,mie_goreng__indonesian,Mie Goreng,100
+mie kering,dish,mie_kering__indonesian,Mie kering,100
+milmyeon,dish,milmyeon__korean,Milmyeon,100
+moche,dish,moche__filipino,Moche,100
+mochi,dish,mochi__japanese,Mochi,100
+mochi ice cream,dish,mochi_ice_cream__american,Mochi ice cream,100
+moffle,dish,moffle__japanese,Moffle,100
+momo,dish,momo__tibetan,Momo,100
+mont di,dish,mont_di__burmese,Mont di,100
+mont lin maya,dish,mont_lin_maya__burmese,Mont lin maya,100
+moron,dish,moron__filipino,Moron,100
+muhallebi,dish,muhallebi__iranian,Muhallebi,100
+mujaddara,dish,mujaddara__iraqi,Mujaddara,100
+mun tahu,dish,mun_tahu__indonesian,Mun tahu,100
+murtabak,dish,murtabak__yemeni,Murtabak,100
+naengmyeon,dish,naengmyeon__korean,Naengmyeon,100
+nagasari,dish,nagasari__indonesian,Nagasari,100
+nan gyi thohk,dish,nan_gyi_thohk__burmese,Nan gyi thohk,100
+nan gyi thoke,dish,nan_gyi_thoke__burmese,Nan gyi thoke,100
+nasi ambeng,dish,nasi_ambeng__indonesian,Nasi ambeng,100
+nasi bakar,dish,nasi_bakar__indonesian,Nasi bakar,100
+nasi bogana,dish,nasi_bogana__indonesian,Nasi bogana,100
+nasi campur,dish,nasi_campur__indonesian,Nasi Campur,100
+nasi dagang,dish,nasi_dagang__malaysian,Nasi dagang,100
+nasi goreng,dish,nasi_goreng__indonesian,Nasi Goreng,100
+nasi gurih,dish,nasi_gurih__indonesian,Nasi gurih,100
+nasi jinggo,dish,nasi_jinggo__indonesian,Nasi jinggo,100
+nasi kandar,dish,nasi_kandar__malaysian,Nasi kandar,100
+nasi kapau,dish,nasi_kapau__indonesian,Nasi kapau,100
+nasi kebuli,dish,nasi_kebuli__indonesian,Nasi kebuli,100
+nasi kerabu,dish,nasi_kerabu__malaysian,Nasi kerabu,100
+nasi kucing,dish,nasi_kucing__indonesian,Nasi kucing,100
+nasi kuning,dish,nasi_kuning__indonesian,Nasi kuning,100
+nasi lemak,dish,nasi_lemak__malaysian,Nasi Lemak,100
+nasi liwet,dish,nasi_liwet__indonesian,Nasi liwet,100
+nasi padang,dish,nasi_padang__indonesian,Nasi padang,100
+nasi tim,dish,nasi_tim__indonesian,Nasi tim,100
+nasi timbel,dish,nasi_timbel__indonesian,Nasi timbel,100
+nasi tumpang,dish,nasi_tumpang__malaysian,Nasi tumpang,100
+nasi tutug oncom,dish,nasi_tutug_oncom__indonesian,Nasi tutug oncom,100
+nasi uduk,dish,nasi_uduk__indonesian,Nasi Uduk,100
+nasi ulam,dish,nasi_ulam__indonesian,Nasi ulam,100
+neer dosa,dish,neer_dosa__indian,Neer dosa,100
+ngo hiang,dish,ngo_hiang__chinese,Ngo hiang,100
+noodles with tomato egg sauce,dish,noodles_with_tomato_egg_sauce__chinese,Noodles with tomato egg sauce,100
+nurungji,dish,nurungji__korean,Nurungji,100
+ofada rice,dish,ofada_rice__yoruba,Ofada rice,100
+ohn no khao swè,dish,ohn_no_khao_swe__burmese,Ohn no khao swè,100
+okinawa soba,dish,okinawa_soba__japanese,Okinawa soba,100
+okonomiyaki,dish,okonomiyaki__japanese,Okonomiyaki,100
+okowa,dish,okowa__japanese,Okowa,100
+okoy,dish,okoy__filipino,Okoy,100
+oladyi,dish,oladyi__russian,Oladyi,100
+omurice,dish,omurice__japanese,Omurice,100
+onigiri,dish,onigiri__japanese,Onigiri,100
+orez shu'it,dish,orez_shu_it__israeli,Orez Shu'it,100
+osmanthus cake,dish,osmanthus_cake__chinese,Osmanthus cake,100
+otaru ankake yakisoba,dish,otaru_ankake_yakisoba__japanese,Otaru Ankake Yakisoba,100
+oyaki,dish,oyaki__japanese,Oyaki,100
+pabellón criollo,dish,pabellon_criollo__venezuelan,Pabellón criollo,100
+pad see ew,dish,pad_see_ew__thai,Pad see ew,100
+pad thai,dish,pad_thai__thai,Pad thai,100
+paella,dish,paella__spanish,Paella,100
+pakhala,dish,pakhala__indian,Pakhala,100
+palak paneer,dish,palak_paneer__indian,Palak paneer,100
+palatschinke,dish,palatschinke__greek,Palatschinke,100
+palitaw,dish,palitaw__filipino,Palitaw,100
+pancit,dish,pancit__filipino,Pancit,100
+pancit bihon,dish,pancit_bihon__filipino,Pancit bihon,100
+pancit malabon,dish,pancit_malabon__filipino,Pancit Malabon,100
+pannenkoek,dish,pannenkoek__dutch,Pannenkoek,100
+panta bhat,dish,panta_bhat__bangladeshi,Panta bhat,100
+panyalam,dish,panyalam__filipino,Panyalam,100
+pastil,dish,pastil__filipino,Pastil,100
+pe htaw bhut htamin,dish,pe_htaw_bhut_htamin__burmese,Pe htaw bhut htamin,100
+penang hokkien mee,dish,penang_hokkien_mee__malaysian,Penang hokkien mee,100
+phirni,dish,phirni__pakistani,Phirni,100
+pho,dish,pho__vietnamese,Pho,100
+pidan doufu,dish,pidan_doufu__chinese,Pidan doufu,100
+pierogi,dish,pierogi__polish,Pierogi,100
+pilaf,dish,pilaf__global,Pilaf,100
+pindang patin,dish,pindang_patin__indonesian,Pindang patin,100
+pinipig,dish,pinipig__filipino,Pinipig,100
+pisang goreng,dish,pisang_goreng__indonesian,Pisang Goreng,100
+pisang molen,dish,pisang_molen__indian_subcontinent,Pisang Molen,100
+pitha,dish,pitha__bangladeshi,Pitha,100
+plov,dish,plov__central_asian,Plov,100
+poffertjes,dish,poffertjes__dutch,Poffertjes,100
+pongal,dish,pongal__indian,Pongal,100
+potato pancake,dish,potato_pancake__eastern_european,Potato pancake,100
+puffed rice,dish,puffed_rice__south_east_asian,Puffed rice,100
+pulihora,dish,pulihora__indian,Pulihora,100
+pusô,dish,puso__filipino,Pusô,100
+put chai ko,dish,put_chai_ko__hong_kong,Put chai ko,100
+puto,dish,puto__filipino,Puto,100
+puto bumbong,dish,puto_bumbong__filipino,Puto bumbong,100
+puto seco,dish,puto_seco__filipino,Puto seco,100
+puttu,dish,puttu__indian,Puttu,100
+qingtuan,dish,qingtuan__chinese,Qingtuan,100
+racuchy,dish,racuchy__polish,Racuchy,100
+rat na,dish,rat_na__thai,Rat na,100
+rawon,dish,rawon__indonesian,Rawon,100
+red beans and rice,dish,red_beans_and_rice__american,Red beans and rice,100
+rice and curry,dish,rice_and_curry__indian,Rice and curry,100
+rice and gravy,dish,rice_and_gravy__american,Rice and gravy,100
+rice and peas,dish,rice_and_peas__caribbean,Rice and peas,100
+rice bread,dish,rice_bread__global,Rice bread,100
+rice krispies,dish,rice_krispies__global,Rice Krispies,100
+rice noodle roll,dish,rice_noodle_roll__chinese,Rice noodle roll,100
+rijstevlaai,dish,rijstevlaai__dutch,Rijstevlaai,100
+rijsttafel,dish,rijsttafel__indonesian,Rijsttafel,100
+risotto,dish,risotto__italian,Risotto,100
+riz casimir,dish,riz_casimir__swiss,Riz Casimir,100
+riz gras,dish,riz_gras__west_african,Riz gras,100
+saag,dish,saag__indian_subcontinent,Saag,100
+saffron rice,dish,saffron_rice__iranian,Saffron rice,100
+saimin,dish,saimin__hawaiian,Saimin,100
+salukara,dish,salukara__filipino,Salukara,100
+sandige,dish,sandige__indian,Sandige,100
+sapin-sapin,dish,sapin_sapin__filipino,Sapin-sapin,100
+sapo tahu,dish,sapo_tahu__indonesian,Sapo tahu,100
+sarma,dish,sarma__ottoman,Sarma,100
+sate,dish,sate__indonesian,Sate,100
+schnitzel,dish,schnitzel__austrian,Schnitzel,100
+seekh kebab,dish,seekh_kebab__indian_subcontinent,Seekh kebab,100
+sel roti,dish,sel_roti__nepalese,Sel roti,100
+senbei,dish,senbei__japanese,Senbei,100
+serabi,dish,serabi__indonesian,Serabi,100
+sevai,dish,sevai__indian,Sevai,100
+shanghai fried noodles,dish,shanghai_fried_noodles__chinese,Shanghai fried noodles,100
+shawarma,dish,shawarma__levantine,Shawarma,100
+shirataki noodles,dish,shirataki_noodles__japanese,Shirataki noodles,100
+shirin polo,dish,shirin_polo__iranian,Shirin polo,100
+sholezard,dish,sholezard__iranian,Sholezard,100
+shrimp creole,dish,shrimp_creole__american,Shrimp creole,100
+shumai,dish,shumai__chinese,Shumai,100
+sinangag,dish,sinangag__filipino,Sinangag,100
+singapore hae mee,dish,singapore_hae_mee__singaporean,Singapore hae mee,100
+singapore hokkien mee,dish,singapore_hokkien_mee__singaporean,Singapore hokkien mee,100
+singapore-style noodles,dish,singapore_style_noodles__cantonese,Singapore-style noodles,100
+siomay,dish,siomay__indonesian,Siomay,100
+siopao,dish,siopao__filipino,Siopao,100
+siru-tteok,dish,siru_tteok__korean,Siru-tteok,100
+sōmen,dish,somen__chinese,Sōmen,100
+song gao,dish,song_gao__chinese,Song gao,100
+songpyeon,dish,songpyeon__korean,Songpyeon,100
+sopa de fideo,dish,sopa_de_fideo__spanish,Sopa de fideo,100
+sorbet,dish,sorbet__iranian,Sorbet,100
+soto bandung,dish,soto_bandung__indonesian,Soto Bandung,100
+soto banjar,dish,soto_banjar__indonesian,Soto Banjar,100
+soto betawi,dish,soto_betawi__indonesian,Soto Betawi,100
+souvlaki,dish,souvlaki__greek,Souvlaki,100
+spanish rice,dish,spanish_rice__mexican,Spanish rice,100
+stinky tofu,dish,stinky_tofu__chinese,Stinky tofu,100
+su-style noodles,dish,su_style_noodles__chinese,Su-style noodles,100
+suman,dish,suman__filipino,Suman,100
+sundubu-jjigae,dish,sundubu_jjigae__korean,Sundubu-jjigae,100
+sushi,dish,sushi__japanese,Sushi,100
+szczecin paprikash,dish,szczecin_paprikash__polish,Szczecin paprikash,100
+taco,dish,taco__mexican,Taco,100
+taco rice,dish,taco_rice__japanese,Taco rice,100
+tahdig,dish,tahdig__iranian,Tahdig,100
+taho,dish,taho__filipino,Taho,100
+tahu campur,dish,tahu_campur__indonesian,Tahu campur,100
+tahu gejrot,dish,tahu_gejrot__indonesian,Tahu gejrot,100
+tahu sumedang,dish,tahu_sumedang__indonesian,Tahu sumedang,100
+tallarín saltado,dish,tallarin_saltado__peruvian,Tallarín saltado,100
+tangyuan,dish,tangyuan__chinese,Tangyuan,100
+tapai,dish,tapai__south_east_asian,Tapai,100
+tempura,dish,tempura__japanese,Tempura,100
+tensoba,dish,tensoba__japanese,Tensoba,100
+terang bulan,dish,terang_bulan__chinese,Terang Bulan,100
+teurgoule,dish,teurgoule__french,Teurgoule,100
+thalassery biryani,dish,thalassery_biryani__indian,Thalassery biryani,100
+thenthuk,dish,thenthuk__tibetan,Thenthuk,100
+thingyan rice,dish,thingyan_rice__burmese,Thingyan rice,100
+thukpa bhatuk,dish,thukpa_bhatuk__tibetan,Thukpa bhatuk,100
+tibok-tibok,dish,tibok_tibok__filipino,Tibok-tibok,100
+tinapayan,dish,tinapayan__filipino,Tinapayan,100
+tinutuan,dish,tinutuan__indonesian,Tinutuan,100
+tofu skin,dish,tofu_skin__chinese,Tofu skin,100
+tofu skin roll,dish,tofu_skin_roll__chinese,Tofu skin roll,100
+tokwa't baboy,dish,tokwa_t_baboy__filipino,Tokwa't baboy,100
+tonkatsu,dish,tonkatsu__japanese,Tonkatsu,100
+tonkotsu ramen,dish,tonkotsu_ramen__japanese,Tonkotsu ramen,100
+tortilla,dish,tortilla__mesoamerican,Tortilla,100
+toshikoshi soba,dish,toshikoshi_soba__japanese,Toshikoshi soba,100
+tsuivan,dish,tsuivan__mongolian,Tsuivan,100
+tsukemen,dish,tsukemen__japanese,Tsukemen,100
+tteok,dish,tteok__korean,Tteok,100
+tteokguk,dish,tteokguk__korean,Tteokguk,100
+tube rice pudding,dish,tube_rice_pudding__taiwanese,Tube rice pudding,100
+tupig,dish,tupig__filipino,Tupig,100
+udon,dish,udon__japanese,Udon,100
+ulmyeon,dish,ulmyeon__korean,Ulmyeon,100
+uttapam,dish,uttapam__indian,Uttapam,100
+varenyky,dish,varenyky__ukrainian,Varenyky,100
+waakye,dish,waakye__ghanaian,Waakye,100
+white sugar sponge cake,dish,white_sugar_sponge_cake__chinese,White sugar sponge cake,100
+wonton noodles,dish,wonton_noodles__cantonese,Wonton noodles,100
+xiao long bao,dish,xiao_long_bao__chinese,Xiao Long Bao,100
+xôi,dish,xoi__vietnamese,Xôi,100
+yaka mein,dish,yaka_mein__american,Yaka mein,100
+yaki udon,dish,yaki_udon__japanese,Yaki udon,100
+yakimochi,dish,yakimochi__japanese,Yakimochi,100
+yakisoba,dish,yakisoba__japanese,Yakisoba,100
+yakitori,dish,yakitori__japanese,Yakitori,100
+yangzhou fried rice,dish,yangzhou_fried_rice__chinese,Yangzhou Fried Rice,100
+yin yang fried rice,dish,yin_yang_fried_rice__chinese,Yin yang fried rice,100
+yong tau foo,dish,yong_tau_foo__chinese,Yong tau foo,100
+yorkshire pudding,dish,yorkshire_pudding__english,Yorkshire pudding,100
+zarda,dish,zarda__pakistani,Zarda,100
+zhajiangmian,dish,zhajiangmian__chinese,Zhajiangmian,100
+zongzi,dish,zongzi__chinese,Zongzi,100
+zosui,dish,zosui__japanese,Zosui,100

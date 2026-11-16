@@ -1,0 +1,11 @@
+alias_id,ingredient_id,alias,alias_type,language,match_priority,verified
+ingredient_alias_1,basil,basil,imported,en,80,false
+ingredient_alias_2,chicken,chicken,imported,en,80,false
+ingredient_alias_3,mozzarella,mozzarella,imported,en,80,false
+ingredient_alias_4,olive_oil,olive oil,imported,en,80,false
+ingredient_alias_5,onion,onion,imported,en,80,false
+ingredient_alias_6,onion,onions,imported,en,80,false
+ingredient_alias_7,paprika,paprika,imported,en,80,false
+ingredient_alias_8,sour_cream,sour cream,imported,en,80,false
+ingredient_alias_9,tomato,tomato,imported,en,80,false
+ingredient_alias_10,tomato,tomatoes,imported,en,80,false

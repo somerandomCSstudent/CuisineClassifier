@@ -1,0 +1,9 @@
+ingredient_id,canonical_name,ingredient_category,description,ontology_id
+tomato,tomato,Ingredient,,Tomato
+chicken,chicken,Ingredient,,Chicken
+paprika,paprika,Ingredient,,Paprika
+olive_oil,olive oil,Ingredient,,OliveOil
+onion,onion,Ingredient,,Onion
+mozzarella,mozzarella,Ingredient,,Mozzarella
+basil,basil,Ingredient,,Basil
+sour_cream,sour cream,Ingredient,,SourCream
