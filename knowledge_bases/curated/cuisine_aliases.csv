@@ -1,0 +1,14 @@
+alias_id,cuisine_id,alias,alias_type,language,match_priority,verified
+hungarian_1,hungarian,hungarian,canonical,en,100,true
+hungarian_2,hungarian,hungarian food,phrase,en,95,true
+hungarian_3,hungarian,hungarian cuisine,phrase,en,95,true
+italian_1,italian,italian,canonical,en,100,true
+italian_2,italian,italian food,phrase,en,95,true
+italian_3,italian,italian cuisine,phrase,en,95,true
+thai_1,thai,thai,canonical,en,100,true
+thai_2,thai,thai food,phrase,en,95,true
+thai_3,thai,thai cuisine,phrase,en,95,true
+indian_1,indian,indian,canonical,en,100,true
+indian_2,indian,indian food,phrase,en,95,true
+mexican_1,mexican,mexican,canonical,en,100,true
+mexican_2,mexican,mexican food,phrase,en,95,true

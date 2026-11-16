@@ -1,0 +1,3 @@
+﻿recipe_id,dish_id,title,raw_text,ingredient_text,instruction_text,cuisine_id,data_split,source,source_url,license
+r001,chicken_paprikash,Traditional Chicken Paprikash,"Cook chicken with onions, paprika and sour cream.",chicken; onion; paprika; sour cream,"Cook the chicken with onion and paprika, then finish with sour cream.",hungarian,train,manual,,
+r002,margherita_pizza,Margherita Pizza,"Top pizza dough with tomato, mozzarella and basil, then drizzle with olive oil.",tomato; mozzarella; basil; olive oil,Bake until the cheese melts.,italian,test,manual,,

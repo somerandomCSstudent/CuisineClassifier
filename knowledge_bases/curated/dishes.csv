@@ -1,0 +1,5 @@
+dish_id,name,dish_category,cuisine_id,origin_place_id,description,ontology_id,source,source_url
+chicken_paprikash,Chicken Paprikash,MainCourse,hungarian,hungary,Chicken dish with paprika onion and sour cream.,ChickenPaprikash,manual,
+margherita_pizza,Margherita Pizza,MainCourse,italian,italy,Pizza with tomato mozzarella basil and olive oil.,MargheritaPizza,manual,
+caprese_salad,Caprese Salad,Salad,italian,italy,Salad with tomato mozzarella basil and olive oil.,CapreseSalad,manual,
+thai_chicken_curry,Thai Chicken Curry,MainCourse,thai,thailand,Chicken curry with coconut milk and lemongrass.,ThaiChickenCurry,manual,

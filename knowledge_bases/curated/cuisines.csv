@@ -1,0 +1,6 @@
+cuisine_id,name,cuisine_group,origin_place_id,description,ontology_id,source,source_url
+hungarian,Hungarian cuisine,EuropeanCuisine,hungary,Cuisine associated with Hungary.,HungarianCuisine,manual,
+italian,Italian cuisine,EuropeanCuisine,italy,Cuisine associated with Italy.,ItalianCuisine,manual,
+indian,Indian cuisine,AsianCuisine,india,Cuisine associated with India.,IndianCuisine,manual,
+thai,Thai cuisine,AsianCuisine,thailand,Cuisine associated with Thailand.,ThaiCuisine,manual,
+mexican,Mexican cuisine,AmericanCuisine,mexico,Cuisine associated with Mexico.,MexicanCuisine,manual,

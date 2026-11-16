@@ -14,13 +14,15 @@ from cuisine_assistant.cli.link_result_formatter import (
 from cuisine_assistant.cli.recommendation_result_formatter import (
     RecommendationResultFormatter,
 )
+from cuisine_assistant.knowledge_base.models import KnowledgeBaseMetadata
 
 
 class ConsoleApplication:
-    """Runs English linking, classification, and recommendation CLI workflows."""
+    """Runs CLI workflows backed by one selected knowledge base bundle."""
 
     def __init__(
         self,
+        knowledge_base: KnowledgeBaseMetadata,
         link_ingredients: LinkIngredientsUseCase,
         classify_recipe: ClassifyRecipeUseCase,
         recommend_dishes: RecommendDishesUseCase,
@@ -28,6 +30,7 @@ class ConsoleApplication:
         classification_formatter: ClassificationResultFormatter,
         recommendation_formatter: RecommendationResultFormatter,
     ) -> None:
+        self._knowledge_base = knowledge_base
         self._link_ingredients = link_ingredients
         self._classify_recipe = classify_recipe
         self._recommend_dishes = recommend_dishes
@@ -36,7 +39,11 @@ class ConsoleApplication:
         self._recommendation_formatter = recommendation_formatter
 
     def run(self) -> None:
-        print("Cuisine Assistant")
+        print("\nCuisine Assistant")
+        print(
+            f"Active knowledge base: {self._knowledge_base.name} "
+            f"({self._knowledge_base.version})"
+        )
         print("1 - Link recipe ingredients to the knowledge graph")
         print("2 - Classify a recipe by cultural cuisine")
         print("3 - Recommend dishes")

@@ -1,0 +1,13 @@
+﻿dish_id,ingredient_id,importance,is_core,is_optional,preparation,quantity_text,source
+chicken_paprikash,chicken,1.0,True,False,cut into pieces,,manual
+chicken_paprikash,paprika,1.0,True,False,ground,,manual
+chicken_paprikash,onion,0.8,True,False,chopped,,manual
+chicken_paprikash,sour_cream,0.9,True,False,,,manual
+margherita_pizza,tomato,1.0,True,False,,,manual
+margherita_pizza,mozzarella,1.0,True,False,,,manual
+margherita_pizza,basil,0.8,True,False,fresh,,manual
+margherita_pizza,olive_oil,0.7,False,False,,,manual
+thai_chicken_curry,chicken,1.0,True,False,,,manual
+thai_chicken_curry,coconut_milk,1.0,True,False,,,manual
+thai_chicken_curry,garlic,0.7,False,False,minced,,manual
+thai_chicken_curry,lemongrass,0.9,True,False,,,manual
