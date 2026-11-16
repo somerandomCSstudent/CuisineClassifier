@@ -35,7 +35,7 @@ class LinkIngredientsResult:
 
 
 class LinkIngredientsUseCase:
-    """Extracts ingredients and links them to canonical and OWL entities"""
+    """Extracts ingredients and links them to canonical and OWL entities."""
 
     def __init__(
         self,
