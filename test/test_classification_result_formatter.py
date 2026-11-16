@@ -1,10 +1,14 @@
 from __future__ import annotations
 
+import pytest
+
 from cuisine_assistant.application import (
     ClassifyRecipeResult,
     LinkIngredientsResult,
 )
-from cuisine_assistant.cli import ClassificationResultFormatter
+from cuisine_assistant.cli.classification_result_formatter import (
+    ClassificationResultFormatter,
+)
 from cuisine_assistant.domain.models import (
     ClassificationResult,
     Cuisine,
@@ -13,53 +17,106 @@ from cuisine_assistant.domain.models import (
 )
 
 
-def test_formats_ranked_predictions_and_evidence() -> None:
-    """Verifies readable English classification output."""
-    cuisine = Cuisine(
-        cuisine_id="hungarian",
-        name="Hungarian cuisine",
-        ontology_id="HungarianCuisine",
-        cuisine_group="EuropeanCuisine",
+def create_cuisine(cuisine_id: str, name: str) -> Cuisine:
+    """Creates a cuisine fixture for formatter tests."""
+    return Cuisine(
+        cuisine_id=cuisine_id,
+        name=name,
+        ontology_id=f"{cuisine_id.title()}Cuisine",
+        cuisine_group="TestCuisine",
     )
-    result = ClassifyRecipeResult(
+
+
+def create_result() -> ClassifyRecipeResult:
+    """Creates three ranked cuisine predictions for formatter tests."""
+    return ClassifyRecipeResult(
         linking=LinkIngredientsResult(()),
         classification=ClassificationResult(
             predictions=(
                 CuisinePrediction(
-                    cuisine=cuisine,
-                    score=0.85,
+                    cuisine=create_cuisine("hungarian", "Hungarian cuisine"),
+                    score=0.6833,
                     rank=1,
                     evidence=(
                         IngredientEvidence(
                             ingredient_id="paprika",
                             ingredient_ontology_id="Paprika",
                             weight=0.95,
-                            explanation=(
-                                "paprika contributes 0.95 to Hungarian cuisine."
-                            ),
+                            explanation="Paprika supports Hungarian cuisine.",
+                        ),
+                        IngredientEvidence(
+                            ingredient_id="sour_cream",
+                            ingredient_ontology_id="SourCream",
+                            weight=0.80,
+                            explanation="Sour cream supports Hungarian cuisine.",
                         ),
                     ),
+                ),
+                CuisinePrediction(
+                    cuisine=create_cuisine("thai", "Thai cuisine"),
+                    score=0.1167,
+                    rank=2,
+                ),
+                CuisinePrediction(
+                    cuisine=create_cuisine("italian", "Italian cuisine"),
+                    score=0.05,
+                    rank=3,
                 ),
             ),
             unmatched_ingredients=("gochujang",),
         ),
     )
 
-    output = ClassificationResultFormatter().format(result)
 
-    assert "1. Hungarian cuisine: 85.00%" in output
-    assert "paprika contributes 0.95" in output
+def test_formats_best_prediction_and_top_three_matches() -> None:
+    """Verifies the best answer is highlighted before the top-three ranking."""
+    output = ClassificationResultFormatter().format(create_result())
+
+    assert "Most likely cuisine:\nHungarian cuisine" in output
+    assert "Classification score: 68.33%" in output
+    assert "Top 3 cuisine matches:" in output
+    assert "1. Hungarian cuisine: 68.33%" in output
+    assert "2. Thai cuisine: 11.67%" in output
+    assert "3. Italian cuisine: 5.00%" in output
+    assert "Supporting ingredients:" in output
+    assert "- paprika: 0.95" in output
+    assert "- sour cream: 0.80" in output
     assert "Unmatched ingredients:" in output
     assert "- gochujang" in output
 
 
-def test_formats_missing_prediction() -> None:
-    """Verifies output when no cuisine receives a positive score."""
-    result = ClassifyRecipeResult(
-        linking=LinkIngredientsResult(()),
-        classification=ClassificationResult(),
+def test_formats_only_available_positive_matches() -> None:
+    """Verifies the formatter does not invent missing ranked predictions."""
+    result = create_result()
+    shortened = ClassifyRecipeResult(
+        linking=result.linking,
+        classification=ClassificationResult(
+            predictions=result.classification.predictions[:2],
+        ),
     )
 
-    assert "No cuisine prediction is available." in (
-        ClassificationResultFormatter().format(result)
+    output = ClassificationResultFormatter().format(shortened)
+
+    assert "Top 2 cuisine matches:" in output
+    assert "3. Italian cuisine" not in output
+
+
+def test_formats_missing_prediction_and_unmatched_ingredients() -> None:
+    """Verifies useful output when classification produces no prediction."""
+    result = ClassifyRecipeResult(
+        linking=LinkIngredientsResult(()),
+        classification=ClassificationResult(
+            unmatched_ingredients=("unknown ingredient",),
+        ),
     )
+
+    output = ClassificationResultFormatter().format(result)
+
+    assert "No cuisine prediction is available." in output
+    assert "- unknown ingredient" in output
+
+
+def test_rejects_invalid_maximum_matches() -> None:
+    """Verifies formatter configuration rejects a non-positive result limit."""
+    with pytest.raises(ValueError, match="maximum_matches"):
+        ClassificationResultFormatter(maximum_matches=0)
