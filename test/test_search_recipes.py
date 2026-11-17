@@ -61,6 +61,7 @@ def linked_ingredient(
 ) -> LinkedIngredient:
     """Creates one linked ingredient fixture."""
     surface = ingredient_id.replace("_", " ")
+
     extracted = ExtractedIngredient(
         surface_form=surface,
         normalized_text=surface,
@@ -71,16 +72,18 @@ def linked_ingredient(
         match_score=1.0,
         candidate_ids=(ingredient_id,),
     )
+
     ingredient = Ingredient(
         ingredient_id=ingredient_id,
         canonical_name=surface,
         category=category,
         ontology_id=ontology_id,
     )
+
     return LinkedIngredient(
-        extraction=extracted,
-        ingredient=ingredient,
-        ontology_reference=None,
+        extracted,
+        ingredient,
+        None,
     )
 
 

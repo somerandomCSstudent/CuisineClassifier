@@ -4,12 +4,16 @@ from cuisine_assistant.application import (
     ClassifyRecipeUseCase,
     LinkIngredientsUseCase,
     RecommendDishesUseCase,
+    SearchRecipesUseCase,
 )
 from cuisine_assistant.cli.classification_result_formatter import (
     ClassificationResultFormatter,
 )
 from cuisine_assistant.cli.link_result_formatter import (
     LinkIngredientsResultFormatter,
+)
+from cuisine_assistant.cli.recipe_search_result_formatter import (
+    RecipeSearchResultFormatter,
 )
 from cuisine_assistant.cli.recommendation_result_formatter import (
     RecommendationResultFormatter,
@@ -26,17 +30,21 @@ class ConsoleApplication:
         link_ingredients: LinkIngredientsUseCase,
         classify_recipe: ClassifyRecipeUseCase,
         recommend_dishes: RecommendDishesUseCase,
+        search_recipes: SearchRecipesUseCase,
         link_formatter: LinkIngredientsResultFormatter,
         classification_formatter: ClassificationResultFormatter,
         recommendation_formatter: RecommendationResultFormatter,
+        recipe_search_formatter: RecipeSearchResultFormatter,
     ) -> None:
         self._knowledge_base = knowledge_base
         self._link_ingredients = link_ingredients
         self._classify_recipe = classify_recipe
         self._recommend_dishes = recommend_dishes
+        self._search_recipes = search_recipes
         self._link_formatter = link_formatter
         self._classification_formatter = classification_formatter
         self._recommendation_formatter = recommendation_formatter
+        self._recipe_search_formatter = recipe_search_formatter
 
     def run(self) -> None:
         print("\nCuisine Assistant")
@@ -47,7 +55,8 @@ class ConsoleApplication:
         print("1 - Link recipe ingredients to the knowledge graph")
         print("2 - Classify a recipe by cultural cuisine")
         print("3 - Recommend dishes")
-        print("4 - Exit\n")
+        print("4 - Search recipe documents")
+        print("5 - Exit\n")
 
         while True:
             choice = input("Select an option: ").strip()
@@ -57,10 +66,12 @@ class ConsoleApplication:
                 self._run_classification()
             elif choice == "3":
                 self._run_recommendation()
-            elif choice in {"4", "exit", "quit"}:
+            elif choice == "4":
+                self._run_recipe_search()
+            elif choice in {"5", "exit", "quit"}:
                 return
             else:
-                print("Unknown option. Please choose 1, 2, 3, or 4.\n")
+                print("Unknown option. Please choose 1, 2, 3, 4, or 5.\n")
 
     def _run_linking(self) -> None:
         recipe_text = self._read_recipe_text()
@@ -84,6 +95,14 @@ class ConsoleApplication:
         print(self._classification_formatter.format(result.classification))
         print()
         print(self._recommendation_formatter.format(result))
+        print()
+
+    def _run_recipe_search(self) -> None:
+        query_text = input("Enter an English recipe search query:\n> ").strip()
+        result = self._search_recipes.execute(query_text)
+        print(self._link_formatter.format(result.linking))
+        print()
+        print(self._recipe_search_formatter.format(result))
         print()
 
     @staticmethod

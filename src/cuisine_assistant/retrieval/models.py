@@ -4,13 +4,17 @@ from dataclasses import dataclass, field
 
 
 def _require_text(field_name: str, value: str) -> None:
+    """Validates that a required text field is not empty."""
     if not value or not value.strip():
         raise ValueError(f"{field_name} must not be empty")
 
 
 def _require_score(field_name: str, value: float) -> None:
+    """Validates that a normalized score remains between zero and one."""
     if not 0.0 <= value <= 1.0:
-        raise ValueError(f"{field_name} must be between 0.0 and 1.0")
+        raise ValueError(
+            f"{field_name} must be between 0.0 and 1.0"
+        )
 
 
 @dataclass(frozen=True)
@@ -37,7 +41,7 @@ class RecipeDocument:
 
     @property
     def searchable_text(self) -> str:
-        """Returns normalized document fields used by lexical retrieval."""
+        """Returns document fields used by lexical and embedding retrieval."""
         return " ".join(
             part.strip()
             for part in (
@@ -53,17 +57,22 @@ class RecipeDocument:
 
 @dataclass(frozen=True)
 class RecipeSearchQuery:
-    """Contains one textual retrieval request and optional semantic filters."""
+    """Contains one textual retrieval request and semantic filters."""
 
     text: str
     maximum_results: int = 5
     cuisine_id: str | None = None
-    required_ingredient_ids: tuple[str, ...] = field(default_factory=tuple)
+    required_ingredient_ids: tuple[str, ...] = field(
+        default_factory=tuple
+    )
 
     def __post_init__(self) -> None:
         _require_text("text", self.text)
+
         if self.maximum_results < 1:
-            raise ValueError("maximum_results must be at least 1")
+            raise ValueError(
+                "maximum_results must be at least 1"
+            )
 
 
 @dataclass(frozen=True)
@@ -77,9 +86,18 @@ class RecipeSearchEvidence:
     cuisine_match_score: float
 
     def __post_init__(self) -> None:
-        _require_score("title_match_score", self.title_match_score)
-        _require_score("content_match_score", self.content_match_score)
-        _require_score("cuisine_match_score", self.cuisine_match_score)
+        _require_score(
+            "title_match_score",
+            self.title_match_score,
+        )
+        _require_score(
+            "content_match_score",
+            self.content_match_score,
+        )
+        _require_score(
+            "cuisine_match_score",
+            self.cuisine_match_score,
+        )
 
 
 @dataclass(frozen=True)
@@ -93,6 +111,7 @@ class RecipeSearchHit:
 
     def __post_init__(self) -> None:
         _require_score("score", self.score)
+
         if self.rank < 1:
             raise ValueError("rank must be at least 1")
 
@@ -102,19 +121,39 @@ class RecipeSearchResult:
     """Contains ranked recipe documents returned for one search query."""
 
     query: RecipeSearchQuery
-    hits: tuple[RecipeSearchHit, ...] = field(default_factory=tuple)
+    hits: tuple[RecipeSearchHit, ...] = field(
+        default_factory=tuple
+    )
 
     def __post_init__(self) -> None:
         ranks = tuple(hit.rank for hit in self.hits)
-        if ranks != tuple(range(1, len(self.hits) + 1)):
-            raise ValueError("hit ranks must be consecutive and start at 1")
-        scores = tuple(hit.score for hit in self.hits)
-        if scores != tuple(sorted(scores, reverse=True)):
-            raise ValueError("hits must be ordered by descending score")
+        expected_ranks = tuple(
+            range(1, len(self.hits) + 1)
+        )
+
+        if ranks != expected_ranks:
+            raise ValueError(
+                "hit ranks must be consecutive and start at 1"
+            )
+
+        scores = tuple(
+            hit.score for hit in self.hits
+        )
+        expected_scores = tuple(
+            sorted(scores, reverse=True)
+        )
+
+        if scores != expected_scores:
+            raise ValueError(
+                "hits must be ordered by descending score"
+            )
+
         if len(self.hits) > self.query.maximum_results:
-            raise ValueError("hits exceed query maximum_results")
+            raise ValueError(
+                "hits exceed query maximum_results"
+            )
 
     @property
     def best_hit(self) -> RecipeSearchHit | None:
-        """Returns the highest-ranked recipe document when available."""
+        """Returns the highest-ranked recipe when available."""
         return self.hits[0] if self.hits else None

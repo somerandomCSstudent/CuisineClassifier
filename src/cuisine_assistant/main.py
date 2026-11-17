@@ -12,6 +12,7 @@ from cuisine_assistant.cli import (
     ConsoleApplication,
     KnowledgeBaseSelector,
     LinkIngredientsResultFormatter,
+    RecipeSearchResultFormatter,
     RecommendationResultFormatter,
 )
 from cuisine_assistant.knowledge_base import (
@@ -46,9 +47,11 @@ def main() -> None:
         link_ingredients=container.link_ingredients,
         classify_recipe=container.classify_recipe,
         recommend_dishes=container.recommend_dishes,
+        search_recipes=container.search_recipes,
         link_formatter=LinkIngredientsResultFormatter(),
         classification_formatter=ClassificationResultFormatter(),
         recommendation_formatter=RecommendationResultFormatter(),
+        recipe_search_formatter=RecipeSearchResultFormatter(),
     ).run()
 
 

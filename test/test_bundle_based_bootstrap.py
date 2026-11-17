@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+from logging import root
 from pathlib import Path
 
 from rdflib import Graph, Namespace, OWL, RDF
@@ -171,13 +172,28 @@ def create_complete_bundle(root: Path):
     )
     write_csv(
         root / "recipes.csv",
-        ["recipe_id", "dish_id", "raw_text", "cuisine_id"],
+        [
+        "recipe_id", "dish_id", "title", "raw_text", "ingredient_text",
+        "instruction_text",
+        "cuisine_id",
+        "data_split",
+        "source",
+        "source_url",
+        "license",
+        ],
         [
             {
-                "recipe_id": "r1",
-                "dish_id": "tomato_dish",
-                "raw_text": "Tomatoes",
-                "cuisine_id": "italian",
+            "recipe_id": "r1",
+            "dish_id": "tomato_dish",
+            "title": "Tomato Dish",
+            "raw_text": "Cook tomatoes.",
+            "ingredient_text": "tomato",
+            "instruction_text": "Cook the tomatoes.",
+            "cuisine_id": "italian",
+            "data_split": "test",
+            "source": "test",
+            "source_url": "",
+            "license": "",
             }
         ],
     )

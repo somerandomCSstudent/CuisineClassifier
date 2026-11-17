@@ -1,0 +1,17 @@
+[
+  {
+    "example_id": "search01",
+    "query_text": "Find Hungarian food with chicken and paprika.",
+    "relevant_recipe_ids": ["r001"]
+  },
+  {
+    "example_id": "search02",
+    "query_text": "Italian recipe with tomato mozzarella and basil.",
+    "relevant_recipe_ids": ["r002", "r003"]
+  },
+  {
+    "example_id": "search03",
+    "query_text": "Thai chicken with coconut milk and lemongrass.",
+    "relevant_recipe_ids": ["r004"]
+  }
+]
