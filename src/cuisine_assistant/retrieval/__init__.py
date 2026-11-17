@@ -1,3 +1,4 @@
+from .bm25_retriever import Bm25RecipeRetriever
 from .csv_repository import CsvRecipeDocumentRepository
 from .models import (
     RecipeDocument,
@@ -9,6 +10,7 @@ from .models import (
 from .ports import RecipeDocumentRepository, RecipeRetriever
 
 __all__ = [
+    "Bm25RecipeRetriever",
     "CsvRecipeDocumentRepository",
     "RecipeDocument",
     "RecipeDocumentRepository",
