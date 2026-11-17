@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from pathlib import Path
 
 from cuisine_assistant.application import (
     ClassifyRecipeUseCase,
     LinkIngredientsUseCase,
     RecommendDishesUseCase,
+    SearchRecipesUseCase,
 )
 from cuisine_assistant.catalog import (
     CsvCuisineCatalog,
@@ -25,30 +25,49 @@ from cuisine_assistant.nlp import (
     SpacyPhraseIngredientExtractor,
 )
 from cuisine_assistant.recommendation import KnowledgeBasedDishRecommender
+from cuisine_assistant.retrieval import (
+    Bm25RecipeRetriever,
+    CsvRecipeDocumentRepository,
+)
 from cuisine_assistant.search.lexical_search import CsvLexicalEntitySearch
 
 
 @dataclass(frozen=True)
 class ApplicationSettings:
-    """Defines scoring settings while file paths come from a selected bundle."""
+    """Defines scoring and result limits while paths come from a selected bundle."""
 
     maximum_predictions: int = 3
     minimum_classification_score: float = 0.0
     maximum_recommendations: int = 3
     minimum_recommendation_score: float = 0.0
+    maximum_recipe_search_results: int = 5
+    bm25_k1: float = 1.5
+    bm25_b: float = 0.75
+    recipe_title_weight: float = 0.20
+    recipe_cuisine_weight: float = 0.15
+    recipe_ingredient_weight: float = 0.25
 
     def __post_init__(self) -> None:
-        if self.maximum_predictions < 1:
-            raise ValueError("maximum_predictions must be at least 1")
-        if self.maximum_recommendations < 1:
-            raise ValueError("maximum_recommendations must be at least 1")
+        for field_name in (
+            "maximum_predictions",
+            "maximum_recommendations",
+            "maximum_recipe_search_results",
+        ):
+            if getattr(self, field_name) < 1:
+                raise ValueError(f"{field_name} must be at least 1")
         for field_name in (
             "minimum_classification_score",
             "minimum_recommendation_score",
+            "bm25_b",
+            "recipe_title_weight",
+            "recipe_cuisine_weight",
+            "recipe_ingredient_weight",
         ):
             value = getattr(self, field_name)
             if not 0.0 <= value <= 1.0:
                 raise ValueError(f"{field_name} must be between 0.0 and 1.0")
+        if self.bm25_k1 <= 0:
+            raise ValueError("bm25_k1 must be greater than zero")
 
 
 @dataclass(frozen=True)
@@ -59,13 +78,14 @@ class ApplicationContainer:
     link_ingredients: LinkIngredientsUseCase
     classify_recipe: ClassifyRecipeUseCase
     recommend_dishes: RecommendDishesUseCase
+    search_recipes: SearchRecipesUseCase
 
 
 def build_application_container(
     bundle: KnowledgeBaseBundle,
     settings: ApplicationSettings | None = None,
 ) -> ApplicationContainer:
-    """Builds every repository, index, and use case from one selected bundle."""
+    """Builds every repository, retriever, and use case from one selected bundle."""
     effective_settings = settings or ApplicationSettings()
     paths = bundle.paths
 
@@ -129,9 +149,26 @@ def build_application_container(
         dish_recommender=dish_recommender,
     )
 
+    recipe_repository = CsvRecipeDocumentRepository(paths.recipes)
+    recipe_retriever = Bm25RecipeRetriever(
+        recipe_repository,
+        k1=effective_settings.bm25_k1,
+        b=effective_settings.bm25_b,
+        title_weight=effective_settings.recipe_title_weight,
+        cuisine_weight=effective_settings.recipe_cuisine_weight,
+        ingredient_weight=effective_settings.recipe_ingredient_weight,
+    )
+    search_recipes = SearchRecipesUseCase(
+        link_ingredients=link_ingredients,
+        cuisine_preference_extractor=cuisine_preference_extractor,
+        recipe_retriever=recipe_retriever,
+        maximum_results=effective_settings.maximum_recipe_search_results,
+    )
+
     return ApplicationContainer(
         knowledge_base=bundle,
         link_ingredients=link_ingredients,
         classify_recipe=classify_recipe,
         recommend_dishes=recommend_dishes,
+        search_recipes=search_recipes,
     )
