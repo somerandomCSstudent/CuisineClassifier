@@ -1,4 +1,7 @@
-from .answer_models import GroundedAnswer, GroundedCitation
+from .answer_models import (
+    GroundedAnswer,
+    GroundedCitation,
+)
 from .answer_ports import GroundedAnswerGenerator
 from .context_builder import RagContextBuilder
 from .models import (
@@ -9,7 +12,9 @@ from .models import (
 )
 from .ports import RagKnowledgeGraphFactProvider
 from .rdflib_fact_provider import RdfLibRagFactProvider
-from .template_answer_generator import TemplateGroundedAnswerGenerator
+from .template_answer_generator import (
+    TemplateGroundedAnswerGenerator,
+)
 
 __all__ = [
     "GroundedAnswer",
