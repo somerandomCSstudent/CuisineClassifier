@@ -14,6 +14,7 @@ from cuisine_assistant.cli import (
     LinkIngredientsResultFormatter,
     RecipeSearchResultFormatter,
     RecommendationResultFormatter,
+    GroundedAnswerFormatter
 )
 from cuisine_assistant.knowledge_base import (
     FileKnowledgeBaseRegistry,
@@ -48,11 +49,14 @@ def main() -> None:
         classify_recipe=container.classify_recipe,
         recommend_dishes=container.recommend_dishes,
         search_recipes=container.search_recipes,
+        ask_cuisine_question=container.ask_cuisine_question,
         link_formatter=LinkIngredientsResultFormatter(),
         classification_formatter=ClassificationResultFormatter(),
         recommendation_formatter=RecommendationResultFormatter(),
         recipe_search_formatter=RecipeSearchResultFormatter(),
+        grounded_answer_formatter=GroundedAnswerFormatter(),
     ).run()
+
 
 
 if __name__ == "__main__":

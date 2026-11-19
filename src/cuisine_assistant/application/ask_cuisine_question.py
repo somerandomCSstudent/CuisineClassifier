@@ -6,13 +6,18 @@ from cuisine_assistant.application.search_recipes import (
     SearchRecipesResult,
     SearchRecipesUseCase,
 )
-from cuisine_assistant.rag import (
+from cuisine_assistant.rag.answer_models import (
     GroundedAnswer,
+)
+from cuisine_assistant.rag.answer_ports import (
     GroundedAnswerGenerator,
-    RagContext,
+)
+from cuisine_assistant.rag.context_builder import (
     RagContextBuilder,
 )
-
+from cuisine_assistant.rag.models import (
+    RagContext,
+)
 
 @dataclass(frozen=True)
 class AskCuisineQuestionResult:

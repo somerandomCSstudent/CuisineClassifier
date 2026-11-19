@@ -1,14 +1,21 @@
 from __future__ import annotations
 
 import re
+from typing import TYPE_CHECKING
 
-from cuisine_assistant.application import SearchRecipesResult
 from cuisine_assistant.rag.models import (
     RagContext,
     RagDocumentEvidence,
     RagSourceReference,
 )
-from cuisine_assistant.rag.ports import RagKnowledgeGraphFactProvider
+from cuisine_assistant.rag.ports import (
+    RagKnowledgeGraphFactProvider,
+)
+
+if TYPE_CHECKING:
+    from cuisine_assistant.application.search_recipes import (
+        SearchRecipesResult,
+    )
 
 
 class RagContextBuilder:

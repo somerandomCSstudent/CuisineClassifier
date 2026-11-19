@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from cuisine_assistant.application import (
+    AskCuisineQuestionUseCase,
     ClassifyRecipeUseCase,
     LinkIngredientsUseCase,
     RecommendDishesUseCase,
@@ -17,6 +18,9 @@ from cuisine_assistant.cli.recipe_search_result_formatter import (
 )
 from cuisine_assistant.cli.recommendation_result_formatter import (
     RecommendationResultFormatter,
+)
+from cuisine_assistant.cli.grounded_answer_formatter import (
+    GroundedAnswerFormatter,
 )
 from cuisine_assistant.knowledge_base.models import KnowledgeBaseMetadata
 
@@ -35,6 +39,8 @@ class ConsoleApplication:
         classification_formatter: ClassificationResultFormatter,
         recommendation_formatter: RecommendationResultFormatter,
         recipe_search_formatter: RecipeSearchResultFormatter,
+        ask_cuisine_question: AskCuisineQuestionUseCase,
+        grounded_answer_formatter: GroundedAnswerFormatter,
     ) -> None:
         self._knowledge_base = knowledge_base
         self._link_ingredients = link_ingredients
@@ -45,6 +51,10 @@ class ConsoleApplication:
         self._classification_formatter = classification_formatter
         self._recommendation_formatter = recommendation_formatter
         self._recipe_search_formatter = recipe_search_formatter
+        self._ask_cuisine_question = ask_cuisine_question
+        self._grounded_answer_formatter = (
+            grounded_answer_formatter
+        )
 
     def run(self) -> None:
         print("\nCuisine Assistant")
@@ -56,7 +66,8 @@ class ConsoleApplication:
         print("2 - Classify a recipe by cultural cuisine")
         print("3 - Recommend dishes")
         print("4 - Search recipe documents")
-        print("5 - Exit\n")
+        print("5 - Ask a grounded cuisine question")
+        print("6 - Exit\n")
 
         while True:
             choice = input("Select an option: ").strip()
@@ -68,10 +79,15 @@ class ConsoleApplication:
                 self._run_recommendation()
             elif choice == "4":
                 self._run_recipe_search()
-            elif choice in {"5", "exit", "quit"}:
+            elif choice == "5":
+                self._run_grounded_question_answering()
+            elif choice in {"6", "exit", "quit"}:
                 return
             else:
-                print("Unknown option. Please choose 1, 2, 3, 4, or 5.\n")
+                print(
+                    "Unknown option. "
+                    "Please choose 1, 2, 3, 4, 5, or 6.\n"
+                )
 
     def _run_linking(self) -> None:
         recipe_text = self._read_recipe_text()
@@ -103,6 +119,23 @@ class ConsoleApplication:
         print(self._link_formatter.format(result.linking))
         print()
         print(self._recipe_search_formatter.format(result))
+        print()
+        
+    def _run_grounded_question_answering(self) -> None:
+        """Answers one English cuisine question from bundle evidence."""
+        question = input(
+            "Enter an English cuisine question:\n> "
+        ).strip()
+
+        result = self._ask_cuisine_question.execute(
+            question
+        )
+
+        print(
+            self._grounded_answer_formatter.format(
+                result
+            )
+        )
         print()
 
     @staticmethod

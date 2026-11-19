@@ -3,11 +3,18 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from cuisine_assistant.application import (
+    AskCuisineQuestionUseCase,
     ClassifyRecipeUseCase,
     LinkIngredientsUseCase,
     RecommendDishesUseCase,
     SearchRecipesUseCase,
 )
+from cuisine_assistant.rag import (
+    RagContextBuilder,
+    RdfLibRagFactProvider,
+    TemplateGroundedAnswerGenerator,
+)
+
 from cuisine_assistant.catalog import (
     CsvCuisineCatalog,
     CsvCuisinePreferenceCatalog,
@@ -65,6 +72,11 @@ class ApplicationSettings:
     recipe_title_weight: float = 0.20
     recipe_cuisine_weight: float = 0.15
     recipe_ingredient_weight: float = 0.25
+    
+    maximum_rag_documents: int = 3
+    maximum_rag_graph_facts: int = 20
+    maximum_rag_excerpt_characters: int = 700
+    maximum_answer_graph_facts: int = 4
 
     recipe_retrieval_strategy: str = (
         RecipeRetrievalStrategy.BM25.value
@@ -88,6 +100,10 @@ class ApplicationSettings:
         self._validate_retrieval_strategy()
         self._validate_embedding_settings()
         self._validate_hybrid_settings()
+        if self.maximum_rag_excerpt_characters < 50:
+            raise ValueError(
+                "maximum_rag_excerpt_characters must be at least 50"
+        )
 
     def _validate_result_limits(self) -> None:
         """Validates positive result-count settings."""
@@ -95,6 +111,9 @@ class ApplicationSettings:
             "maximum_predictions",
             "maximum_recommendations",
             "maximum_recipe_search_results",
+            "maximum_rag_documents",
+            "maximum_rag_graph_facts",
+            "maximum_answer_graph_facts",
         ):
             if getattr(self, field_name) < 1:
                 raise ValueError(
@@ -187,6 +206,7 @@ class ApplicationContainer:
     classify_recipe: ClassifyRecipeUseCase
     recommend_dishes: RecommendDishesUseCase
     search_recipes: SearchRecipesUseCase
+    ask_cuisine_question: AskCuisineQuestionUseCase
 
 
 def build_application_container(
@@ -310,11 +330,49 @@ def build_application_container(
             effective_settings.maximum_recipe_search_results
         ),
     )
+    
+    rag_fact_provider = RdfLibRagFactProvider(
+        ontology_path=paths.ontology,
+        dishes_csv=paths.dishes,
+        ontology_base_iri=(
+            bundle.metadata.ontology_base_iri
+        ),
+    )
 
+    rag_context_builder = RagContextBuilder(
+        fact_provider=rag_fact_provider,
+        maximum_documents=(
+            effective_settings.maximum_rag_documents
+        ),
+        maximum_graph_facts=(
+            effective_settings.maximum_rag_graph_facts
+        ),
+        maximum_excerpt_characters=(
+            effective_settings.maximum_rag_excerpt_characters
+        ),
+    )
+
+    grounded_answer_generator = (
+        TemplateGroundedAnswerGenerator(
+            maximum_graph_facts=(
+                effective_settings.maximum_answer_graph_facts
+            ),
+        )
+    )
+
+    ask_cuisine_question = AskCuisineQuestionUseCase(
+        search_recipes=search_recipes,
+        context_builder=rag_context_builder,
+        answer_generator=grounded_answer_generator,
+    )
+    
     return ApplicationContainer(
         knowledge_base=bundle,
         link_ingredients=link_ingredients,
         classify_recipe=classify_recipe,
         recommend_dishes=recommend_dishes,
         search_recipes=search_recipes,
+        ask_cuisine_question=ask_cuisine_question,
     )
+
+   

@@ -23,6 +23,11 @@ from .select_knowledge_base import (
     SelectKnowledgeBaseResult,
     SelectKnowledgeBaseUseCase,
 )
+from .ask_cuisine_question import (
+    AskCuisineQuestionResult,
+    AskCuisineQuestionUseCase,
+)
+
 
 __all__ = [
     "ClassifyRecipeResult",
@@ -38,4 +43,6 @@ __all__ = [
     "SearchRecipesUseCase",
     "SelectKnowledgeBaseResult",
     "SelectKnowledgeBaseUseCase",
+    "AskCuisineQuestionResult",
+    "AskCuisineQuestionUseCase",
 ]

@@ -4,6 +4,9 @@ from .knowledge_base_selector import KnowledgeBaseSelector
 from .link_result_formatter import LinkIngredientsResultFormatter
 from .recipe_search_result_formatter import RecipeSearchResultFormatter
 from .recommendation_result_formatter import RecommendationResultFormatter
+from .grounded_answer_formatter import (
+    GroundedAnswerFormatter,
+)
 
 __all__ = [
     "ClassificationResultFormatter",
@@ -12,4 +15,5 @@ __all__ = [
     "LinkIngredientsResultFormatter",
     "RecipeSearchResultFormatter",
     "RecommendationResultFormatter",
+    "GroundedAnswerFormatter",
 ]

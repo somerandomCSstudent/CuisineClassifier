@@ -1,6 +1,8 @@
 from __future__ import annotations
 
-from cuisine_assistant.application import AskCuisineQuestionResult
+from cuisine_assistant.application.ask_cuisine_question import (
+    AskCuisineQuestionResult,
+)
 
 
 class GroundedAnswerFormatter:
