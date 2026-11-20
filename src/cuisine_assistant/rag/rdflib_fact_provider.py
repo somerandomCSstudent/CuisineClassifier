@@ -55,6 +55,8 @@ class RdfLibRagFactProvider(RagKnowledgeGraphFactProvider):
                 for obj in objects:
                     predicate_name = self._local_name(str(predicate))
                     object_value = self._display_value(obj)
+                    if not object_value.strip():
+                        continue
                     signature = (
                         ontology_id,
                         predicate_name,
@@ -86,10 +88,23 @@ class RdfLibRagFactProvider(RagKnowledgeGraphFactProvider):
             }
 
     def _display_value(self, value) -> str:
-        text = str(value)
+        """Returns a readable non-normalized RDF object value."""
+        text = str(value).strip()
+
         if isinstance(value, URIRef):
-            label = next(self._graph.objects(value, RDFS.label), None)
-            return str(label) if label is not None else self._local_name(text)
+            label = next(
+                self._graph.objects(value, RDFS.label),
+                None,
+            )
+
+            if label is not None:
+                label_text = str(label).strip()
+
+                if label_text:
+                    return label_text
+
+            return self._local_name(text).strip()
+
         return text
 
     @staticmethod

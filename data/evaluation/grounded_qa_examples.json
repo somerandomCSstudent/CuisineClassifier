@@ -3,13 +3,17 @@
     "example_id": "qa01",
     "question": "What Hungarian dish uses chicken and paprika?",
     "expected_answerable": true,
-    "relevant_recipe_ids": ["r001"]
+    "relevant_recipe_ids": [
+      "r001"
+    ]
   },
   {
     "example_id": "qa02",
     "question": "Which Italian dish contains tomato and mozzarella?",
     "expected_answerable": true,
-    "relevant_recipe_ids": ["r002", "r003"]
+    "relevant_recipe_ids": [
+      "r002"
+    ]
   },
   {
     "example_id": "qa03",

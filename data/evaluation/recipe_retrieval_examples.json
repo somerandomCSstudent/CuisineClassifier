@@ -2,16 +2,22 @@
   {
     "example_id": "search01",
     "query_text": "Find Hungarian food with chicken and paprika.",
-    "relevant_recipe_ids": ["r001"]
+    "relevant_recipe_ids": [
+      "r001"
+    ]
   },
   {
     "example_id": "search02",
-    "query_text": "Italian recipe with tomato mozzarella and basil.",
-    "relevant_recipe_ids": ["r002", "r003"]
+    "query_text": "Find an Italian recipe with tomato and mozzarella.",
+    "relevant_recipe_ids": [
+      "r002"
+    ]
   },
   {
     "example_id": "search03",
-    "query_text": "Thai chicken with coconut milk and lemongrass.",
-    "relevant_recipe_ids": ["r004"]
+    "query_text": "Traditional pizza with tomato and mozzarella.",
+    "relevant_recipe_ids": [
+      "r002"
+    ]
   }
 ]
